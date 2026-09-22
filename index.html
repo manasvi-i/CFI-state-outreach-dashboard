@@ -1,0 +1,1603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="CrashFree India state outreach dashboard: governance structure, key contacts, and sources for road-safety institutions across 12 pilot states/UTs.">
+<style>html{box-sizing:border-box;}body{margin:0;}[hidden]{display:none!important;}</style>
+<title>CFI State Outreach Dashboard</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+  /*
+    Brand tokens below are visually estimated from a screenshot of crashfreeindia.org
+    supplied directly by CrashFree India (live automated fetch of the site was blocked
+    by this session's network policy). Colors are a close-eye read of the homepage's
+    indigo/violet brand color, near-black headings, and gray body text; the heading/UI
+    font is a best-effort visual match ("Plus Jakarta Sans") to the rounded geometric
+    sans used on the site, not confirmed against the site's actual CSS. Swap these for
+    exact values if/when the real stylesheet can be inspected.
+  */
+  :root{
+    --cfi-primary:#5b4fe8;
+    --cfi-primary-dark:#4a3fc7;
+    --cfi-accent:#8b7cf6;
+    --cfi-accent-2:#64748b;
+    --cfi-bg:#f6f5fc;
+    --cfi-surface:#ffffff;
+    --cfi-border:#e5e2f5;
+    --cfi-text:#111114;
+    --cfi-text-muted:#6b7280;
+    --cfi-font: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --radius:10px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --cfi-primary:#8b7cf6;
+      --cfi-primary-dark:#6a5cf0;
+      --cfi-accent:#a89bfa;
+      --cfi-accent-2:#8b96a5;
+      --cfi-bg:#13121c;
+      --cfi-surface:#1b1a28;
+      --cfi-border:#302e42;
+      --cfi-text:#eeeef5;
+      --cfi-text-muted:#a09fb5;
+    }
+  }
+  :root[data-theme="dark"]{
+    --cfi-primary:#8b7cf6;
+    --cfi-primary-dark:#6a5cf0;
+    --cfi-accent:#a89bfa;
+    --cfi-accent-2:#8b96a5;
+    --cfi-bg:#13121c;
+    --cfi-surface:#1b1a28;
+    --cfi-border:#302e42;
+    --cfi-text:#eeeef5;
+    --cfi-text-muted:#a09fb5;
+  }
+  *{box-sizing:border-box;}
+  body{
+    background:var(--cfi-bg);
+    color:var(--cfi-text);
+    font-family:var(--cfi-font);
+    font-size:14px;
+    line-height:1.45;
+  }
+  a{color:var(--cfi-primary);}
+  button{font-family:inherit;}
+
+  /* ---- Header ---- */
+  header.app-header{
+    display:flex;align-items:center;gap:14px;
+    padding:12px 20px;
+    background:var(--cfi-surface);
+    border-bottom:1px solid var(--cfi-border);
+    position:sticky;top:0;z-index:40;
+    flex-wrap:wrap;
+  }
+  .brand{
+    display:flex;align-items:center;gap:10px;
+    font-weight:700;font-size:16px;color:var(--cfi-primary);
+    white-space:nowrap;
+  }
+  .brand .logo-dot{
+    width:22px;height:22px;border-radius:50%;
+    background:linear-gradient(135deg,var(--cfi-accent),var(--cfi-primary));
+    flex:none;
+  }
+  .pilot-badge{
+    font-size:11px;font-weight:700;letter-spacing:.03em;
+    background:var(--cfi-bg);color:var(--cfi-primary-dark);border:1px solid var(--cfi-border);
+    padding:3px 9px;border-radius:999px;white-space:nowrap;
+  }
+  :root[data-theme="dark"] .pilot-badge{color:var(--cfi-accent);}
+  .header-spacer{flex:1;}
+  .header-search{
+    display:flex;align-items:center;gap:6px;position:relative;
+    border:1px solid var(--cfi-border);border-radius:8px;
+    padding:6px 10px;background:var(--cfi-bg);
+    min-width:320px;flex:1;max-width:480px;
+  }
+  .header-search input{
+    border:none;background:transparent;outline:none;color:var(--cfi-text);
+    font-size:13px;width:100%;
+  }
+  .info-btn{
+    border:1px solid var(--cfi-border);background:var(--cfi-bg);color:var(--cfi-text-muted);
+    border-radius:8px;padding:7px 11px;font-size:12px;font-weight:600;cursor:pointer;white-space:nowrap;
+  }
+  .info-btn:hover{border-color:var(--cfi-primary);color:var(--cfi-primary);}
+  .search-results{
+    position:absolute;top:calc(100% + 6px);left:0;right:0;
+    background:var(--cfi-surface);border:1px solid var(--cfi-border);border-radius:10px;
+    box-shadow:0 8px 24px rgba(0,0,0,.15);max-height:420px;overflow-y:auto;
+    z-index:60;display:none;
+  }
+  .search-results.open{display:block;}
+  .sr-group-label{font-size:10.5px;text-transform:uppercase;letter-spacing:.04em;color:var(--cfi-text-muted);padding:8px 12px 4px;}
+  .sr-item{padding:8px 12px;cursor:pointer;font-size:12.5px;border-top:1px solid var(--cfi-border);}
+  .sr-item:first-child{border-top:none;}
+  .sr-item:hover{background:var(--cfi-bg);}
+  .sr-item .sr-title{font-weight:600;}
+  .sr-item .sr-sub{color:var(--cfi-text-muted);font-size:11px;margin-top:1px;}
+  .sr-empty{padding:14px 12px;color:var(--cfi-text-muted);font-size:12.5px;}
+
+  /* ---- Info / legend modal (generic centered modal, separate from body/person side panel) ---- */
+  .modal-overlay{position:fixed;inset:0;background:rgba(10,14,20,.5);z-index:95;display:none;align-items:flex-start;justify-content:center;padding:6vh 16px;overflow-y:auto;}
+  .modal-overlay.open{display:flex;}
+  .modal-box{background:var(--cfi-surface);border-radius:12px;max-width:640px;width:100%;padding:22px 24px;box-shadow:0 20px 50px rgba(0,0,0,.25);}
+  .modal-box h2{margin:0 0 14px;font-size:18px;}
+  .modal-box h3{font-size:13px;margin:18px 0 8px;color:var(--cfi-text-muted);text-transform:uppercase;letter-spacing:.03em;}
+  .modal-box p{font-size:13px;line-height:1.55;margin:0 0 10px;}
+  .legend-grid{display:grid;grid-template-columns:1fr;gap:8px;}
+  .legend-row{display:flex;gap:10px;align-items:flex-start;font-size:12.5px;}
+  .legend-row .badge{flex:none;margin-top:1px;}
+  .modal-close-row{text-align:right;margin-top:16px;}
+  .modal-close-row button{
+    background:var(--cfi-primary);color:#fff;border:none;border-radius:8px;
+    padding:8px 16px;font-size:13px;font-weight:600;cursor:pointer;
+  }
+
+  /* ---- Layout ---- */
+  .app-body{
+    display:grid;
+    grid-template-columns:340px 1fr;
+    gap:16px;
+    padding:16px 20px 40px;
+    max-width:1400px;margin:0 auto;
+    align-items:start;
+  }
+  @media (max-width:860px){
+    .app-body{grid-template-columns:1fr;}
+  }
+
+  .panel{
+    background:var(--cfi-surface);
+    border:1px solid var(--cfi-border);
+    border-radius:var(--radius);
+    padding:14px;
+  }
+  .panel h2{margin:0 0 10px;font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--cfi-text-muted);}
+
+  /* ---- Nav / state selector ---- */
+  .nav-col{position:sticky;top:70px;}
+  .pilot-note{
+    font-size:12px;color:var(--cfi-text-muted);
+    background:var(--cfi-bg);border:1px dashed var(--cfi-border);
+    border-radius:8px;padding:8px 10px;margin-bottom:12px;
+  }
+  .state-search{
+    width:100%;padding:8px 10px;border:1px solid var(--cfi-border);
+    border-radius:8px;background:var(--cfi-bg);color:var(--cfi-text);
+    font-size:13px;margin-bottom:10px;
+  }
+  .state-list{
+    display:flex;flex-direction:column;gap:2px;
+    max-height:180px;overflow-y:auto;margin-bottom:14px;
+  }
+  .state-list-item{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:7px 9px;border-radius:6px;cursor:pointer;
+    border:1px solid transparent;font-size:13px;
+  }
+  .state-list-item:hover{background:var(--cfi-bg);}
+  .state-list-item.active{
+    background:var(--cfi-primary);color:#fff;font-weight:600;
+  }
+  .state-list-item .count{font-size:11px;color:var(--cfi-text-muted);}
+  .state-list-item.active .count{color:#d9d4f7;}
+
+  .map-wrap{position:relative;width:100%;background:var(--cfi-bg);border-radius:8px;overflow:hidden;border:1px solid var(--cfi-border);}
+  .map-caption{font-size:11px;color:var(--cfi-text-muted);text-align:center;margin-top:6px;}
+  .india-svg{width:100%;height:auto;display:block;}
+  .bg-state-path{fill:var(--cfi-border);stroke:var(--cfi-surface);stroke-width:1;}
+  .pilot-state-path{
+    fill:var(--cfi-primary);fill-opacity:.55;stroke:var(--cfi-primary);stroke-width:1.4;
+    cursor:pointer;transition:fill-opacity .12s ease;
+  }
+  .pilot-state-path:hover{fill-opacity:.8;}
+  .pilot-state-path.active{fill:var(--cfi-accent);fill-opacity:.9;stroke:var(--cfi-accent);}
+  .map-tooltip{
+    position:absolute;pointer-events:none;
+    background:var(--cfi-text);color:var(--cfi-surface);
+    font-size:11.5px;font-weight:600;padding:3px 8px;border-radius:5px;
+    transform:translate(-50%,-130%);white-space:nowrap;opacity:0;transition:opacity .1s;
+  }
+
+  /* ---- Main content ---- */
+  .main-col{min-height:60vh;}
+  .empty-state{
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    padding:60px 20px;color:var(--cfi-text-muted);text-align:center;gap:8px;
+  }
+  .empty-state .big{font-size:34px;}
+
+  .state-header{
+    display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;
+    margin-bottom:14px;
+  }
+  .state-header h1{margin:0;font-size:22px;}
+  .state-header .sub{color:var(--cfi-text-muted);font-size:12.5px;}
+
+  .tabs{display:flex;gap:4px;border-bottom:1px solid var(--cfi-border);margin-bottom:16px;}
+  .tab-btn{
+    padding:9px 14px;border:none;background:none;cursor:pointer;
+    font-size:13.5px;font-weight:600;color:var(--cfi-text-muted);
+    border-bottom:2px solid transparent;margin-bottom:-1px;
+  }
+  .tab-btn.active{color:var(--cfi-primary);border-bottom-color:var(--cfi-accent);}
+  .tab-panel{display:none;}
+  .tab-panel.active{display:block;}
+
+  .placeholder-box{
+    border:1px dashed var(--cfi-border);border-radius:8px;
+    padding:30px;text-align:center;color:var(--cfi-text-muted);font-size:13px;
+  }
+
+  /* ---- View mode toggle ---- */
+  .view-toggle{display:inline-flex;background:var(--cfi-bg);border:1px solid var(--cfi-border);border-radius:8px;padding:3px;margin-bottom:16px;gap:2px;}
+  .view-toggle button{
+    border:none;background:none;padding:7px 14px;border-radius:6px;cursor:pointer;
+    font-size:13px;font-weight:600;color:var(--cfi-text-muted);
+  }
+  .view-toggle button.active{background:var(--cfi-surface);color:var(--cfi-primary);box-shadow:0 1px 2px rgba(0,0,0,.08);}
+
+  /* ---- Problem-area cards ---- */
+  .problem-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;}
+  .problem-card{border:1px solid var(--cfi-border);border-radius:10px;padding:12px 14px;background:var(--cfi-bg);}
+  .problem-card h3{margin:0 0 8px;font-size:13.5px;display:flex;align-items:center;gap:7px;}
+  .problem-card .pcount{font-weight:400;color:var(--cfi-text-muted);font-size:11.5px;}
+  .body-chip-list{display:flex;flex-direction:column;gap:5px;}
+  .body-chip{
+    display:block;width:100%;text-align:left;
+    background:var(--cfi-surface);border:1px solid var(--cfi-border);border-radius:7px;
+    padding:7px 9px;cursor:pointer;font-size:12.5px;color:var(--cfi-text);
+  }
+  .body-chip:hover{border-color:var(--cfi-primary);}
+  .body-chip .chip-name{font-weight:600;display:block;margin-bottom:2px;}
+  .body-chip .chip-snippet{color:var(--cfi-text-muted);font-size:11.5px;display:block;}
+  .no-body-note{font-size:12px;color:var(--cfi-text-muted);font-style:italic;}
+
+  /* ---- Badges ---- */
+  .badge{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.02em;padding:2px 7px;border-radius:999px;white-space:nowrap;text-transform:uppercase;}
+  .badge-verified{background:#e4f6ea;color:#1b7a3d;}
+  .badge-resolved{background:#e4f6ea;color:#1b7a3d;}
+  .badge-corrected{background:#e6f0fb;color:#1c5aa8;}
+  .badge-unverified{background:#fdeaea;color:#b3261e;}
+  .badge-likely-stale{background:#fff1da;color:#a85d00;}
+  .badge-partially-verified{background:#fff6da;color:#8a6d00;}
+  .badge-not-established{background:#eceff1;color:#5b6472;}
+  .badge-unspecified{background:#eceff1;color:#5b6472;}
+  :root[data-theme="dark"] .badge-verified,:root[data-theme="dark"] .badge-resolved{background:#123322;color:#7ed9a0;}
+  :root[data-theme="dark"] .badge-corrected{background:#122a42;color:#7fb3ea;}
+  :root[data-theme="dark"] .badge-unverified{background:#3a1414;color:#f39a94;}
+  :root[data-theme="dark"] .badge-likely-stale{background:#3a2a0e;color:#f0b96a;}
+  :root[data-theme="dark"] .badge-partially-verified{background:#332e0e;color:#e8d270;}
+  :root[data-theme="dark"] .badge-not-established,:root[data-theme="dark"] .badge-unspecified{background:#252b35;color:#98a2b0;}
+
+  .pa-chip{display:inline-block;font-size:11px;font-weight:600;padding:3px 9px;border-radius:999px;background:var(--cfi-primary);color:#fff;margin:0 5px 5px 0;}
+  .pa-chip.dim{background:var(--cfi-border);color:var(--cfi-text-muted);}
+
+  /* ---- Detail slide-over ---- */
+  .overlay{position:fixed;inset:0;background:rgba(10,14,20,.45);z-index:90;opacity:0;pointer-events:none;transition:opacity .15s;}
+  .overlay.open{opacity:1;pointer-events:auto;}
+  .detail-panel{
+    position:fixed;top:0;right:0;height:100%;width:min(560px,92vw);
+    background:var(--cfi-surface);z-index:91;box-shadow:-6px 0 24px rgba(0,0,0,.18);
+    transform:translateX(100%);transition:transform .18s ease;
+    display:flex;flex-direction:column;
+  }
+  .detail-panel.open{transform:translateX(0);}
+  .detail-header{padding:16px 18px;border-bottom:1px solid var(--cfi-border);display:flex;justify-content:space-between;align-items:flex-start;gap:10px;}
+  .detail-header h2{margin:0;font-size:17px;}
+  .detail-close{border:none;background:var(--cfi-bg);width:30px;height:30px;border-radius:50%;cursor:pointer;font-size:16px;color:var(--cfi-text-muted);flex:none;}
+  .detail-body{padding:16px 18px;overflow-y:auto;flex:1;}
+  .detail-section{margin-bottom:18px;}
+  .detail-section h4{margin:0 0 6px;font-size:11.5px;text-transform:uppercase;letter-spacing:.04em;color:var(--cfi-text-muted);}
+  .detail-section p{margin:0 0 6px;font-size:13px;}
+  .kp-row{border:1px solid var(--cfi-border);border-radius:8px;padding:9px 11px;margin-bottom:7px;}
+  .kp-row .kp-title{font-weight:700;font-size:13px;}
+  .kp-row .kp-name{font-size:12.5px;color:var(--cfi-text-muted);margin:2px 0 5px;}
+  .kp-row .kp-note{font-size:12px;margin:5px 0 0;padding:6px 8px;background:var(--cfi-bg);border-radius:6px;}
+  .cite-link{font-size:11.5px;color:var(--cfi-primary);text-decoration:none;}
+  .cite-link:hover{text-decoration:underline;}
+  .cite-line{font-size:11px;color:var(--cfi-text-muted);margin-top:4px;}
+  .claim-sources{margin-top:5px;padding:6px 9px;background:var(--cfi-bg);border-left:2px solid var(--cfi-border);border-radius:0 6px 6px 0;display:flex;flex-direction:column;gap:6px;}
+  .claim-source-item{font-size:11.5px;}
+  .analysis-note{font-size:11.5px;color:var(--cfi-text-muted);font-style:italic;background:var(--cfi-bg);border:1px dashed var(--cfi-border);border-radius:8px;padding:8px 10px;margin-bottom:14px;}
+  .flag-row{border:1px solid var(--cfi-border);border-left:3px solid #b3261e;border-radius:6px;padding:7px 9px;margin-bottom:7px;font-size:12px;}
+  .flag-row .flag-fact{font-weight:600;margin-bottom:3px;}
+  .flag-row .flag-note{color:var(--cfi-text-muted);}
+  .subtle-note{font-size:12px;color:var(--cfi-text-muted);font-style:italic;}
+  .chip-row{margin-bottom:10px;}
+
+  /* ---- Governance Map ---- */
+  .govmap-legend{display:flex;gap:18px;font-size:11.5px;color:var(--cfi-text-muted);margin-bottom:16px;flex-wrap:wrap;align-items:center;}
+  .govmap-legend .lg-item{display:inline-flex;align-items:center;gap:6px;}
+  .lg-line{width:22px;height:0;border-top:2px solid var(--cfi-primary);display:inline-block;}
+  .lg-line.dashed{border-top:2px dashed var(--cfi-accent-2);}
+  .lg-box{width:14px;height:11px;border-radius:3px;border:1.6px solid var(--cfi-primary);display:inline-block;}
+  .lg-box.cross{border-style:dashed;border-color:var(--cfi-accent-2);}
+  .govmap-toolbar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:10px;}
+  .govmap-hint{font-size:11.5px;color:var(--cfi-text-muted);}
+  .govmap-zoom{display:inline-flex;align-items:center;gap:2px;border:1px solid var(--cfi-border);border-radius:8px;padding:2px;background:var(--cfi-bg);}
+  .govmap-zoom button{
+    width:26px;height:26px;border:none;background:none;border-radius:6px;cursor:pointer;
+    font-size:14px;font-weight:700;color:var(--cfi-text);line-height:1;
+  }
+  .govmap-zoom button:hover{background:var(--cfi-surface);}
+  .govmap-zoom .zoom-pct{font-size:11px;color:var(--cfi-text-muted);min-width:38px;text-align:center;}
+  .govmap-wrap{
+    position:relative;overflow:auto;padding:6px 4px 10px;
+    border:1px solid var(--cfi-border);border-radius:8px;background:var(--cfi-bg);
+    max-height:640px;cursor:grab;
+  }
+  .govmap-wrap.dragging{cursor:grabbing;user-select:none;}
+  .govmap-inner{position:relative;min-width:640px;width:fit-content;margin:0 auto;
+    transform:scale(var(--govmap-scale,1));transform-origin:top center;transition:transform .1s ease;}
+  .govmap-svg{position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;overflow:visible;}
+  .govmap-svg line{transition:opacity .15s ease, stroke-width .15s ease;}
+  .govmap-row{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;position:relative;z-index:2;margin-bottom:30px;padding:0 16px;}
+  .govmap-section-label{text-align:center;margin:-15px 0 12px;position:relative;z-index:3;}
+  .govmap-section-label span{
+    background:var(--cfi-bg);padding:2px 12px;border-radius:999px;
+    font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--cfi-text-muted);
+    border:1px solid var(--cfi-border);
+  }
+  .gov-node{
+    background:var(--cfi-surface);border:1.6px solid var(--cfi-primary);border-radius:8px;
+    padding:8px 12px;font-size:12px;font-weight:600;text-align:center;cursor:pointer;
+    width:190px;line-height:1.3;transition:opacity .15s ease, border-color .15s ease, box-shadow .15s ease;
+  }
+  .gov-node:hover{background:var(--cfi-bg);border-color:var(--cfi-accent);}
+  .gov-node.root-node{background:var(--cfi-primary);color:#fff;cursor:default;font-size:13px;padding:10px 18px;width:auto;min-width:220px;}
+  .gov-node.root-node:hover{background:var(--cfi-primary);}
+  .gov-node.cross-node{border-style:dashed;border-color:var(--cfi-accent-2);}
+  .gov-node.node-dim{opacity:.28;}
+  .gov-node.node-active{box-shadow:0 0 0 3px rgba(91,79,232,.25);border-color:var(--cfi-accent);z-index:5;}
+  .gov-col{display:flex;flex-direction:column;align-items:center;gap:7px;transition:opacity .15s ease;}
+  .gov-col.node-dim{opacity:.28;}
+  .gov-subs{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;max-width:210px;}
+  .gov-sub-chip{font-size:9.5px;color:var(--cfi-text-muted);background:var(--cfi-surface);border:1px dashed var(--cfi-border);border-radius:5px;padding:2px 6px;cursor:default;}
+
+  /* ---- Key People tab ---- */
+  .people-toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px;justify-content:space-between;}
+  .people-filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;}
+  .cat-filter-chip{
+    border:1px solid var(--cfi-border);background:var(--cfi-bg);color:var(--cfi-text-muted);
+    border-radius:999px;padding:5px 12px;font-size:11.5px;font-weight:600;cursor:pointer;
+  }
+  .cat-filter-chip.active{background:var(--cfi-primary);color:#fff;border-color:var(--cfi-primary);}
+  .people-search-input{
+    padding:7px 10px;border:1px solid var(--cfi-border);border-radius:8px;
+    background:var(--cfi-bg);color:var(--cfi-text);font-size:12.5px;min-width:200px;
+  }
+  .people-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px;}
+  .person-card{
+    border:1px solid var(--cfi-border);border-radius:10px;padding:13px 14px;background:var(--cfi-surface);
+    cursor:pointer;display:flex;flex-direction:column;gap:6px;
+  }
+  .person-card:hover{border-color:var(--cfi-primary);}
+  .person-card h4{margin:0;font-size:14px;}
+  .person-role{font-size:11.5px;color:var(--cfi-text-muted);}
+  .person-badges{display:flex;gap:5px;flex-wrap:wrap;}
+  .cat-badge{font-size:9.5px;font-weight:700;padding:2px 7px;border-radius:999px;text-transform:uppercase;letter-spacing:.02em;}
+  .cat-badge.cat-A{background:#e6f0fb;color:#1c5aa8;}
+  .cat-badge.cat-B{background:#fff6da;color:#8a6d00;}
+  .cat-badge.cat-C{background:#eceff1;color:#5b6472;}
+  :root[data-theme="dark"] .cat-badge.cat-A{background:#122a42;color:#7fb3ea;}
+  :root[data-theme="dark"] .cat-badge.cat-B{background:#332e0e;color:#e8d270;}
+  :root[data-theme="dark"] .cat-badge.cat-C{background:#252b35;color:#98a2b0;}
+  .person-relevance{font-size:11.5px;color:var(--cfi-text);line-height:1.4;flex:1;}
+  .person-card-footer{display:flex;justify-content:space-between;align-items:center;font-size:10.5px;color:var(--cfi-text-muted);margin-top:4px;}
+
+  .people-table{width:100%;border-collapse:collapse;font-size:12.5px;}
+  .people-table th{text-align:left;font-size:10.5px;text-transform:uppercase;letter-spacing:.03em;color:var(--cfi-text-muted);padding:8px 10px;border-bottom:1px solid var(--cfi-border);}
+  .people-table td{padding:9px 10px;border-bottom:1px solid var(--cfi-border);vertical-align:top;}
+  .people-table tr{cursor:pointer;}
+  .people-table tr:hover td{background:var(--cfi-bg);}
+  .priority-note{font-size:11px;color:var(--cfi-accent);font-weight:600;margin-top:3px;}
+
+  /* ---- Check for updates ---- */
+  .update-box{
+    display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+    background:var(--cfi-bg);border:1px solid var(--cfi-border);border-radius:8px;
+    padding:8px 12px;margin:10px 0 4px;font-size:12px;
+  }
+  .update-box .uc-status{color:var(--cfi-text-muted);flex:1;min-width:200px;}
+  .update-box button{
+    border:1px solid var(--cfi-border);background:var(--cfi-surface);color:var(--cfi-text);
+    border-radius:7px;padding:6px 11px;font-size:12px;font-weight:600;cursor:pointer;white-space:nowrap;
+  }
+  .update-box button:hover{border-color:var(--cfi-primary);color:var(--cfi-primary);}
+  .update-box button:disabled{opacity:.55;cursor:default;}
+  .uc-badge{font-size:10px;font-weight:700;padding:2px 8px;border-radius:999px;text-transform:uppercase;letter-spacing:.02em;}
+  .uc-badge.uc-requested{background:#fff6da;color:#8a6d00;}
+  .uc-badge.uc-done{background:#e4f6ea;color:#1b7a3d;}
+  .uc-badge.uc-none{background:var(--cfi-border);color:var(--cfi-text-muted);}
+  :root[data-theme="dark"] .uc-badge.uc-requested{background:#332e0e;color:#e8d270;}
+  :root[data-theme="dark"] .uc-badge.uc-done{background:#123322;color:#7ed9a0;}
+  .diff-panel{width:100%;margin-top:8px;border-top:1px dashed var(--cfi-border);padding-top:8px;}
+  .diff-row{border:1px solid var(--cfi-border);border-radius:7px;padding:8px 10px;margin-bottom:7px;font-size:12px;}
+  .diff-row .diff-fact{font-weight:700;margin-bottom:3px;}
+  .diff-row .diff-old{color:var(--cfi-text-muted);text-decoration:line-through;}
+  .diff-row .diff-new{color:#1b7a3d;font-weight:600;}
+  :root[data-theme="dark"] .diff-row .diff-new{color:#7ed9a0;}
+  .global-check-row{display:flex;align-items:center;gap:8px;margin:0 0 12px;flex-wrap:wrap;}
+  .global-check-row button{
+    border:1px solid var(--cfi-border);background:var(--cfi-bg);color:var(--cfi-text);
+    border-radius:7px;padding:6px 10px;font-size:11.5px;font-weight:600;cursor:pointer;
+  }
+  .global-check-row button:hover{border-color:var(--cfi-primary);color:var(--cfi-primary);}
+  .global-check-row .gcr-status{font-size:11px;color:var(--cfi-text-muted);}
+
+  /* ---- Chat widget ---- */
+  .chat-fab{
+    position:fixed;right:22px;bottom:22px;z-index:80;
+    background:var(--cfi-primary);color:#fff;border:none;border-radius:999px;
+    padding:12px 18px;font-size:13px;font-weight:700;cursor:pointer;
+    box-shadow:0 6px 18px rgba(0,0,0,.22);display:none;align-items:center;gap:8px;
+  }
+  .chat-fab.visible{display:inline-flex;}
+  .chat-panel{
+    position:fixed;right:22px;bottom:80px;z-index:81;width:min(400px,92vw);height:min(560px,72vh);
+    background:var(--cfi-surface);border:1px solid var(--cfi-border);border-radius:14px;
+    box-shadow:0 12px 36px rgba(0,0,0,.25);display:none;flex-direction:column;overflow:hidden;
+  }
+  .chat-panel.open{display:flex;}
+  .chat-head{padding:12px 14px;border-bottom:1px solid var(--cfi-border);display:flex;justify-content:space-between;align-items:center;background:var(--cfi-primary);color:#fff;}
+  .chat-head strong{font-size:13.5px;}
+  .chat-head .chat-sub{font-size:10.5px;opacity:.85;margin-top:1px;}
+  .chat-close{background:none;border:none;color:#fff;font-size:16px;cursor:pointer;opacity:.85;}
+  .chat-close:hover{opacity:1;}
+  .chat-scope{font-size:10.5px;color:var(--cfi-text-muted);padding:6px 14px;border-bottom:1px solid var(--cfi-border);background:var(--cfi-bg);}
+  .chat-messages{flex:1;overflow-y:auto;padding:12px 14px;display:flex;flex-direction:column;gap:10px;}
+  .chat-msg{max-width:88%;font-size:12.5px;line-height:1.45;padding:8px 11px;border-radius:10px;white-space:pre-wrap;}
+  .chat-msg.user{align-self:flex-end;background:var(--cfi-primary);color:#fff;border-bottom-right-radius:3px;}
+  .chat-msg.assistant{align-self:flex-start;background:var(--cfi-bg);border:1px solid var(--cfi-border);border-bottom-left-radius:3px;}
+  .chat-msg.error{align-self:flex-start;background:#fdeaea;color:#8a231d;border:1px solid #f3c6c2;}
+  :root[data-theme="dark"] .chat-msg.error{background:#3a1414;color:#f39a94;border-color:#5a2320;}
+  .chat-msg .chat-retry{display:block;margin-top:6px;font-size:11px;font-weight:700;cursor:pointer;color:var(--cfi-primary);background:none;border:none;padding:0;}
+  .chat-input-row{display:flex;gap:6px;padding:10px;border-top:1px solid var(--cfi-border);}
+  .chat-input-row textarea{
+    flex:1;resize:none;border:1px solid var(--cfi-border);border-radius:8px;padding:7px 9px;
+    font-family:inherit;font-size:12.5px;background:var(--cfi-bg);color:var(--cfi-text);max-height:80px;
+  }
+  .chat-input-row button{
+    background:var(--cfi-primary);color:#fff;border:none;border-radius:8px;padding:0 14px;
+    font-size:12.5px;font-weight:700;cursor:pointer;
+  }
+  .chat-input-row button:disabled{opacity:.5;cursor:default;}
+  .chat-empty{color:var(--cfi-text-muted);font-size:12px;text-align:center;padding:20px 10px;}
+
+  ::-webkit-scrollbar{width:8px;height:8px;}
+  ::-webkit-scrollbar-thumb{background:var(--cfi-border);border-radius:8px;}
+</style>
+</head>
+<body>
+<header class="app-header">
+  <div class="brand"><span class="logo-dot"></span> CrashFree India — State Outreach Dashboard</div>
+  <span class="pilot-badge">12-STATE PILOT · NOT NATIONAL COVERAGE</span>
+  <div class="header-spacer"></div>
+  <button class="info-btn" id="sourcing-info-btn" type="button">ℹ Sourcing &amp; flags</button>
+  <div class="header-search" id="header-search-wrap">
+    <span>🔎</span>
+    <input id="global-search" type="text" placeholder="Search all 12 states — states, departments, posts (e.g. &quot;Transport Commissioner&quot;), people…" autocomplete="off">
+    <div class="search-results" id="search-results"></div>
+  </div>
+</header>
+
+<div class="app-body">
+  <div class="panel nav-col">
+    <h2>Select a pilot state / UT</h2>
+    <div class="pilot-note">This dashboard covers <strong>12 pilot states/UTs only</strong>. It is not a national map — states outside this pilot are intentionally absent.</div>
+
+    <input class="state-search" id="state-search-input" type="text" placeholder="Search the 12 pilot states…">
+    <div class="state-list" id="state-list"></div>
+
+    <div class="map-wrap" id="map-wrap"></div>
+    <div class="map-caption">State boundaries (simplified for display). Click a state or use the list above.</div>
+
+    <div class="global-check-row" id="global-check-row" style="margin-top:14px;"></div>
+  </div>
+
+  <div class="panel main-col" id="main-col">
+    <div class="empty-state">
+      <div class="big">🗺️</div>
+      <div>Select one of the 12 pilot states to view its governance structure and key people.</div>
+    </div>
+  </div>
+</div>
+
+<div class="overlay" id="overlay"></div>
+<div class="detail-panel" id="detail-panel">
+  <div class="detail-header">
+    <h2 id="detail-title"></h2>
+    <button class="detail-close" id="detail-close">✕</button>
+  </div>
+  <div class="detail-body" id="detail-body"></div>
+</div>
+
+<div class="modal-overlay" id="info-modal-overlay">
+  <div class="modal-box" id="info-modal-box"></div>
+</div>
+
+<button class="chat-fab" id="chat-fab" type="button">💬 Ask about this data</button>
+<div class="chat-panel" id="chat-panel">
+  <div class="chat-head">
+    <div>
+      <strong>Ask about this dashboard</strong>
+      <div class="chat-sub">Answers are grounded only in this dataset</div>
+    </div>
+    <button class="chat-close" id="chat-close" type="button">✕</button>
+  </div>
+  <div class="chat-scope" id="chat-scope">Scope: whichever state(s) your question names, plus the state you're viewing.</div>
+  <div class="chat-messages" id="chat-messages">
+    <div class="chat-empty" id="chat-empty">Ask things like "who's responsible for enforcement in Haryana" or "compare Bihar and Karnataka's road safety councils."</div>
+  </div>
+  <div class="chat-input-row">
+    <textarea id="chat-input" rows="1" placeholder="Ask a question…"></textarea>
+    <button id="chat-send" type="button">Send</button>
+    <button id="chat-stop" type="button" style="display:none;background:var(--cfi-text-muted);">Stop</button>
+  </div>
+</div>
+
+<script>
+(async function(){
+  const [dataRes, mapRes] = await Promise.all([fetch('data.json'), fetch('india-map.json')]);
+  const DATA = await dataRes.json();
+  const MAP = await mapRes.json();
+  window.__DATA__ = DATA;
+
+  // ---- Runtime capabilities (chat + live update-checker). Both degrade to
+  // "feature hidden" when not running inside a Claude Artifact viewer. ----
+  let sampleApi = null, dbApi = null;
+  if(window.claude && typeof window.claude.use === 'function'){
+    window.claude.use('sample').then(s=>{
+      sampleApi = s;
+      if(s) document.getElementById('chat-fab').classList.add('visible');
+    }).catch(()=>{});
+    window.claude.use('db').then(d=>{
+      dbApi = d;
+      initGlobalCheckRow();
+      if(activeState) renderUpdateBox(document.getElementById('update-box-mount'), DATA.states[activeState]);
+    }).catch(()=>{});
+  }
+
+  const states = Object.values(DATA.states).sort((a,b)=>a.state_name.localeCompare(b.state_name));
+  let activeState = null;
+  let activeTab = 'governance';
+  let govViewMode = 'problem'; // 'problem' | 'map'
+
+  const PA_META = {
+    policy:              {icon:'📜', label:'Policy & Regulation'},
+    enforcement:         {icon:'🚓', label:'Enforcement'},
+    engineering:         {icon:'🛣️', label:'Road Engineering'},
+    emergency_response:  {icon:'🚑', label:'Emergency Response'},
+    data_monitoring:     {icon:'📊', label:'Data & Monitoring'},
+    education:           {icon:'🎓', label:'Education & Awareness'},
+    funding:             {icon:'💰', label:'Funding'},
+  };
+  const ACCESS_DATE = (DATA.meta && DATA.meta.generated_date) || 'unknown date';
+
+  function esc(s){
+    if(s===null || s===undefined) return '';
+    return String(s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+  function badgeClass(label){
+    return 'badge-' + String(label||'unspecified').toLowerCase().replace(/\s+/g,'-');
+  }
+  function citeHtml(citation, opts={}){
+    if(!citation || (!citation.label && !citation.url)) return '<span class="subtle-note">No citation on file for this specific line.</span>';
+    const label = esc(citation.label || citation.url);
+    const inner = citation.url
+      ? `<a class="cite-link" href="${esc(citation.url)}" target="_blank" rel="noopener">🔗 ${label}</a>`
+      : `<span class="cite-link" style="cursor:default;">${label} (no direct link on file)</span>`;
+    return `${inner}<div class="cite-line">Accessed ${esc(ACCESS_DATE)} (dataset compile date)</div>`;
+  }
+  // Renders the source(s) for a claim inline, right under it. `citations` is either
+  // a single citation object or an array of them (a body/person can carry more than
+  // one source for the same entry in the original file). When the original file has
+  // no citation at all for this specific line, says so plainly rather than omitting
+  // the sourcing question or inventing a link that doesn't exist.
+  function citationsBlockHtml(citations, missingNote){
+    const list = Array.isArray(citations) ? citations.filter(Boolean) : (citations ? [citations] : []);
+    if(!list.length){
+      return `<div class="claim-sources"><span class="subtle-note">${esc(missingNote || 'No dedicated citation on file for this specific line in the original dataset.')}</span></div>`;
+    }
+    return `<div class="claim-sources">${list.map(c=>`<div class="claim-source-item">${citeHtml(c)}</div>`).join('')}</div>`;
+  }
+  function isNotApplicableText(t){
+    if(!t) return true;
+    const l = t.toLowerCase();
+    return l.startsWith('not applicable') || l.startsWith('not established') || l==='—' || l==='n/a';
+  }
+
+  // ---- Sourcing & flags info modal ----
+  const FLAG_LEGEND = [
+    {badge:'VERIFIED', cls:'badge-verified', text:'Corroborated against at least one credible source during the most recent audit pass.'},
+    {badge:'CORRECTED', cls:'badge-corrected', text:'The original research had this wrong (e.g. a name, a date, a post); this dataset carries the corrected value.'},
+    {badge:'RESOLVED', cls:'badge-resolved', text:'A previously open question was resolved with a dated source during the most recent audit pass.'},
+    {badge:'PARTIALLY VERIFIED', cls:'badge-partially-verified', text:'Some but not all elements of this fact could be independently corroborated.'},
+    {badge:'LIKELY STALE', cls:'badge-likely-stale', text:'The only available source may no longer reflect current reality — e.g. an officer who may since have been transferred.'},
+    {badge:'UNVERIFIED', cls:'badge-unverified', text:'Could not be corroborated by a second independent source despite a genuine, documented attempt — confirm directly before outreach.'},
+    {badge:'NOT ESTABLISHED', cls:'badge-not-established', text:'The source material reviewed does not establish this at all; shown so gaps are visible rather than silently omitted.'},
+  ];
+  function openInfoModal(){
+    const box = document.getElementById('info-modal-box');
+    box.innerHTML = `
+      <h2>Sourcing &amp; flag badges</h2>
+      <p>${esc(DATA.meta && DATA.meta.description || '')}</p>
+      <p><strong>Dataset compiled / last audited:</strong> ${esc(ACCESS_DATE)}. Every citation link in this dashboard should be treated as accessed on this date — the source dataset does not record a separate access date per link.</p>
+      <h3>What each badge means</h3>
+      <div class="legend-grid">
+        ${FLAG_LEGEND.map(f=>`<div class="legend-row"><span class="badge ${f.cls}">${esc(f.badge)}</span><span>${esc(f.text)}</span></div>`).join('')}
+      </div>
+      <h3>Problem-area &amp; governance-map groupings</h3>
+      <p>The "By Problem Area" cards and the "Governance Map" flowchart are CrashFree India's own navigational categorisation of each body's mandate — not a claim sourced verbatim from a single document. Every fact reachable by clicking through is still individually sourced.</p>
+      <h3>Key-people categories</h3>
+      <p><span class="cat-badge cat-A">A</span> Recurring road-safety champion (an active, repeated track record) · <span class="cat-badge cat-B">B</span> Occasional road-safety engagement · <span class="cat-badge cat-C">C</span> Strategically important contact regardless of road-safety track record (e.g. a minister whose portfolio matters even without a documented road-safety history).</p>
+      <div class="modal-close-row"><button id="info-modal-close-btn">Close</button></div>
+    `;
+    document.getElementById('info-modal-close-btn').onclick = closeInfoModal;
+    document.getElementById('info-modal-overlay').classList.add('open');
+  }
+  function closeInfoModal(){ document.getElementById('info-modal-overlay').classList.remove('open'); }
+  document.getElementById('sourcing-info-btn').addEventListener('click', openInfoModal);
+  document.getElementById('info-modal-overlay').addEventListener('click', (e)=>{
+    if(e.target.id==='info-modal-overlay') closeInfoModal();
+  });
+
+  const stateListEl = document.getElementById('state-list');
+  const mapWrapEl = document.getElementById('map-wrap');
+  const mainCol = document.getElementById('main-col');
+  const searchInput = document.getElementById('state-search-input');
+
+  function renderStateList(filter=''){
+    const f = filter.trim().toLowerCase();
+    stateListEl.innerHTML = '';
+    states.filter(s=>s.state_name.toLowerCase().includes(f)).forEach(s=>{
+      const div = document.createElement('div');
+      div.className = 'state-list-item' + (activeState===s.state_id ? ' active':'');
+      div.innerHTML = `<span>${s.state_name}</span><span class="count">${s.governance_bodies.length} bodies · ${s.key_individuals.length} people</span>`;
+      div.onclick = ()=> selectState(s.state_id);
+      stateListEl.appendChild(div);
+    });
+  }
+
+  function renderMap(){
+    const tooltip = `<div class="map-tooltip" id="map-tooltip"></div>`;
+    let bgPaths = MAP.background_paths.map(d=>`<path class="bg-state-path" d="${d}"/>`).join('');
+    let pilotPaths = '';
+    Object.entries(MAP.pilot_states).forEach(([sid, s])=>{
+      const isActive = activeState===sid;
+      s.paths.forEach(d=>{
+        pilotPaths += `<path class="pilot-state-path${isActive?' active':''}" data-state="${sid}" data-name="${s.name}" d="${d}"/>`;
+      });
+    });
+    mapWrapEl.innerHTML = `
+      <svg class="india-svg" viewBox="0 0 ${MAP.view_w} ${MAP.view_h}">
+        ${bgPaths}${pilotPaths}
+      </svg>
+      ${tooltip}`;
+    const tooltipEl = document.getElementById('map-tooltip');
+    mapWrapEl.querySelectorAll('.pilot-state-path').forEach(path=>{
+      path.addEventListener('click', ()=> selectState(path.dataset.state));
+      path.addEventListener('mousemove', (e)=>{
+        const rect = mapWrapEl.getBoundingClientRect();
+        tooltipEl.style.left = (e.clientX - rect.left) + 'px';
+        tooltipEl.style.top = (e.clientY - rect.top) + 'px';
+        tooltipEl.textContent = path.dataset.name;
+        tooltipEl.style.opacity = 1;
+      });
+      path.addEventListener('mouseleave', ()=>{ tooltipEl.style.opacity = 0; });
+    });
+  }
+
+  function selectState(stateId, opts={}){
+    activeState = stateId;
+    activeTab = opts.tab || 'governance';
+    if(opts.govViewMode) govViewMode = opts.govViewMode;
+    renderStateList(searchInput.value);
+    renderMap();
+    renderMain();
+    if(opts.openBody) requestAnimationFrame(()=> openBodyDetail(stateId, opts.openBody));
+    if(opts.openPersonIdx!==undefined) requestAnimationFrame(()=> openPersonDetail(stateId, opts.openPersonIdx));
+  }
+
+  // ============ Stage 7: global search across all 12 states ============
+  const SEARCH_INDEX = [];
+  states.forEach(st=>{
+    SEARCH_INDEX.push({type:'state', label: st.state_name, sub: `${st.governance_bodies.length} bodies · ${st.key_individuals.length} people`, state_id: st.state_id});
+    st.governance_bodies.forEach(gb=>{
+      SEARCH_INDEX.push({type:'body', label: gb.name, sub: st.state_name, state_id: st.state_id, body_id: gb.id});
+      (gb.key_positions||[]).forEach(kp=>{
+        SEARCH_INDEX.push({type:'position', label: `${kp.title}${kp.name?' — '+kp.name:''}`, sub: `${gb.name} · ${st.state_name}`, state_id: st.state_id, body_id: gb.id});
+      });
+    });
+    st.key_individuals.forEach((p,idx)=>{
+      SEARCH_INDEX.push({type:'person', label: p.name, sub: `${p.role||''} · ${st.state_name}`, state_id: st.state_id, person_idx: idx});
+    });
+  });
+  const TYPE_LABELS = {state:'States', body:'Governance bodies', position:'Posts / positions', person:'Key people'};
+  const TYPE_ICONS = {state:'🗺️', body:'🏛️', position:'👤', person:'⭐'};
+
+  function runSearch(q){
+    const query = q.trim().toLowerCase();
+    if(query.length < 2) return null;
+    const terms = query.split(/\s+/).filter(Boolean);
+    const matches = SEARCH_INDEX.filter(item=>{
+      const hay = (item.label + ' ' + item.sub).toLowerCase();
+      return terms.every(t=>hay.includes(t));
+    }).slice(0, 60);
+    return matches;
+  }
+  function groupMatches(matches){
+    const groups = {};
+    matches.forEach(m=>{ (groups[m.type] = groups[m.type]||[]).push(m); });
+    return groups;
+  }
+  function renderSearchResults(matches){
+    const resultsEl = document.getElementById('search-results');
+    if(matches===null){ resultsEl.classList.remove('open'); resultsEl.innerHTML=''; return; }
+    if(!matches.length){
+      resultsEl.innerHTML = `<div class="sr-empty">No matches across the 12 pilot states for that search.</div>`;
+      resultsEl.classList.add('open');
+      return;
+    }
+    const groups = groupMatches(matches);
+    let html = '';
+    ['state','position','body','person'].forEach(type=>{
+      if(!groups[type]) return;
+      html += `<div class="sr-group-label">${TYPE_ICONS[type]} ${TYPE_LABELS[type]}</div>`;
+      groups[type].slice(0,12).forEach((m,i)=>{
+        html += `<div class="sr-item" data-idx="${SEARCH_RESULT_CACHE.push(m)-1}"><div class="sr-title">${esc(m.label)}</div><div class="sr-sub">${esc(m.sub)}</div></div>`;
+      });
+    });
+    resultsEl.innerHTML = html;
+    resultsEl.classList.add('open');
+    resultsEl.querySelectorAll('.sr-item').forEach(el=>{
+      el.addEventListener('click', ()=>{
+        const m = SEARCH_RESULT_CACHE[+el.dataset.idx];
+        goToSearchResult(m);
+      });
+    });
+  }
+  let SEARCH_RESULT_CACHE = [];
+  function goToSearchResult(m){
+    document.getElementById('search-results').classList.remove('open');
+    globalSearchInput.value = '';
+    if(m.type==='state') selectState(m.state_id);
+    else if(m.type==='body' || m.type==='position') selectState(m.state_id, {tab:'governance', govViewMode:'problem', openBody:m.body_id});
+    else if(m.type==='person') selectState(m.state_id, {tab:'people', openPersonIdx:m.person_idx});
+  }
+  const globalSearchInput = document.getElementById('global-search');
+  globalSearchInput.addEventListener('input', ()=>{
+    SEARCH_RESULT_CACHE = [];
+    renderSearchResults(runSearch(globalSearchInput.value));
+  });
+  globalSearchInput.addEventListener('focus', ()=>{
+    if(globalSearchInput.value.trim().length>=2) renderSearchResults(runSearch(globalSearchInput.value));
+  });
+  document.addEventListener('click', (e)=>{
+    const wrap = document.getElementById('header-search-wrap');
+    if(!wrap.contains(e.target)) document.getElementById('search-results').classList.remove('open');
+  });
+
+  function renderMain(){
+    if(!activeState){
+      mainCol.innerHTML = `<div class="empty-state"><div class="big">🗺️</div><div>Select one of the 12 pilot states to view its governance structure and key people.</div></div>`;
+      return;
+    }
+    const st = DATA.states[activeState];
+    mainCol.innerHTML = `
+      <div class="state-header">
+        <h1>${st.state_name}</h1>
+        <span class="sub">${st.governance_bodies.length} governance bodies · ${st.key_individuals.length} key people · ${st.flag_count} flagged facts</span>
+      </div>
+      <div id="update-box-mount"></div>
+      <div class="tabs">
+        <button class="tab-btn ${activeTab==='governance'?'active':''}" data-tab="governance">Governance Structure</button>
+        <button class="tab-btn ${activeTab==='people'?'active':''}" data-tab="people">Key People to Reach</button>
+      </div>
+      <div class="tab-panel active" id="tab-content"></div>
+    `;
+    if(dbApi) renderUpdateBox(document.getElementById('update-box-mount'), st);
+    mainCol.querySelectorAll('.tab-btn').forEach(btn=>{
+      btn.onclick = ()=>{ activeTab = btn.dataset.tab; renderMain(); };
+    });
+    const tabContent = document.getElementById('tab-content');
+    if(activeTab==='governance'){
+      renderGovernanceTab(tabContent, st);
+    } else {
+      renderPeopleTab(tabContent, st);
+    }
+  }
+
+  // ============ Stage 4: Key People to Reach ============
+  let peopleViewMode = 'cards'; // 'cards' | 'table'
+  let peopleCatFilter = 'all';
+  let peopleTextFilter = '';
+  const CAT_LABELS = {A:'Recurring champion', B:'Occasional engagement', C:'Strategic contact'};
+
+  function personMatchesFilters(p){
+    if(peopleCatFilter!=='all' && p.category!==peopleCatFilter) return false;
+    if(peopleTextFilter){
+      const hay = `${p.name} ${p.role||''} ${p.background||''}`.toLowerCase();
+      if(!hay.includes(peopleTextFilter)) return false;
+    }
+    return true;
+  }
+
+  function renderPeopleTab(container, st){
+    const people = st.key_individuals;
+    container.innerHTML = `
+      <div class="people-toolbar">
+        <div class="view-toggle">
+          <button data-mode="cards" class="${peopleViewMode==='cards'?'active':''}">Cards</button>
+          <button data-mode="table" class="${peopleViewMode==='table'?'active':''}">Table</button>
+        </div>
+        <div class="people-filters">
+          <span class="cat-filter-chip ${peopleCatFilter==='all'?'active':''}" data-cat="all">All (${people.length})</span>
+          ${['A','B','C'].map(c=>`<span class="cat-filter-chip ${peopleCatFilter===c?'active':''}" data-cat="${c}">${c} · ${CAT_LABELS[c]} (${people.filter(p=>p.category===c).length})</span>`).join('')}
+          <input class="people-search-input" id="people-text-filter" type="text" placeholder="Filter by name, role…" value="${esc(peopleTextFilter)}">
+        </div>
+      </div>
+      <div id="people-view-body"></div>
+    `;
+    container.querySelector('.view-toggle').querySelectorAll('button').forEach(btn=>{
+      btn.onclick = ()=>{ peopleViewMode = btn.dataset.mode; renderPeopleTab(container, st); };
+    });
+    container.querySelectorAll('.cat-filter-chip').forEach(chip=>{
+      chip.onclick = ()=>{ peopleCatFilter = chip.dataset.cat; renderPeopleTab(container, st); };
+    });
+    const textInput = document.getElementById('people-text-filter');
+    textInput.addEventListener('input', ()=>{
+      peopleTextFilter = textInput.value.trim().toLowerCase();
+      renderPeopleBody(document.getElementById('people-view-body'), st);
+    });
+    textInput.focus();
+    textInput.setSelectionRange(textInput.value.length, textInput.value.length);
+    renderPeopleBody(document.getElementById('people-view-body'), st);
+  }
+
+  function renderPeopleBody(body, st){
+    const filtered = st.key_individuals.filter(personMatchesFilters);
+    if(!filtered.length){
+      body.innerHTML = `<div class="placeholder-box">No people match this filter in ${esc(st.state_name)}.</div>`;
+      return;
+    }
+    if(peopleViewMode==='cards'){
+      body.innerHTML = `<div class="people-grid">${filtered.map(p=>personCardHtml(p, st)).join('')}</div>`;
+    } else {
+      body.innerHTML = `
+        <div style="overflow-x:auto;">
+        <table class="people-table">
+          <thead><tr><th>Name</th><th>Role / Title</th><th>Category</th><th>Flags</th><th>Sources</th></tr></thead>
+          <tbody>
+            ${filtered.map(p=>`
+              <tr data-idx="${p._idx}">
+                <td><strong>${esc(p.name)}</strong></td>
+                <td>${esc(p.role||'')}</td>
+                <td><span class="cat-badge cat-${esc(p.category||'C')}">${esc(p.category||'C')}</span></td>
+                <td>${p.flag_indices.length ? p.flag_indices.map(i=>`<span class="badge ${badgeClass(st.flags[i].status_label)}">${esc(st.flags[i].status_label)}</span>`).join(' ') : '<span class="subtle-note">none</span>'}</td>
+                <td>${(p.track_record||[]).length} cited</td>
+              </tr>`).join('')}
+          </tbody>
+        </table>
+        </div>`;
+    }
+    body.querySelectorAll('.person-card, .people-table tr[data-idx]').forEach(el=>{
+      el.addEventListener('click', ()=> openPersonDetail(st.state_id, +el.dataset.idx));
+    });
+  }
+
+  function personCardHtml(p, st){
+    const relevance = (p.road_safety_relevance || p.value_to_crashfree || '').trim();
+    const snippet = relevance.length>150 ? relevance.slice(0,147)+'…' : relevance;
+    return `<div class="person-card" data-idx="${p._idx}">
+      <h4>${esc(p.name)}</h4>
+      <div class="person-role">${esc(p.role||'Role not established in source')}</div>
+      <div class="person-badges">
+        <span class="cat-badge cat-${esc(p.category||'C')}">${esc(p.category||'C')} · ${esc(CAT_LABELS[p.category]||'')}</span>
+        ${p.flag_indices.slice(0,2).map(i=>`<span class="badge ${badgeClass(st.flags[i].status_label)}">${esc(st.flags[i].status_label)}</span>`).join('')}
+      </div>
+      <div class="person-relevance">${esc(snippet) || '<span class="subtle-note">No specific road-safety relevance established in source.</span>'}</div>
+      ${p.priority ? `<div class="priority-note">★ ${esc(p.priority.length>90?p.priority.slice(0,88)+'…':p.priority)}</div>` : ''}
+      <div class="person-card-footer"><span>${(p.track_record||[]).length} sourced item(s)</span><span>${st.state_name}</span></div>
+    </div>`;
+  }
+
+  function openPersonDetail(stateId, idx){
+    const st = DATA.states[stateId];
+    const p = st.key_individuals[idx];
+    if(!p) return;
+    detailTitleEl.textContent = p.name;
+
+    const trackHtml = (p.track_record||[]).length
+      ? p.track_record.map(t=>`
+        <div class="kp-row">
+          <div class="kp-title">${esc(t.text)}</div>
+          ${t.date ? `<div class="kp-name">${esc(t.date)}</div>` : ''}
+          <div style="margin-top:6px;">${citeHtml(t.citation)}</div>
+        </div>`).join('')
+      : `<div class="subtle-note">No dated track-record items on file for this person.</div>`;
+
+    const flags = (p.flag_indices||[]).map(i=>st.flags[i]);
+    const flagsHtml = flags.length
+      ? flags.map(fl=>`
+        <div class="flag-row">
+          <div class="flag-fact"><span class="badge ${badgeClass(fl.status_label)}">${esc(fl.status_label)}</span> ${esc(fl.fact)}</div>
+          <div class="flag-note">${esc(fl.resolution_note)}</div>
+        </div>`).join('')
+      : `<div class="subtle-note">No open flags linked to this person.</div>`;
+
+    // The role/title line is a claim like any other — where a track-record item backs
+    // it up (in this dataset the first dated item is consistently the one that
+    // establishes the current post), link that citation here rather than leaving the
+    // headline claim of the card unsourced.
+    const roleCitation = (p.track_record||[])[0] ? p.track_record[0].citation : null;
+    const roleSources = citationsBlockHtml(roleCitation,
+      'No individually-cited source establishes this role/title in the dataset — treat as unconfirmed until checked directly.');
+
+    detailBodyEl.innerHTML = `
+      <div class="detail-section chip-row">
+        <span class="cat-badge cat-${esc(p.category||'C')}">${esc(p.category||'C')} · ${esc(CAT_LABELS[p.category]||'')}</span>
+        <span class="pa-chip dim">${esc(st.state_name)}</span>
+      </div>
+      <div class="detail-section">
+        <h4>Role / title</h4>
+        <p>${esc(p.role) || '<span class="subtle-note">Not established from the sources reviewed.</span>'}</p>
+        ${roleSources}
+      </div>
+      <div class="analysis-note">The sections below (Background through Caveats) are CrashFree India's own outreach analysis synthesised from the sourced track record — not individually-cited claims themselves. Every dated fact they draw on is cited in the Track Record section further down.</div>
+      ${p.background ? `<div class="detail-section"><h4>Background</h4><p>${esc(p.background)}</p></div>` : ''}
+      <div class="detail-section">
+        <h4>Road-safety relevance</h4>
+        <p>${esc(p.road_safety_relevance) || '<span class="subtle-note">Not established from the sources reviewed.</span>'}</p>
+      </div>
+      ${p.influence ? `<div class="detail-section"><h4>Influence</h4><p>${esc(p.influence)}</p></div>` : ''}
+      ${p.value_to_crashfree ? `<div class="detail-section"><h4>Value to CrashFree India</h4><p>${esc(p.value_to_crashfree)}</p></div>` : ''}
+      ${p.suggested_approach ? `<div class="detail-section"><h4>Suggested approach</h4><p>${esc(p.suggested_approach)}</p></div>` : ''}
+      ${p.priority ? `<div class="detail-section"><h4>Priority</h4><p>${esc(p.priority)}</p></div>` : ''}
+      <div class="detail-section">
+        <h4>Public contact information</h4>
+        <p><span class="subtle-note">Not available in the source dataset — this dataset does not include direct-contact details (email/phone). Use the department's official channel via the citations below, or the body-level contact routes in the Governance Structure tab.</span></p>
+      </div>
+      <div class="detail-section">
+        <h4>Track record (sourced)</h4>
+        ${trackHtml}
+      </div>
+      ${p.caveats ? `<div class="detail-section"><h4>Caveats</h4><p>${esc(p.caveats)}</p></div>` : ''}
+      <div class="detail-section">
+        <h4>Flags on this person</h4>
+        ${flagsHtml}
+      </div>
+    `;
+    overlayEl.classList.add('open');
+    detailPanelEl.classList.add('open');
+  }
+
+  function renderGovernanceTab(container, st){
+    container.innerHTML = `
+      <div class="view-toggle">
+        <button data-mode="problem" class="${govViewMode==='problem'?'active':''}">By Problem Area</button>
+        <button data-mode="map" class="${govViewMode==='map'?'active':''}">Governance Map</button>
+      </div>
+      <div id="gov-view-body"></div>
+    `;
+    container.querySelectorAll('.view-toggle button').forEach(btn=>{
+      btn.onclick = ()=>{ govViewMode = btn.dataset.mode; renderGovernanceTab(container, st); };
+    });
+    const body = document.getElementById('gov-view-body');
+    if(govViewMode==='problem'){
+      renderByProblemArea(body, st);
+    } else {
+      renderGovernanceMap(body, st);
+    }
+  }
+
+  // ---- Governance Map (org-chart flowchart), same underlying data + click-through as Problem Area view ----
+  const CROSS_KEYWORDS = ['council','committee','authority','commission','mission','fund',
+    'machinery','lead agency','hydraa','iit ','centre of excellence','institute'];
+  function govNodeType(gb){
+    const n = gb.name.toLowerCase();
+    return CROSS_KEYWORDS.some(k=>n.includes(k)) ? 'cross' : 'dept';
+  }
+  function overlappingDepts(crossGb, deptGbs){
+    return deptGbs
+      .map(d=>({d, score: d.problem_areas.filter(p=>crossGb.problem_areas.includes(p)).length}))
+      .filter(x=>x.score>0)
+      .sort((a,b)=>b.score-a.score)
+      .slice(0,3)
+      .map(x=>x.d);
+  }
+  let redrawGovMapLines = null;
+  let govMapZoom = 1;
+  window.addEventListener('resize', ()=>{ if(redrawGovMapLines) redrawGovMapLines(); });
+
+  function renderGovernanceMap(container, st){
+    const bodies = st.governance_bodies;
+    const deptGbs = bodies.filter(gb=>govNodeType(gb)==='dept');
+    const crossGbs = bodies.filter(gb=>govNodeType(gb)==='cross');
+    govMapZoom = 1;
+
+    const deptCols = deptGbs.map(gb=>{
+      const subInfo = gb.subordinates_parsed || {type:'list', items:[]};
+      const allItems = subInfo.type==='list' ? subInfo.items : [];
+      const subs = allItems.slice(0,4);
+      const more = allItems.length - subs.length;
+      return `<div class="gov-col" data-colfor="${esc(gb.id)}">
+        <div class="gov-node" data-body="${esc(gb.id)}" id="node-${esc(gb.id)}" title="${esc(gb.name)}">${esc(gb.name)}</div>
+        ${subs.length ? `<div class="gov-subs">${subs.map(s=>`<span class="gov-sub-chip" title="Subordinate/affiliated entity — not separately detailed in this dataset">${esc(s.length>28?s.slice(0,26)+'…':s)}</span>`).join('')}${more>0?`<span class="gov-sub-chip">+${more} more</span>`:''}</div>` : ''}
+      </div>`;
+    }).join('');
+
+    const crossBoxes = crossGbs.map(gb=>
+      `<div class="gov-node cross-node" data-body="${esc(gb.id)}" id="node-${esc(gb.id)}" title="${esc(gb.name)}">${esc(gb.name)}</div>`
+    ).join('');
+
+    container.innerHTML = `
+      <div class="govmap-legend">
+        <span class="lg-item"><span class="lg-box"></span> Department (line ministry)</span>
+        <span class="lg-item"><span class="lg-box cross"></span> Coordination / statutory / technical-partner body</span>
+        <span class="lg-item"><span class="lg-line"></span> Reports to / constituted by</span>
+        <span class="lg-item"><span class="lg-line dashed"></span> Coordinates with (shared problem area)</span>
+      </div>
+      <div class="govmap-toolbar">
+        <span class="govmap-hint">Hover a box to trace its connections and dim the rest · click a box for its full sourced detail · drag to pan, use zoom to fit large charts.</span>
+        <div class="govmap-zoom">
+          <button type="button" id="gm-zoom-out" aria-label="Zoom out">−</button>
+          <span class="zoom-pct" id="gm-zoom-pct">100%</span>
+          <button type="button" id="gm-zoom-in" aria-label="Zoom in">+</button>
+          <button type="button" id="gm-zoom-reset" aria-label="Reset zoom" style="font-size:10.5px;">Reset</button>
+        </div>
+      </div>
+      <div class="govmap-wrap" id="govmap-wrap-el">
+        <div class="govmap-inner" id="govmap-inner" style="--govmap-scale:1;">
+          <svg class="govmap-svg" id="govmap-svg"></svg>
+          <div class="govmap-row">
+            <div class="gov-node root-node" id="node-root">${esc(st.state_name)} State Government<br><span style="font-weight:400;font-size:10.5px;">Chief Minister / Cabinet</span></div>
+          </div>
+          <div class="govmap-section-label"><span>Departments</span></div>
+          <div class="govmap-row">${deptCols || '<span class="subtle-note">No line departments identified.</span>'}</div>
+          ${crossGbs.length ? `
+          <div class="govmap-section-label"><span>Coordination, statutory &amp; technical-partner bodies</span></div>
+          <div class="govmap-row">${crossBoxes}</div>` : ''}
+        </div>
+      </div>
+      <div class="subtle-note" style="display:block;margin-top:6px;">
+        Layout is CrashFree India's own rendering of reporting/coordination relationships inferred from each body's mandate and hierarchy text, not a claim sourced verbatim from one document — click any box for the sourced detail behind it.
+      </div>
+    `;
+
+    container.querySelectorAll('.gov-node[data-body]').forEach(node=>{
+      node.addEventListener('click', (e)=>{
+        if(node.dataset.dragged==='1'){ node.dataset.dragged='0'; return; }
+        openBodyDetail(st.state_id, node.dataset.body);
+      });
+    });
+
+    // ---- connection map for hover highlighting, built alongside the drawn lines ----
+    const nodeLinks = {}; // id -> Set of line elements touching it
+    const linkedNodes = {}; // id -> Set of other node ids it connects to
+
+    function addLink(idA, idB, lineEl){
+      [idA, idB].forEach(id=>{
+        if(!nodeLinks[id]) nodeLinks[id] = [];
+        nodeLinks[id].push(lineEl);
+      });
+      (linkedNodes[idA] = linkedNodes[idA]||new Set()).add(idB);
+      (linkedNodes[idB] = linkedNodes[idB]||new Set()).add(idA);
+    }
+
+    function draw(){
+      const inner = document.getElementById('govmap-inner');
+      const svg = document.getElementById('govmap-svg');
+      if(!inner || !svg) return;
+      inner.style.setProperty('--govmap-scale', govMapZoom);
+      const rect = inner.getBoundingClientRect();
+      const scale = govMapZoom || 1;
+      svg.setAttribute('width', rect.width / scale);
+      svg.setAttribute('height', rect.height / scale);
+      svg.setAttribute('viewBox', `0 0 ${rect.width/scale} ${rect.height/scale}`);
+      const ns = 'http://www.w3.org/2000/svg';
+      while(svg.firstChild) svg.removeChild(svg.firstChild);
+      Object.keys(nodeLinks).forEach(k=>delete nodeLinks[k]);
+      Object.keys(linkedNodes).forEach(k=>delete linkedNodes[k]);
+
+      function pt(el, edge){
+        const r = el.getBoundingClientRect();
+        const x = (r.left + r.width/2 - rect.left) / scale;
+        const y = (edge==='bottom' ? r.bottom - rect.top : r.top - rect.top) / scale;
+        return {x,y};
+      }
+      function line(a,b,dashed,idA,idB){
+        const l = document.createElementNS(ns,'line');
+        l.setAttribute('x1',a.x); l.setAttribute('y1',a.y);
+        l.setAttribute('x2',b.x); l.setAttribute('y2',b.y);
+        l.setAttribute('stroke', dashed ? 'var(--cfi-accent-2)' : 'var(--cfi-primary)');
+        l.setAttribute('stroke-width', dashed ? '1.3' : '1.6');
+        if(dashed) l.setAttribute('stroke-dasharray','4,3');
+        l.classList.add(dashed ? 'line-dashed' : 'line-solid');
+        l.style.opacity = dashed ? '0.14' : '0.4';
+        svg.appendChild(l);
+        addLink(idA, idB, l);
+      }
+      const rootEl = document.getElementById('node-root');
+      if(!rootEl) return;
+      const rootBottom = pt(rootEl,'bottom');
+      deptGbs.forEach(gb=>{
+        const el = document.getElementById('node-'+gb.id);
+        if(el) line(rootBottom, pt(el,'top'), false, 'root', gb.id);
+      });
+      crossGbs.forEach(gb=>{
+        const el = document.getElementById('node-'+gb.id);
+        if(!el) return;
+        line(rootBottom, pt(el,'top'), false, 'root', gb.id);
+        overlappingDepts(gb, deptGbs).forEach(d=>{
+          // anchor to the bottom of the whole department column (box + sub-chips)
+          // so the coordination line never cuts through the subordinate chips.
+          const colEl = document.querySelector(`.gov-col[data-colfor="${d.id}"]`) || document.getElementById('node-'+d.id);
+          line(pt(el,'top'), pt(colEl,'bottom'), true, gb.id, d.id);
+        });
+      });
+    }
+    redrawGovMapLines = draw;
+    requestAnimationFrame(draw);
+
+    // ---- hover highlighting: dim everything not connected to the hovered node ----
+    function setHighlight(activeId){
+      const allNodeEls = container.querySelectorAll('.gov-node, .gov-col');
+      const allLines = container.querySelectorAll('.govmap-svg line');
+      if(!activeId){
+        allNodeEls.forEach(el=>el.classList.remove('node-dim','node-active'));
+        allLines.forEach(l=>{
+          l.style.opacity = l.classList.contains('line-dashed') ? '0.14' : '0.4';
+          l.style.strokeWidth = l.classList.contains('line-dashed') ? '1.3' : '1.6';
+        });
+        return;
+      }
+      const connected = linkedNodes[activeId] || new Set();
+      allNodeEls.forEach(el=>{
+        const id = el.dataset.body || el.dataset.colfor || (el.id==='node-root'?'root':null);
+        const isActive = id===activeId || connected.has(id);
+        el.classList.toggle('node-active', id===activeId);
+        el.classList.toggle('node-dim', !isActive);
+      });
+      (nodeLinks[activeId]||[]).forEach(l=>{ l.style.opacity='1'; l.style.strokeWidth = l.classList.contains('line-dashed')?'2.2':'2.4'; });
+      allLines.forEach(l=>{
+        if(!(nodeLinks[activeId]||[]).includes(l)){
+          l.style.opacity = '0.05'; l.style.strokeWidth = '1';
+        }
+      });
+    }
+    container.querySelectorAll('.gov-node').forEach(node=>{
+      const id = node.dataset.body || (node.id==='node-root' ? 'root' : null);
+      if(!id) return;
+      node.addEventListener('mouseenter', ()=> setHighlight(id));
+      node.addEventListener('mouseleave', ()=> setHighlight(null));
+      node.addEventListener('focus', ()=> setHighlight(id));
+      node.addEventListener('blur', ()=> setHighlight(null));
+    });
+
+    // ---- zoom controls ----
+    const zoomPctEl = document.getElementById('gm-zoom-pct');
+    function applyZoom(z){
+      govMapZoom = Math.max(0.5, Math.min(1.6, z));
+      zoomPctEl.textContent = Math.round(govMapZoom*100) + '%';
+      requestAnimationFrame(draw);
+    }
+    document.getElementById('gm-zoom-in').onclick = ()=> applyZoom(govMapZoom + 0.15);
+    document.getElementById('gm-zoom-out').onclick = ()=> applyZoom(govMapZoom - 0.15);
+    document.getElementById('gm-zoom-reset').onclick = ()=> applyZoom(1);
+
+    // ---- drag to pan ----
+    const wrapEl = document.getElementById('govmap-wrap-el');
+    let dragging=false, startX=0, startY=0, startLeft=0, startTop=0, movedPx=0;
+    wrapEl.addEventListener('mousedown', (e)=>{
+      dragging = true; movedPx = 0;
+      startX = e.clientX; startY = e.clientY;
+      startLeft = wrapEl.scrollLeft; startTop = wrapEl.scrollTop;
+      wrapEl.classList.add('dragging');
+    });
+    window.addEventListener('mousemove', (e)=>{
+      if(!dragging) return;
+      const dx = e.clientX - startX, dy = e.clientY - startY;
+      movedPx = Math.max(movedPx, Math.abs(dx), Math.abs(dy));
+      wrapEl.scrollLeft = startLeft - dx;
+      wrapEl.scrollTop = startTop - dy;
+    });
+    window.addEventListener('mouseup', ()=>{
+      if(!dragging) return;
+      dragging = false;
+      wrapEl.classList.remove('dragging');
+      if(movedPx > 5){
+        container.querySelectorAll('.gov-node[data-body]').forEach(n=>n.dataset.dragged='1');
+      }
+    });
+  }
+
+  function bodySnippet(gb){
+    const text = (gb.mandate || '').trim();
+    return text.length > 115 ? text.slice(0,112) + '…' : text;
+  }
+
+  function renderByProblemArea(container, st){
+    const cards = Object.keys(PA_META).map(paId=>{
+      const meta = PA_META[paId];
+      const bodies = st.governance_bodies.filter(gb=>gb.problem_areas.includes(paId));
+      const list = bodies.length
+        ? `<div class="body-chip-list">${bodies.map(gb=>`
+            <button class="body-chip" data-body="${esc(gb.id)}">
+              <span class="chip-name">${esc(gb.name)}</span>
+              <span class="chip-snippet">${esc(bodySnippet(gb))}</span>
+            </button>`).join('')}</div>`
+        : `<div class="no-body-note">No specific body identified for this problem area in the source data for ${esc(st.state_name)}.</div>`;
+      return `<div class="problem-card">
+        <h3>${meta.icon} ${meta.label} <span class="pcount">(${bodies.length})</span></h3>
+        ${list}
+      </div>`;
+    }).join('');
+    container.innerHTML = `
+      <div class="subtle-note" style="margin-bottom:12px;display:block;">
+        Problem-area groupings below are CrashFree India's own categorisation of each body's mandate (for navigation), not a claim sourced verbatim from any single document. Click a body to see its sourced detail.
+      </div>
+      <div class="problem-grid">${cards}</div>`;
+    container.querySelectorAll('.body-chip').forEach(btn=>{
+      btn.onclick = ()=> openBodyDetail(st.state_id, btn.dataset.body);
+    });
+  }
+
+  // ---- Detail slide-over (shared by Problem Area view and Governance Map view) ----
+  const overlayEl = document.getElementById('overlay');
+  const detailPanelEl = document.getElementById('detail-panel');
+  const detailTitleEl = document.getElementById('detail-title');
+  const detailBodyEl = document.getElementById('detail-body');
+
+  function openBodyDetail(stateId, bodyId){
+    const st = DATA.states[stateId];
+    const gb = st.governance_bodies.find(g=>g.id===bodyId);
+    if(!gb) return;
+    detailTitleEl.textContent = gb.name;
+
+    const paChips = gb.problem_areas.map(pid=>`<span class="pa-chip">${PA_META[pid].icon} ${PA_META[pid].label}</span>`).join('');
+
+    let kpHtml;
+    if(gb.key_positions && gb.key_positions.length){
+      kpHtml = gb.key_positions.map(kp=>`
+        <div class="kp-row">
+          <div class="kp-title">${esc(kp.title)}</div>
+          <div class="kp-name">${esc(kp.name || 'Name not established in source')}</div>
+          <span class="badge ${badgeClass(kp.confidence_badge)}">${esc(kp.confidence_badge)}</span>
+          ${kp.context_note ? `<div class="kp-note"><strong>What the source says this post specifically does:</strong> ${esc(kp.context_note)}</div>` : `<div class="kp-note subtle-note">The source does not break out this specific post's responsibilities beyond the body-level mandate above.</div>`}
+          <div style="margin-top:6px;">${citeHtml(kp.citation)}</div>
+        </div>`).join('');
+    } else {
+      kpHtml = `<div class="subtle-note">No individual post-level detail exists in the source data for this body — responsibilities are only documented at the body (department) level above.</div>`;
+    }
+
+    const flags = (gb.flag_indices||[]).map(i=>st.flags[i]);
+    const flagsHtml = flags.length
+      ? flags.map(fl=>`
+        <div class="flag-row">
+          <div class="flag-fact"><span class="badge ${badgeClass(fl.status_label)}">${esc(fl.status_label)}</span> ${esc(fl.fact)}</div>
+          <div class="flag-note">${esc(fl.resolution_note)}</div>
+        </div>`).join('')
+      : `<div class="subtle-note">No open flags linked to this body.</div>`;
+
+    // The original file gives one shared citation list per body (not one citation per
+    // field) — so every claim below carries that same list, honestly reused rather than
+    // pretending a specific link maps to a specific sentence the source doesn't break out.
+    const bodySources = citationsBlockHtml(gb.citations,
+      'No dedicated citation list on file for this body — see the individually-cited positions below.');
+
+    detailBodyEl.innerHTML = `
+      <div class="detail-section chip-row">${paChips}</div>
+      <div class="detail-section">
+        <h4>Mandate</h4>
+        <p>${esc(gb.mandate) || '<span class="subtle-note">Not established from the sources reviewed.</span>'}</p>
+        ${bodySources}
+      </div>
+      ${!isNotApplicableText(gb.roads_owned) ? `
+      <div class="detail-section">
+        <h4>Roads owned / maintained</h4>
+        <p>${esc(gb.roads_owned)}</p>
+        ${bodySources}
+      </div>` : ''}
+      <div class="detail-section">
+        <h4>Decision-making power / first point of contact</h4>
+        <p>${esc(gb.decision_making_power) || '<span class="subtle-note">Not established from the sources reviewed.</span>'}</p>
+        ${bodySources}
+      </div>
+      ${!isNotApplicableText(gb.data_role) ? `
+      <div class="detail-section">
+        <h4>Role in road-safety data</h4>
+        <p>${esc(gb.data_role)}</p>
+        ${bodySources}
+      </div>` : ''}
+      <div class="detail-section">
+        <h4>Key positions relevant to road safety</h4>
+        <p class="subtle-note" style="margin-bottom:8px;">Each post below is individually cited in the original file — sources shown per position, not shared with the body-level claims above.</p>
+        ${kpHtml}
+      </div>
+      ${gb.subordinates_parsed && (gb.subordinates_parsed.type==='list' ? gb.subordinates_parsed.items.length : gb.subordinates_parsed.text) ? `
+      <div class="detail-section">
+        <h4>Subordinate / affiliated bodies</h4>
+        <p>${gb.subordinates_parsed.type==='list' ? gb.subordinates_parsed.items.map(esc).join(' · ') : esc(gb.subordinates_parsed.text)}</p>
+        ${bodySources}
+      </div>` : ''}
+      <div class="detail-section">
+        <h4>Flags on this body</h4>
+        ${flagsHtml}
+      </div>
+    `;
+    overlayEl.classList.add('open');
+    detailPanelEl.classList.add('open');
+  }
+
+  function closeDetail(){
+    overlayEl.classList.remove('open');
+    detailPanelEl.classList.remove('open');
+  }
+  overlayEl.addEventListener('click', closeDetail);
+  document.getElementById('detail-close').addEventListener('click', closeDetail);
+  document.addEventListener('keydown', (e)=>{ if(e.key==='Escape') closeDetail(); });
+
+  searchInput.addEventListener('input', ()=> renderStateList(searchInput.value));
+
+  // ============ Feature: Check for updates (live, via the `db` capability) ============
+  // A viewer's click cannot itself run a live web-connected Claude request from inside
+  // a published artifact page (no capability exposes server-side web search, and raw
+  // fetch to any external host is blocked by the artifact sandbox) — so "Check for
+  // updates" writes a request into the shared db instead. CrashFree India reviews
+  // pending requests via Claude (with real web search) and writes the findings back
+  // into the same document; every open copy of this dashboard updates live via
+  // onSnapshot, with no republish needed. Nothing here is ever overwritten silently —
+  // a request only ever adds a new dated result under the previous one.
+  let updateBoxUnsub = null;
+  let globalCheckUnsub = null;
+
+  function fmtWhen(iso){
+    if(!iso) return null;
+    try{
+      const d = new Date(iso);
+      return d.toLocaleDateString(undefined,{year:'numeric',month:'short',day:'numeric'}) + ' ' +
+             d.toLocaleTimeString(undefined,{hour:'2-digit',minute:'2-digit'});
+    } catch(e){ return iso; }
+  }
+
+  async function requestCheck(path, extra={}){
+    if(!dbApi) return;
+    const ref = dbApi.doc(path);
+    const patch = { status:'requested', requestedAt: new Date().toISOString(), ...extra };
+    try{
+      const snap = await ref.get();
+      if(snap.exists) await ref.update(patch);
+      else await ref.set(patch);
+    } catch(e){ console.warn('check request failed', e); }
+  }
+
+  function diffPanelHtml(data){
+    if(!data || !data.diffs || !data.diffs.length){
+      return `<div class="subtle-note" style="display:block;margin-top:6px;">No changes found as of the last check — the dashboard's facts still matched current sources.</div>`;
+    }
+    return `<div class="diff-panel">${data.diffs.map(d=>`
+      <div class="diff-row">
+        <div class="diff-fact">${esc(d.fact||'')}</div>
+        ${d.old ? `<div class="diff-old">Dataset says: ${esc(d.old)}</div>` : ''}
+        ${d.new ? `<div class="diff-new">Now appears to be: ${esc(d.new)}</div>` : ''}
+        ${d.note ? `<div class="subtle-note" style="display:block;margin-top:3px;">${esc(d.note)}</div>` : ''}
+        ${(d.sources||[]).map(s=>`<div style="margin-top:4px;">${citeHtml(s)}</div>`).join('')}
+      </div>`).join('')}</div>`;
+  }
+
+  function renderUpdateBox(mount, st){
+    if(!mount) return;
+    if(updateBoxUnsub){ updateBoxUnsub(); updateBoxUnsub = null; }
+    const path = 'checks/' + st.state_id;
+    mount.innerHTML = `<div class="update-box" id="update-box-inner"><span class="uc-status">Loading update-check status…</span></div>`;
+    updateBoxUnsub = dbApi.doc(path).onSnapshot(snap=>{
+      const data = snap.exists ? snap.data() : null;
+      const box = document.getElementById('update-box-inner');
+      if(!box) return;
+      let statusHtml, diffHtml = '';
+      if(!data){
+        statusHtml = `<span class="uc-badge uc-none">Never checked</span> <span class="uc-status">No update check has been requested yet for ${esc(st.state_name)}.</span>`;
+      } else if(data.status === 'requested'){
+        statusHtml = `<span class="uc-badge uc-requested">Requested</span> <span class="uc-status">Requested ${esc(fmtWhen(data.requestedAt)||'')} — CrashFree India reviews this via Claude with live web search; results will appear here automatically, without changing anything else in the dashboard.</span>`;
+        if(data.lastCheckedAt) diffHtml = `<div class="subtle-note" style="display:block;margin-top:6px;">Showing the previous check from ${esc(fmtWhen(data.lastCheckedAt))} below until the new one completes.</div>` + diffPanelHtml(data);
+      } else {
+        statusHtml = `<span class="uc-badge uc-done">Checked</span> <span class="uc-status">Last checked ${esc(fmtWhen(data.lastCheckedAt)||'')}${data.summary ? ' — '+esc(data.summary) : ''}</span>`;
+        diffHtml = diffPanelHtml(data);
+      }
+      box.innerHTML = `
+        ${statusHtml}
+        <button type="button" id="uc-request-btn" ${data && data.status==='requested' ? 'disabled' : ''}>🔄 Check for updates</button>
+        ${diffHtml}
+      `;
+      const btn = document.getElementById('uc-request-btn');
+      if(btn) btn.onclick = ()=> requestCheck(path, {stateId: st.state_id, stateName: st.state_name});
+    }, err=>{
+      const box = document.getElementById('update-box-inner');
+      if(box) box.innerHTML = `<span class="uc-status subtle-note">Update-check status unavailable right now (${esc(err.code||'error')}).</span>`;
+    });
+  }
+
+  function initGlobalCheckRow(){
+    const row = document.getElementById('global-check-row');
+    if(!row || !dbApi) return;
+    if(globalCheckUnsub){ globalCheckUnsub(); globalCheckUnsub = null; }
+    globalCheckUnsub = dbApi.doc('checks/_all').onSnapshot(snap=>{
+      const data = snap.exists ? snap.data() : null;
+      let statusText = 'Never run.';
+      let disabled = '';
+      if(data && data.status==='requested'){ statusText = `Requested ${fmtWhen(data.requestedAt)||''} — in progress.`; disabled='disabled'; }
+      else if(data && data.status==='done'){ statusText = `Last full check: ${fmtWhen(data.lastCheckedAt)||''}.`; }
+      row.innerHTML = `
+        <button type="button" id="uc-check-all-btn" ${disabled}>🔄 Check all 12 states</button>
+        <span class="gcr-status">${esc(statusText)}</span>
+      `;
+      const btn = document.getElementById('uc-check-all-btn');
+      if(btn) btn.onclick = ()=> requestCheck('checks/_all', {scope:'all', states: states.map(s=>s.state_id)});
+    }, ()=>{ row.innerHTML = ''; });
+  }
+
+  // ============ Feature: In-dashboard chatbot (via the `sample` capability) ============
+  // Each question is answered fresh (no memory) using ONLY a compact summary of this
+  // dataset built client-side for whichever state(s) the question and current view
+  // point to — never the model's general/world knowledge, per an explicit instruction
+  // in every call.
+  const STATE_ALIASES = {
+    tamil_nadu: ['tamil nadu', 'tn'], delhi: ['delhi', 'nct of delhi'],
+    madhya_pradesh: ['madhya pradesh', 'mp'], assam: ['assam'],
+    haryana: ['haryana'], telangana: ['telangana', 'ts'],
+    maharashtra: ['maharashtra', 'mh'], gujarat: ['gujarat'],
+    uttar_pradesh: ['uttar pradesh', 'up'], bihar: ['bihar'],
+    karnataka: ['karnataka', 'ka'], jharkhand: ['jharkhand'],
+  };
+
+  function detectRelevantStates(question){
+    const q = ' ' + question.toLowerCase() + ' ';
+    const found = [];
+    Object.entries(STATE_ALIASES).forEach(([sid, aliases])=>{
+      if(aliases.some(a=>q.includes(' '+a+' ') || q.includes(' '+a+',') || q.includes(' '+a+'.') || q.includes(' '+a+'?') || q.startsWith(a+' '))){
+        found.push(sid);
+      }
+    });
+    if(!found.length && activeState) found.push(activeState);
+    return found.slice(0, 4);
+  }
+
+  function buildStateContext(st){
+    const lines = [`### ${st.state_name}`];
+    lines.push(`Governance bodies (${st.governance_bodies.length}):`);
+    st.governance_bodies.forEach(gb=>{
+      const posSummary = (gb.key_positions||[]).map(kp=>`${kp.title}: ${kp.name||'name not established'} [${kp.confidence_badge}]`).join('; ');
+      lines.push(`- ${gb.name} — problem areas: ${gb.problem_areas.join(', ')}. Mandate: ${(gb.mandate||'').slice(0,220)}${posSummary ? ' | Positions: '+posSummary : ' | No individual posts on file.'}`);
+    });
+    lines.push(`Key people (${st.key_individuals.length}):`);
+    st.key_individuals.forEach(p=>{
+      lines.push(`- ${p.name} (category ${p.category||'C'}) — ${p.role||'role not established'}.`);
+    });
+    if(st.flags && st.flags.length){
+      lines.push(`Flagged facts (${st.flags.length}) — treat as unresolved/uncertain: ` +
+        st.flags.slice(0,10).map(f=>`[${f.status_label}] ${f.fact}`).join(' | '));
+    }
+    return lines.join('\n');
+  }
+
+  function buildLeadingTurn(question){
+    const relevant = detectRelevantStates(question);
+    const allNames = states.map(s=>s.state_name).join(', ');
+    let text = `You are answering questions inside CrashFree India's internal 12-state pilot road-safety governance dashboard. `
+      + `This dataset covers EXACTLY these 12 pilot states/UTs and nothing else: ${allNames}. `
+      + `Answer using ONLY the dashboard data given below in this message. Do not use general/world knowledge, even if you know the real-world answer — if the data below doesn't cover what's asked (including any state outside these 12, or any fact/field not present below), say plainly that the dashboard doesn't cover it, rather than guessing. `
+      + `When you do answer, name the specific body/post/person it comes from so the user can find it in the dashboard, and mention if the fact is flagged as unverified/stale in the data. Be concise — a few sentences, or a short comparison list only when the question asks to compare states.\n\n`;
+    if(relevant.length){
+      text += `DASHBOARD DATA (${relevant.length} state${relevant.length>1?'s':''} matched to this question):\n\n`;
+      text += relevant.map(sid=>buildStateContext(DATA.states[sid])).join('\n\n');
+    } else {
+      text += `No specific state was matched to this question. Only these 12 states are covered: ${allNames}. If the question isn't about the dashboard's own states/structure, say the dashboard doesn't cover it.`;
+    }
+    return { text, relevant };
+  }
+
+  const chatFab = document.getElementById('chat-fab');
+  const chatPanel = document.getElementById('chat-panel');
+  const chatClose = document.getElementById('chat-close');
+  const chatMessages = document.getElementById('chat-messages');
+  const chatEmpty = document.getElementById('chat-empty');
+  const chatInput = document.getElementById('chat-input');
+  const chatSend = document.getElementById('chat-send');
+  const chatStop = document.getElementById('chat-stop');
+  const chatScope = document.getElementById('chat-scope');
+  let chatTurns = []; // {role, content} sent back as history (excludes the leading instructions turn)
+  let chatBusy = false;
+  let chatAbort = null;
+
+  chatFab.addEventListener('click', ()=>{ chatPanel.classList.add('open'); chatInput.focus(); });
+  chatClose.addEventListener('click', ()=> chatPanel.classList.remove('open'));
+
+  function addChatBubble(role, text){
+    if(chatEmpty) chatEmpty.remove();
+    const div = document.createElement('div');
+    div.className = 'chat-msg ' + role;
+    div.textContent = text;
+    chatMessages.appendChild(div);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+    return div;
+  }
+
+  function addChatError(code, partialText, retryFn){
+    const copy = {
+      not_granted: "You've declined to let this dashboard use Claude, so chat is unavailable.",
+      sampling_disabled: 'Claude is not available for your account/organization right now.',
+      rate_limited: "You're asking faster than your plan allows — wait a moment and try again.",
+      session_expired: 'Please sign in again to keep chatting.',
+      refused: 'Claude declined to answer that one — try rephrasing.',
+      empty_completion: 'No answer came back — try a shorter or more specific question.',
+      upstream_error: 'A temporary error occurred — you can try again.',
+      prompt_too_large: 'That question plus the matched state data is too large — try asking about fewer states at once.',
+    }[code] || 'Something went wrong answering that question.';
+    const div = addChatBubble('error', (partialText ? partialText + '\n\n' : '') + copy);
+    if(retryFn && code!=='not_granted' && code!=='sampling_disabled'){
+      const btn = document.createElement('button');
+      btn.className = 'chat-retry'; btn.textContent = 'Try again';
+      btn.onclick = ()=>{ div.remove(); retryFn(); };
+      div.appendChild(btn);
+    }
+  }
+
+  async function sendChat(){
+    if(chatBusy) return;
+    const question = chatInput.value.trim();
+    if(!question || !sampleApi) return;
+    chatInput.value = '';
+    addChatBubble('user', question);
+    chatBusy = true; chatSend.disabled = true;
+    chatSend.style.display = 'none'; chatStop.style.display = 'inline-block';
+    const assistantDiv = addChatBubble('assistant', 'Thinking…');
+
+    const { text: leadingText, relevant } = buildLeadingTurn(question);
+    chatScope.textContent = relevant.length
+      ? `Answering using: ${relevant.map(sid=>DATA.states[sid].state_name).join(', ')}`
+      : `Answering using: general dashboard overview (no specific pilot state matched)`;
+
+    const turns = [{ role:'user', content: leadingText }, ...chatTurns, { role:'user', content: question }];
+    chatAbort = new AbortController();
+    try{
+      const { text } = await sampleApi(turns, {
+        cache: false,
+        signal: chatAbort.signal,
+        modelTier: 'default',
+        onText: ({text})=>{ assistantDiv.textContent = text; chatMessages.scrollTop = chatMessages.scrollHeight; },
+      });
+      chatTurns.push({ role:'user', content: question }, { role:'assistant', content: text });
+      // keep the chat window bounded — drop oldest turns, never the leading instructions turn
+      while(chatTurns.length > 12) chatTurns.shift();
+    } catch(e){
+      assistantDiv.remove();
+      if(e.code !== 'cancelled') addChatError(e.code, e.text, sendChatRetry(question));
+      else if(e.text) addChatBubble('assistant', e.text + '\n\n[stopped]');
+    } finally {
+      chatBusy = false; chatSend.disabled = false; chatAbort = null;
+      chatSend.style.display = ''; chatStop.style.display = 'none';
+    }
+  }
+  function sendChatRetry(question){
+    return ()=>{ chatInput.value = question; sendChat(); };
+  }
+
+  chatStop.addEventListener('click', ()=>{ if(chatAbort) chatAbort.abort(); });
+  chatSend.addEventListener('click', sendChat);
+  chatInput.addEventListener('keydown', (e)=>{
+    if(e.key==='Enter' && !e.shiftKey){ e.preventDefault(); sendChat(); }
+  });
+
+  renderStateList();
+  renderMap();
+  renderMain();
+})();
+</script>
+</body>
+</html>
