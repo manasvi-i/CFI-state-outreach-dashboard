@@ -95,8 +95,12 @@ python3 scripts/build_map.py
 
 ## Branding
 
-The color palette (indigo/violet primary) and font (Plus Jakarta Sans) in
-`index.html` are a **visual estimate** from a screenshot of crashfreeindia.org — a
-live automated fetch of the site wasn't available when this was built. If you have
-the site's actual CSS, update the `--cfi-*` custom properties at the top of
-`index.html`'s `<style>` block with the exact values.
+The color palette and fonts in `index.html`'s `--cfi-*` custom properties are
+pulled directly from crashfreeindia.org's shipped CSS (`--brand:#5d2df7`,
+`--font-body:"Geist"`, `--font-heading:"Montserrat"`, fetched live on
+2026-09-25) — not a visual estimate. `--cfi-primary` is the site's exact brand
+color; `--cfi-primary-dark`/`--cfi-accent` and the dark-mode values are derived
+from it at the same hue/saturation, since the live site doesn't itself expose
+single tokens for those states. If the site's palette changes, re-fetch its
+`/assets/*.css` and update the `:root` block at the top of `index.html`'s
+`<style>` accordingly.

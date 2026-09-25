@@ -7,52 +7,55 @@
 <style>html{box-sizing:border-box;}body{margin:0;}[hidden]{display:none!important;}</style>
 <title>CFI State Outreach Dashboard</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
   /*
-    Brand tokens below are visually estimated from a screenshot of crashfreeindia.org
-    supplied directly by CrashFree India (live automated fetch of the site was blocked
-    by this session's network policy). Colors are a close-eye read of the homepage's
-    indigo/violet brand color, near-black headings, and gray body text; the heading/UI
-    font is a best-effort visual match ("Plus Jakarta Sans") to the rounded geometric
-    sans used on the site, not confirmed against the site's actual CSS. Swap these for
-    exact values if/when the real stylesheet can be inspected.
+    Brand tokens below are pulled directly from crashfreeindia.org's shipped CSS
+    (its :root custom properties --brand/--brand-lite/--background/--foreground/
+    --muted-foreground/--border, and its --font-body/--font-heading), fetched live
+    from the site on 2026-09-25 — not a visual estimate. --cfi-primary is the site's
+    exact --brand (#5d2df7); --cfi-primary-dark/--cfi-accent are derived from it at
+    the same hue/saturation for hover and tint states the site itself doesn't need a
+    single token for. Body font is Geist, heading font is Montserrat, matching the
+    site's --font-body/--font-heading exactly. Dark-mode values lighten the same hue
+    for on-dark contrast (the live site has no separate dark --brand of its own).
   */
   :root{
-    --cfi-primary:#5b4fe8;
-    --cfi-primary-dark:#4a3fc7;
-    --cfi-accent:#8b7cf6;
-    --cfi-accent-2:#64748b;
-    --cfi-bg:#f6f5fc;
+    --cfi-primary:#5d2df7;
+    --cfi-primary-dark:#3708d0;
+    --cfi-accent:#a185fa;
+    --cfi-accent-2:#62748e;
+    --cfi-bg:#f6f7ff;
     --cfi-surface:#ffffff;
-    --cfi-border:#e5e2f5;
-    --cfi-text:#111114;
-    --cfi-text-muted:#6b7280;
-    --cfi-font: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --cfi-border:#e2e8f0;
+    --cfi-text:#020618;
+    --cfi-text-muted:#62748e;
+    --cfi-font: "Geist", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --cfi-font-heading: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     --radius:10px;
   }
   @media (prefers-color-scheme: dark){
     :root:not([data-theme="light"]){
-      --cfi-primary:#8b7cf6;
-      --cfi-primary-dark:#6a5cf0;
-      --cfi-accent:#a89bfa;
-      --cfi-accent-2:#8b96a5;
-      --cfi-bg:#13121c;
-      --cfi-surface:#1b1a28;
-      --cfi-border:#302e42;
-      --cfi-text:#eeeef5;
-      --cfi-text-muted:#a09fb5;
+      --cfi-primary:#b099fb;
+      --cfi-primary-dark:#9677fa;
+      --cfi-accent:#d6cafd;
+      --cfi-accent-2:#90a1b9;
+      --cfi-bg:#020618;
+      --cfi-surface:#0f172b;
+      --cfi-border:#1b1f2f;
+      --cfi-text:#f8fafc;
+      --cfi-text-muted:#90a1b9;
     }
   }
   :root[data-theme="dark"]{
-    --cfi-primary:#8b7cf6;
-    --cfi-primary-dark:#6a5cf0;
-    --cfi-accent:#a89bfa;
-    --cfi-accent-2:#8b96a5;
-    --cfi-bg:#13121c;
-    --cfi-surface:#1b1a28;
-    --cfi-border:#302e42;
-    --cfi-text:#eeeef5;
-    --cfi-text-muted:#a09fb5;
+    --cfi-primary:#b099fb;
+    --cfi-primary-dark:#9677fa;
+    --cfi-accent:#d6cafd;
+    --cfi-accent-2:#90a1b9;
+    --cfi-bg:#020618;
+    --cfi-surface:#0f172b;
+    --cfi-border:#1b1f2f;
+    --cfi-text:#f8fafc;
+    --cfi-text-muted:#90a1b9;
   }
   *{box-sizing:border-box;}
   body{
@@ -76,6 +79,7 @@
   }
   .brand{
     display:flex;align-items:center;gap:10px;
+    font-family:var(--cfi-font-heading);
     font-weight:700;font-size:16px;color:var(--cfi-primary);
     white-space:nowrap;
   }
@@ -215,7 +219,7 @@
     display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;
     margin-bottom:14px;
   }
-  .state-header h1{margin:0;font-size:22px;}
+  .state-header h1{margin:0;font-size:22px;font-family:var(--cfi-font-heading);}
   .state-header .sub{color:var(--cfi-text-muted);font-size:12.5px;}
 
   .tabs{display:flex;gap:4px;border-bottom:1px solid var(--cfi-border);margin-bottom:16px;}
@@ -353,7 +357,7 @@
   .gov-node.root-node:hover{background:var(--cfi-primary);}
   .gov-node.cross-node{border-style:dashed;border-color:var(--cfi-accent-2);}
   .gov-node.node-dim{opacity:.28;}
-  .gov-node.node-active{box-shadow:0 0 0 3px rgba(91,79,232,.25);border-color:var(--cfi-accent);z-index:5;}
+  .gov-node.node-active{box-shadow:0 0 0 3px rgba(93,45,247,.25);border-color:var(--cfi-accent);z-index:5;}
   .gov-col{display:flex;flex-direction:column;align-items:center;gap:7px;transition:opacity .15s ease;}
   .gov-col.node-dim{opacity:.28;}
   .gov-subs{display:flex;flex-wrap:wrap;gap:4px;justify-content:center;max-width:210px;}
