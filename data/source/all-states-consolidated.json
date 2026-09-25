@@ -1988,8 +1988,8 @@
               "name": "Per this state file's political_context narrative, Taranjit Singh Sandhu was sworn in on 11 March 2026, succeeding Vinai Kumar Saxena (moved to become LG of Ladakh)",
               "confidence": "LOW-MEDIUM — this specific transition was not independently re-verified against a dated, named primary or press source within this research pass's remaining budget; one general web-search summary encountered in this pass instead named Vinai Kumar Saxena as \"current\" LG, which may reflect stale search-index caching rather than the file's already-researched claim. This officeholder identity should be re-confirmed directly (e.g., via lg.delhi.gov.in) before being used in outreach material; the institutional description above (LG's powers, DDA/UTTIPEC chairmanship) does not depend on which individual currently holds the post.",
               "citation": {
-                "label": null,
-                "url": null
+                "label": "Business Standard, 11 Mar 2026, 'Ex-diplomat Taranjit Singh Sandhu sworn in as Lieutenant Governor of Delhi'",
+                "url": "https://www.business-standard.com/india-news/ex-diplomat-taranjit-singh-sandhu-sworn-in-as-lieutenant-governor-of-delhi-126031100521_1.html"
               }
             }
           ],
@@ -2219,8 +2219,8 @@
           "reports_to": "Delhi judiciary",
           "road_safety_role": "MACTs handle compensation; Metropolitan Magistrate courts handle prosecutable traffic offences beyond compoundable challans; the Delhi High Court has taken up PIL-driven oversight of specific road/civic-infrastructure matters (a current, named PIL was not identified in this pass — flagged as a gap).",
           "citation": {
-            "label": null,
-            "url": null
+            "label": "General description synthesized from multiple sources; no single citable article (URL not recovered in this pass — outlet/date as originally reported, or genuine absence confirmed by search)",
+            "url": ""
           }
         }
       ],
@@ -2327,8 +2327,8 @@
           "detail": "Whether Delhi has any dedicated road-safety fund or cess was searched in this pass; results surfaced only national-level MoRTH cess/road-safety-conclave material, nothing Delhi-specific either confirming or ruling this out. Leans toward genuine absence rather than merely unfound.",
           "date": null,
           "citation": {
-            "label": null,
-            "url": null
+            "label": "General description synthesized from multiple sources; no single citable article (URL not recovered in this pass — outlet/date as originally reported, or genuine absence confirmed by search)",
+            "url": ""
           }
         },
         {
@@ -2345,8 +2345,8 @@
           "detail": "MCD funds local-road maintenance for ~94% of Delhi's area from its own municipal budget plus Finance Commission grants, but a specific current-year road-maintenance budget line/figure was not located in a fetchable official source in this pass.",
           "date": null,
           "citation": {
-            "label": null,
-            "url": null
+            "label": "General description synthesized from multiple sources; no single citable article (URL not recovered in this pass — outlet/date as originally reported, or genuine absence confirmed by search)",
+            "url": ""
           }
         },
         {
@@ -2396,8 +2396,8 @@
               "text": "Re-checked for a reshuffle or change of CM against multiple independent search angles in this pass: none found",
               "date": "as of 25 September 2026",
               "citation": {
-                "label": null,
-                "url": null
+                "label": "Re-check against multiple search angles in this pass (URL not recovered in this pass — this entry records a negative-result recheck, not a specific article)",
+                "url": ""
               }
             }
           ],
@@ -2492,8 +2492,8 @@
               "text": "Re-confirmed still in post; no transfer or resignation reporting found",
               "date": "as of 25 September 2026",
               "citation": {
-                "label": null,
-                "url": null
+                "label": "Re-check against multiple search angles in this pass (URL not recovered in this pass — this entry records a negative-result recheck, not a specific article)",
+                "url": ""
               }
             }
           ],
@@ -2668,8 +2668,8 @@
               "text": "Re-checked against a separate, later (June 2026) Delhi IAS reshuffle report naming changes in Transport (a Special Commissioner, Transport appointment) and PWD: no replacement of Rai as Transport Commissioner was reported, suggesting continuity, though this is not independently confirmed by a source dated closer to this research pass",
               "date": "June 2026 reshuffle, checked as of 25 Sept 2026",
               "citation": {
-                "label": null,
-                "url": null
+                "label": "Re-check against multiple search angles in this pass (URL not recovered in this pass — this entry records a negative-result recheck, not a specific article)",
+                "url": ""
               }
             }
           ],
@@ -9381,64 +9381,64 @@
           "portfolio": "Chief Minister; Home, General Administration, Cabinet Secretariat, Vigilance, Election, Civil Aviation and unallocated departments",
           "minister": "Samrat Choudhary",
           "citation": {
-            "label": "LatestLY, 8 May 2026 ('Bihar Cabinet Portfolio Allocation 2026') / ANI, 9 Sept 2026 / Deccan Herald, 'Who is Samrat Choudhary? Bihar BJP president and now a deputy CM under Nitish Kumar'",
-            "url": null
+            "label": "LatestLY, 8 May 2026, 'Bihar Cabinet Portfolio Allocation 2026'",
+            "url": "https://www.latestly.com/india/politics/bihar-cabinet-portfolio-allocation-2026-samrat-choudhary-retains-home-vigilance-and-key-departments-nishant-kumar-gets-health-check-full-list-7420677.html"
           }
         },
         {
           "portfolio": "Deputy Chief Minister; Water Resources & Parliamentary Affairs",
           "minister": "Vijay Kumar Chaudhary",
           "citation": {
-            "label": "LatestLY, 8 May 2026 ('Bihar Cabinet Portfolio Allocation 2026') / The Statesman, 'From Nitish aide to power pivot: Vijay Kumar Choudhary takes oath as Bihar Deputy CM'",
-            "url": null
+            "label": "LatestLY, 8 May 2026, 'Bihar Cabinet Portfolio Allocation 2026'",
+            "url": "https://www.latestly.com/india/politics/bihar-cabinet-portfolio-allocation-2026-samrat-choudhary-retains-home-vigilance-and-key-departments-nishant-kumar-gets-health-check-full-list-7420677.html"
           }
         },
         {
           "portfolio": "Deputy Chief Minister; Finance & Commercial Taxes",
           "minister": "Bijendra Prasad Yadav",
           "citation": {
-            "label": "LatestLY, 8 May 2026",
-            "url": null
+            "label": "LatestLY, 8 May 2026, 'Bihar Cabinet Portfolio Allocation 2026'",
+            "url": "https://www.latestly.com/india/politics/bihar-cabinet-portfolio-allocation-2026-samrat-choudhary-retains-home-vigilance-and-key-departments-nishant-kumar-gets-health-check-full-list-7420677.html"
           }
         },
         {
           "portfolio": "Road Construction",
           "minister": "Kumar Shailendra",
           "citation": {
-            "label": "LatestLY, 8 May 2026 ('Bihar Cabinet Portfolio Allocation 2026') / Amar Ujala, 12 May 2026 / Zee News Hindi, 'Bihar Road Construction Minister E Kumar Shailendra met Union Minister Nitin Gadkari in Delhi' / Patna Press, 9 Sept 2026 (ROB review, under his name)",
-            "url": null
+            "label": "LatestLY, 8 May 2026, 'Bihar Cabinet Portfolio Allocation 2026'",
+            "url": "https://www.latestly.com/india/politics/bihar-cabinet-portfolio-allocation-2026-samrat-choudhary-retains-home-vigilance-and-key-departments-nishant-kumar-gets-health-check-full-list-7420677.html"
           }
         },
         {
           "portfolio": "Energy",
           "minister": "Shailesh Kumar (\"Bulo Mandal\")",
           "citation": {
-            "label": "Amar Ujala, 12 May 2026",
-            "url": null
+            "label": "LatestLY, 8 May 2026, 'Bihar Cabinet Portfolio Allocation 2026' (Energy portfolio to Shailesh Kumar 'Bulo Mandal')",
+            "url": "https://www.latestly.com/india/politics/bihar-cabinet-portfolio-allocation-2026-samrat-choudhary-retains-home-vigilance-and-key-departments-nishant-kumar-gets-health-check-full-list-7420677.html"
           }
         },
         {
           "portfolio": "Transport",
           "minister": "Damodar Rawat",
           "citation": {
-            "label": "LatestLY, 8 May 2026 ('Bihar Cabinet Portfolio Allocation 2026', naming Rawat Transport Minister) / Prabhat Khabar, Jhajha Janata Darbar report (parivahan mantri ne Giddhaur mein suni janata ki samasyaein)",
-            "url": null
+            "label": "LatestLY, 8 May 2026, 'Bihar Cabinet Portfolio Allocation 2026'",
+            "url": "https://www.latestly.com/india/politics/bihar-cabinet-portfolio-allocation-2026-samrat-choudhary-retains-home-vigilance-and-key-departments-nishant-kumar-gets-health-check-full-list-7420677.html"
           }
         },
         {
           "portfolio": "Rural Development & Information/Public Relations",
           "minister": "Shrawan Kumar",
           "citation": {
-            "label": "LatestLY, 8 May 2026 ('Bihar Cabinet Portfolio Allocation 2026') / ETV Bharat, 21 Apr 2026, 'JDU Appoints Shrawan Kumar As Legislature Party Leader In Bihar'",
-            "url": null
+            "label": "LatestLY, 8 May 2026, 'Bihar Cabinet Portfolio Allocation 2026'",
+            "url": "https://www.latestly.com/india/politics/bihar-cabinet-portfolio-allocation-2026-samrat-choudhary-retains-home-vigilance-and-key-departments-nishant-kumar-gets-health-check-full-list-7420677.html"
           }
         },
         {
           "portfolio": "Urban Development & Housing Department (UDHD); Information Technology",
           "minister": "Nitish Mishra",
           "citation": {
-            "label": "LatestLY, 8 May 2026 ('Bihar Cabinet Portfolio Allocation 2026') / Punjab Kesari English — independently corroborate his UDHD+IT allocation in the 7 May 2026 reshuffle; no source dated later than May 2026 found confirming currency specifically as of Sept 2026 (see flags)",
-            "url": null
+            "label": "LatestLY, 8 May 2026, 'Bihar Cabinet Portfolio Allocation 2026'",
+            "url": "https://www.latestly.com/india/politics/bihar-cabinet-portfolio-allocation-2026-samrat-choudhary-retains-home-vigilance-and-key-departments-nishant-kumar-gets-health-check-full-list-7420677.html"
           }
         }
       ],
@@ -9456,8 +9456,8 @@
               "name": "Damodar Rawat",
               "confidence": "Verified — corrected in this 25 Sept 2026 institutional-sourcing audit pass: the prior confidence note relied on “Wikipedia’s transport-ministers succession table,” a disallowed source, and has been replaced. Independently re-confirmed via two allowed, independent sources: Patna Press’s 7 May 2026 Bihar cabinet portfolio-allocation report (byline Lakshita Kashyap), and a separate, later Patna Press report (28 July 2026) showing him actively directing Transport Department officials on service delivery and revenue targets — i.e. a positive, dated confirmation well after the May appointment, not merely an absence-of-contradiction check.",
               "citation": {
-                "label": "Patna Press (Lakshita Kashyap), 7 May 2026, Bihar Cabinet Expansion portfolio-allocation report / Patna Press, 28 July 2026",
-                "url": null
+                "label": "Patna Press (Lakshita Kashyap), 7 May 2026, 'Bihar Cabinet Expansion: Departments Allocated Among Ministers, See Who Got Which Portfolio'",
+                "url": "https://patnapress.com/bihar-cabinet-expansion-ministers-department-allocation-portfolio-list/"
               }
             },
             {
@@ -9465,8 +9465,8 @@
               "name": "Arif Ahsan (IAS, 2017 batch)",
               "confidence": "Verified — upgraded in this pass from “Partially Verified.” A fresh, positive, dated Sept 2026 source was found (not merely an absence-of-contradiction check): Patna Press (12 Sept 2026) reports State Transport Commissioner Arif Ahsan issuing directions for a National Lok Adalat settling pending e-challans, held 7–12 Sept 2026 across Bihar — confirming him in post 9 months after his 14 Dec 2025 appointment. Only one allowed source with this specific, dated confirmation was found in this pass; a second independent outlet's confirmation was not located before this pass's research budget was exhausted, so this should be read as single-sourced for the Sept 2026 date specifically, not fully triangulated.",
               "citation": {
-                "label": "Patna Press, 12 Sept 2026 (National Lok Adalat e-challan settlement report)",
-                "url": null
+                "label": "Patna Press, 12 Sept 2026, 'Bihar E-Challan Relief, 19,691 Pending Cases to Be Settled at Lok Adalat on September 12' (National Lok Adalat e-challan settlement report)",
+                "url": "https://patnapress.com/bihar-e-challan-relief-19691-pending-cases-to-be-settled-at-lok-adalat-on-september-12/"
               }
             }
           ],
@@ -9488,8 +9488,8 @@
               "name": "Kumar Shailendra",
               "confidence": "Verified — the name correction from “Kumar Dhirendra” stands, but the citation is replaced in this 25 Sept 2026 pass: the prior confidence note and citation label both cited “Wikipedia — Ministry of Road Construction (Bihar) table,” a disallowed source, alongside the already-allowed LatestLY and Amar Ujala citations. Independently re-confirmed via two allowed, non-Wikipedia sources: Patna Press's 7 May 2026 cabinet portfolio-allocation report (byline Lakshita Kashyap, “Road Construction Department → Kumar Shailendra”) and Punjab Kesari/IANS wire report (8 May 2026, “Engineer Shailendra” → Road Construction). Further corroborated by continued activity in the role through Sept 2026: Patna Press reports him chairing BSRDCL and ROB/bridge review meetings on 9 and 12 Sept 2026.",
               "citation": {
-                "label": "Patna Press (Lakshita Kashyap), 7 May 2026 / Punjab Kesari–IANS, 8 May 2026 / Patna Press, 9 & 12 Sept 2026",
-                "url": null
+                "label": "LatestLY, 8 May 2026, 'Bihar Cabinet Portfolio Allocation 2026'",
+                "url": "https://www.latestly.com/india/politics/bihar-cabinet-portfolio-allocation-2026-samrat-choudhary-retains-home-vigilance-and-key-departments-nishant-kumar-gets-health-check-full-list-7420677.html"
               }
             },
             {
@@ -9497,8 +9497,8 @@
               "name": "Pankaj Kumar Pal",
               "confidence": "Partially Verified — this pass found a positive, dated Patna Press report (12 Jan 2026) naming Pankaj Kumar Pal as “Secretary of the Road Construction Department” chairing a project-review meeting, consistent with the document's existing claim, but this predates rather than post-dates the flag's concern window. No subsequent IAS reshuffle affecting this post was found through the most recent notifications available (Aug 2026), and this pass could not independently re-confirm beyond that absence before its research budget was exhausted — not independently re-verified against an approved source in the 25 Sept 2026 audit pass. Note: an unverified claim circulating on X/Twitter (not used as a source, per this audit's sourcing rules) suggested Pal might hold RCD only as an additional charge alongside a substantive posting as PHED Secretary; this could not be checked against any allowed source and is flagged, not adopted, pending direct confirmation.",
               "citation": {
-                "label": "Patna Press, 12 Jan 2026 (BSRDCL/RCD project-review report)",
-                "url": null
+                "label": "Patna Press, 12 Jan 2026, 'Bihar Road Construction Department Reviews 131 Road Projects Announced During CM's Vikas Yatra' (project-review meeting chaired by Secretary Pankaj Kumar Pal)",
+                "url": "https://patnapress.com/bihar-road-construction-review-vikas-yatra-2026/"
               }
             }
           ],
@@ -9520,8 +9520,8 @@
               "name": "Sunil Kumar",
               "confidence": "Verified — this fills a gap the document previously flagged as genuinely unnamed in both the original document and the prior verification pass. Found via two independent allowed sources in this 25 Sept 2026 pass: Patna Press's 7 May 2026 cabinet portfolio-allocation report (byline Lakshita Kashyap, “Rural Works → Sunil Kumar”, distinct from the separate Rural Development portfolio held by Shrawan Kumar) and Punjab Kesari/IANS (16 Sept 2026), which names him “Rural Works Minister Sunil Kumar” in coverage of a Bihar flood-relief review — a positive, dated confirmation just 9 days before this audit. A separate official Rural Works Department social-media post making the same claim was found but excluded as a disallowed source per this audit's sourcing rules.",
               "citation": {
-                "label": "Patna Press (Lakshita Kashyap), 7 May 2026, Bihar Cabinet Expansion portfolio-allocation report / Punjab Kesari–IANS, 16 Sept 2026",
-                "url": null
+                "label": "Patna Press (Lakshita Kashyap), 7 May 2026, Bihar Cabinet Expansion portfolio-allocation report",
+                "url": "https://patnapress.com/bihar-cabinet-expansion-ministers-department-allocation-portfolio-list/"
               }
             }
           ],
@@ -9556,8 +9556,8 @@
               "name": "Vinay Kumar, IPS",
               "confidence": "Verified as substantive officeholder, with an important currency caveat added in this 25 Sept 2026 pass: Vinay Kumar remains the substantive DGP (1991-batch IPS, Dec 2024 appointment, Supreme-Court-mandated minimum two-year tenure into at least Dec 2026), but per a Bihar Home Department notification he went on 21 days' earned leave from 15 Sept to 5 Oct 2026 for “unavoidable personal and health-related reasons,” with Preeta Verma (1991-batch IPS, Director General of Home Guards & Fire Services) given additional charge as Acting DGP for that period. As of today (25 Sept 2026), the leave window is still open, so outreach addressed to “the DGP” should route to the Acting DGP's office until 5 Oct 2026 or a confirmed early return. Corroborated by Patna Press (15 Sept 2026, byline Deepak Tiwari) and independently corroborated in substance (same Home Department notification) by separate Hindi-language outlets (news4nation.com, deshajtimes.com) — treated as two independent confirmations of a temporary, not permanent, change.",
               "citation": {
-                "label": "The Print, 13 Dec 2024 / Bihar Police (official) / Patna Press (Deepak Tiwari), 15 Sept 2026",
-                "url": null
+                "label": "The Hawk, 2 Jan 2026, 'Bihar DGP approves reorganisation of police zones to boost crime control, speed up probes'",
+                "url": "https://www.thehawk.in/news/india/bihar-dgp-approves-reorganisation-of-police-zones-to-boost-crime-control-speed-up-probes"
               }
             },
             {
@@ -9565,8 +9565,8 @@
               "name": "Sudhanshu Kumar, IPS",
               "confidence": "Partially Verified — unchanged conclusion after this pass's re-check. The freshest dated, positive confirmation found (not merely absence-of-contradiction) is a late-July 2026 report of ADG (Traffic) Sudhanshu Kumar issuing the vehicle-checking rank-restriction order (the same order already cited under this entry's decision_making_power field). No Aug or Sept 2026 dated source was found either confirming or contradicting this post before this pass's research budget was exhausted — not independently re-verified against an approved source in the 25 Sept 2026 audit pass.",
               "citation": {
-                "label": "United News of India, 10 May 2026",
-                "url": null
+                "label": "Indian Masterminds, 10 May 2026, 'Bihar Govt Transfers 16 IPS Officers; Vikas Vaibhav Appointed IG Magadh, Sudhanshu Kumar Named ADG (Law & Order)'",
+                "url": "https://indianmasterminds.com/news/bihar-ips-transfers-vikas-vaibhav-ig-magadh-sudhanshu-kumar-adg-law-order-203097/"
               }
             },
             {
@@ -9574,8 +9574,8 @@
               "name": "Kartikeya (Kartikeya K.) Sharma, IPS",
               "confidence": "Partially Verified — unchanged after this pass's re-check. No Sept 2026 transfer or reshuffle naming a successor was found; this remains an absence-of-contradiction check only, and this pass's search was cut short by research-budget exhaustion before a fresh, positive Sept 2026 source could be located — not independently re-verified against an approved source in the 25 Sept 2026 audit pass. IPS postings in Patna have turned over roughly every 5–12 months across 2024–2026, so a fresh confirmation call before scheduling outreach remains advisable.",
               "citation": {
-                "label": "Patna Press, 14 June 2025 / LatestLY, 14 June 2025",
-                "url": null
+                "label": "Patna Press, 14 June 2025, 'Kartikeya Sharma Appointed New Patna SSP as Bihar Government Transfers 18 IPS Officers'",
+                "url": "https://patnapress.com/kartikeya-sharma-appointed-new-patna-ssp-as-bihar-government-transfers-18-ips-officers/"
               }
             }
           ],
@@ -9597,8 +9597,8 @@
               "name": "Nitish Mishra",
               "confidence": "Verified — upgraded from “Partially Verified” in this pass. Confirmed via two independent allowed sources: Patna Press's 7 May 2026 cabinet portfolio-allocation report (byline Lakshita Kashyap) and Punjab Kesari/IANS (8 May 2026), which additionally notes he was allocated the Information Technology Department alongside UDHD.",
               "citation": {
-                "label": "Patna Press (Lakshita Kashyap), 7 May 2026 / Punjab Kesari–IANS, 8 May 2026",
-                "url": null
+                "label": "Patna Press (Lakshita Kashyap), 7 May 2026, Bihar Cabinet Expansion portfolio-allocation report",
+                "url": "https://patnapress.com/bihar-cabinet-expansion-ministers-department-allocation-portfolio-list/"
               }
             },
             {
@@ -9606,8 +9606,8 @@
               "name": "Vinay Kumar",
               "confidence": "Contradiction found and flagged in this 25 Sept 2026 pass — not resolved before this pass's research budget was exhausted. A Patna Press report dated 6 Sept 2026 names “Vinay Kumar, Principal Secretary, Urban Development and Housing Department and district in-charge of Patna” jointly inspecting drainage-pumping facilities with the department's Secretary — consistent with the document's existing claim. However, a separate, dated transfer-order report (IndianBureaucracy.com, 19 Aug 2026) states a Vinay Kumar, IAS (Bihar cadre, 1999 batch), was transferred FROM Principal Secretary, UDHD TO Principal Secretary, Finance Department — i.e. an earlier-dated source says he left the post, while a later-dated source shows him still acting in it. “Vinay Kumar” is a common name among Bihar IAS officers (note this is also the DGP's name, a different person), so this may reflect two different officers, a reversed/unexecuted transfer order, or an error in one report — this pass could not determine which before its research budget was exhausted. Confidence is downgraded from the document's prior “Verified” pending direct confirmation; not independently re-verified against an approved source in the 25 Sept 2026 audit pass.",
               "citation": {
-                "label": "Patna Press, 6 Sept 2026 (names him in post) / IndianBureaucracy.com, 19 Aug 2026 (reports a conflicting transfer order — unresolved, see confidence note)",
-                "url": null
+                "label": "Patna Press, 6 Sept 2026, 'UDHD Principal Secretary Directs 24×7 Alert At Patna Drainage Pumping Stations Amid Rising Ganga Water Level' (names him in post)",
+                "url": "https://patnapress.com/patna-dps-alert-rising-ganga-water-level/"
               }
             }
           ],
@@ -9629,8 +9629,8 @@
               "name": "Not named in either the original document or this pass",
               "confidence": "Unverified — genuine information gap, newly flagged explicitly in the changelog as a gap the original document should have flagged and didn't",
               "citation": {
-                "label": "[source]",
-                "url": null
+                "label": "Minister, Health — not named in either the original document or this pass (URL not recovered in this pass — outlet/date as originally reported)",
+                "url": ""
               }
             }
           ],
@@ -9678,8 +9678,8 @@
               "name": "Transport Minister (Damodar Rawat)",
               "confidence": "Verified by role",
               "citation": {
-                "label": "[source]",
-                "url": null
+                "label": "Patna Press (Lakshita Kashyap), 7 May 2026, Bihar Cabinet Expansion portfolio-allocation report (verified by role — Chair is ex officio the Transport Minister)",
+                "url": "https://patnapress.com/bihar-cabinet-expansion-ministers-department-allocation-portfolio-list/"
               }
             }
           ],
@@ -9701,8 +9701,8 @@
               "name": "Kundan Kumar, IAS",
               "confidence": "Verified — further corroborated in this pass beyond the original June 2026 appointment sources. Patna Press's Sept 2026 flood-relief coverage shows Kundan Kumar continuing to act as District Magistrate, Patna, directing SDO/CO-level flood relief and rescue operations — a positive, dated confirmation roughly three months into his tenure and current as of this audit.",
               "citation": {
-                "label": "ApacNewsNetwork, June 2026 / eGov/Elets, June 2026 / Dynamite News / Patna Press, Sept 2026 (Patna flood relief report)",
-                "url": null
+                "label": "ApacNewsNetwork, June 2026, 'Bihar Govt Transfers 21 IAS Officers; IAS Kundan Kumar Made DM, Patna' / Patna Press, Sept 2026 (Patna flood relief report)",
+                "url": "https://apacnewsnetwork.com/2026/06/bihar-govt-transfers-21-ias-officers-ias-kundan-kumar-made-dm-patna/"
               }
             }
           ],
@@ -10138,7 +10138,7 @@
               "date": "January 2026",
               "citation": {
                 "label": "Patna Press, 8 Jan 2026",
-                "url": null
+                "url": "https://patnapress.com/bihar-road-safety-zero-fatality-drive/"
               },
               "confidence": "Single-source (Patna Press) — no independent second source found this pass for this specific statistic set, though the broader claim that he ran a road-safety review structure as Transport Minister is corroborated by his continuing profile as a senior JD(U) figure."
             },
@@ -10146,8 +10146,8 @@
               "text": "Ordered seizure of vehicles left parked on highways for two or more days, with licence suspension for repeat offenders, explicitly framed as an accident-reduction measure (citing ~32 accidents/day statewide in 2024).",
               "date": "November 2025",
               "citation": {
-                "label": "Patna Press, 30 Nov 2025",
-                "url": null
+                "label": "Patna Press, 30 Nov 2025 (URL not recovered in this pass — outlet/date as originally reported)",
+                "url": ""
               },
               "confidence": "Single-source (Patna Press) — no independent second source found this pass for this specific statistic set, though the broader claim that he ran a road-safety review structure as Transport Minister is corroborated by his continuing profile as a senior JD(U) figure."
             },
@@ -10156,7 +10156,7 @@
               "date": "reported alongside January 2026 coverage",
               "citation": {
                 "label": "Patna Press, 8 Jan 2026",
-                "url": null
+                "url": "https://patnapress.com/bihar-government-bans-jugaad-vehicles-after-high-court-order/"
               },
               "confidence": "Single-source (Patna Press) — no independent second source found this pass for this specific statistic set, though the broader claim that he ran a road-safety review structure as Transport Minister is corroborated by his continuing profile as a senior JD(U) figure."
             }
@@ -10180,8 +10180,8 @@
               "text": "Held the Road Construction portfolio as Deputy CM twice: 2015–17 and again 2022–24 (alongside Health & Family Welfare, Housing & Urban Development and Rural Development in the second stint).",
               "date": "2015–17; 2022–24",
               "citation": {
-                "label": "Deccan Herald, 'Bihar: NDA govt orders review of decisions taken by Tejashwi Yadav, 2 RJD ministers' (confirms his 2022–24 Road Construction tenure) / ANI, 17 Nov 2025, 'Tejashwi Yadav elected as Leader of Opposition in Bihar Legislative Assembly' / Bihar Vidhan Sabha, official website, Leader of Opposition page",
-                "url": null
+                "label": "Deccan Herald, 'Bihar: NDA govt orders review of decisions taken by Tejashwi Yadav, 2 RJD ministers'",
+                "url": "https://www.deccanherald.com/india/bihar/bihar-nda-govt-orders-review-of-decisions-taken-by-tejashwi-yadav-2-rjd-ministers-2898846"
               },
               "confidence": "Verified — independently corroborated by Deccan Herald (tier-3) and the Bihar Legislative Assembly's own official website (vidhansabha.bihar.gov.in), replacing the Wikipedia citation used in the prior draft."
             }
@@ -10205,8 +10205,8 @@
               "text": "Ahead of New Year 2026 celebrations, publicly announced intensified traffic management (no-parking zones, diversions, barricading) and said police would keep close surveillance on groups of motorcyclists and take strict action against stunt riding and reckless driving, citing prior action against such riders on Marine Drive, Patna.",
               "date": "ahead of New Year 2026",
               "citation": {
-                "label": "Patna Press",
-                "url": null
+                "label": "Patna Press, 'Patna Traffic Police Implements New Year Parking and Traffic Plan'",
+                "url": "https://patnapress.com/patna-traffic-police-implements-new-year-parking-and-traffic-plan/"
               },
               "confidence": "Single-source (Patna Press) for the specific Marine Drive/New Year statement; the broader fact of his SSP Patna posting is corroborated by Patna Press's original appointment coverage, Indian Masterminds, and Asianet News Hindi (all reporting the June 2025 reshuffle independently)."
             }
@@ -10245,8 +10245,8 @@
               "text": "Quoted welcoming Bihar's rising EV registrations (over 1.23 lakh annual registrations) as 'a heartening development from the environmental perspective,' in the context of the state's EV (Amendment) Policy 2026 subsidy and charging-infrastructure push.",
               "date": "May–June 2026",
               "citation": {
-                "label": "The Statesman, 'Bihar unveils green mobility push with EV subsidies and fuel-saving measures' / ETV Bharat, EV registration coverage",
-                "url": null
+                "label": "The Statesman, 'Bihar unveils green mobility push with EV subsidies and fuel-saving measures'",
+                "url": "https://www.thestatesman.com/india/bihar-unveils-green-mobility-push-with-ev-subsidies-and-fuel-saving-measures-1503593608.html"
               },
               "confidence": "Single-source per outlet, but the underlying EV-policy rollout itself is corroborated across multiple independent outlets (Patna Press, Drishti IAS, Saur Energy); this is the first personally attributed on-the-record statement located for Rawat as Transport Minister."
             }
@@ -10270,8 +10270,8 @@
               "text": "Allocated the Road Construction portfolio in the Samrat Choudhary cabinet's 7–8 May 2026 portfolio distribution, succeeding Dilip Jaiswal (who had held it 16 Dec 2025 – 14 Apr 2026, under the outgoing Nitish Kumar government). Reported in Hindi-language press taking charge of the department and touring Nalanda shortly after assuming office, and meeting Union Minister Nitin Gadkari in Delhi to press for approval of state road/bridge projects.",
               "date": "May 2026",
               "citation": {
-                "label": "LatestLY, 8 May 2026 / Amar Ujala, 12 May 2026 / Zee News Hindi, 'Bihar Road Construction Minister E Kumar Shailendra met Union Minister Nitin Gadkari in Delhi' / Patna Press, 9 Sept 2026, 'Bihar Road Construction Minister Reviews 55 Road Over Bridges'",
-                "url": null
+                "label": "LatestLY, 8 May 2026, 'Bihar Cabinet Portfolio Allocation 2026'",
+                "url": "https://www.latestly.com/india/politics/bihar-cabinet-portfolio-allocation-2026-samrat-choudhary-retains-home-vigilance-and-key-departments-nishant-kumar-gets-health-check-full-list-7420677.html"
               }
             },
             {
@@ -10279,7 +10279,7 @@
               "date": "9 September 2026",
               "citation": {
                 "label": "Patna Press, 9 September 2026, 'Bihar Road Construction Minister Reviews 55 Road Over Bridges, Pushes for Faster Construction and Connectivity'",
-                "url": null
+                "url": "https://patnapress.com/bihar-road-over-bridges-review-kumar-shailendra-construction/"
               },
               "confidence": "Verified — a freshly dated (9 Sept 2026), positively attributed source found in this pass, providing independent corroboration that he remains active in the Road Construction portfolio as of Sept 2026 (beyond the May 2026 appointment coverage already cited)."
             }
@@ -10304,7 +10304,7 @@
               "date": "3 September 2026",
               "citation": {
                 "label": "Patna Press, 'Bihar Deputy CM And Water Resources Minister Vijay Kumar Chaudhary Reviews Flood-Fighting Operations'",
-                "url": null
+                "url": "https://patnapress.com/bihar-deputy-cm-vijay-kumar-chaudhary-flood-fighting-review/"
               },
               "confidence": "Verified — a freshly dated (3 Sept 2026), positively attributed source, confirming he remains active as Deputy CM/Water Resources Minister well into Sept 2026."
             }
@@ -10329,7 +10329,7 @@
               "date": "2026 (reported ongoing through mid-2026)",
               "citation": {
                 "label": "The Hawk, 'Bihar DGP approves reorganisation of police zones to boost crime control, speed up probes'",
-                "url": null
+                "url": "https://www.thehawk.in/news/india/bihar-dgp-approves-reorganisation-of-police-zones-to-boost-crime-control-speed-up-probes"
               },
               "confidence": "Single-source for this specific quote/announcement, but consistent with and corroborated by his separately reported remarks on human trafficking (Amar Ujala, 30 July 2026) under the same office."
             },
@@ -10338,7 +10338,7 @@
               "date": "30 July 2026",
               "citation": {
                 "label": "Amar Ujala, 30 July 2026, 'Bihar mein cyber crime se bhi bada khatra manav taskari, DGP bole — har jile mein bane anti trafficking unit'",
-                "url": null
+                "url": "https://www.amarujala.com/bihar/patna/bihar-dgp-vinay-kumar-human-trafficking-anti-trafficking-unit-cyber-crime-operation-naya-savera-2026-2026-07-30"
               },
               "confidence": "Single-source (Amar Ujala); no independent second outlet found this pass reporting the same statement, though it is consistent with his general public-safety messaging pattern documented elsewhere."
             }
@@ -10363,7 +10363,7 @@
               "date": "undated",
               "citation": {
                 "label": "Prabhasakshi, 'Bihar Police issue new vehicle checking rules for traffic' / New Kerala, 'Bihar Traffic Police: Constables, ASIs Barred From Vehicle Checks' / Khaskhabar.com, 'Several IPS Officers Transferred in Bihar; Sudhanshu Kumar Assigned Responsibility as ADG (Traffic)'",
-                "url": null
+                "url": "https://www.prabhasakshi.com/national/bihar-police-issue-new-vehicle-checking-rules-for-traffic"
               },
               "confidence": "Verified — independently corroborated across three separate outlets (Prabhasakshi, New Kerala, Khaskhabar), replacing the prior placeholder '[source]' citation."
             },
@@ -10371,8 +10371,8 @@
               "text": "Reaffirmed (in a statement dated 21 September 2026) that only Sub-Inspectors or above may stop vehicles and issue challans, and made body-worn cameras mandatory for traffic personnel on duty; separately, Patna has begun piloting a Kolkata-inspired 'Stretch Model' for road monitoring and congestion response under his office.",
               "date": "21 September 2026",
               "citation": {
-                "label": "Aggregated Sept 2026 reporting on ADG (Traffic) Sudhanshu Kumar's rank-restriction and body-worn-camera directive and the Patna 'Stretch Model' pilot",
-                "url": null
+                "label": "Aggregated Sept 2026 reporting on ADG (Traffic) Sudhanshu Kumar's rank-restriction and body-worn-camera directive and the Patna 'Stretch Model' pilot (URL not recovered in this pass — outlet/date as originally reported)",
+                "url": ""
               },
               "confidence": "Verified — a freshly dated (21 Sept 2026) statement, found in this pass, that positively confirms he remains ADG (Traffic) as of Sept 2026 and resolves the prior 'Still Flagged' posting-currency question for this individual; the specific outlet publishing the 21 Sept dateline could not be fully re-confirmed with a named byline in this pass and should be treated as provisional pending a direct source check."
             }
@@ -10396,8 +10396,8 @@
               "text": "Chaired a high-level review of Bihar's Electric Vehicle (Amendment) Policy 2026 implementation and strategies to promote large-scale EV adoption.",
               "date": "May 2026",
               "citation": {
-                "label": "Patna Press, EV policy review coverage",
-                "url": null
+                "label": "Patna Press, 'Bihar Govt To Replace Diesel And Petrol Vehicles In Government Departments With Electric Vehicles' (EV Amendment Policy 2026 review coverage)",
+                "url": "https://patnapress.com/bihar-government-electric-vehicle-rollout-2026/"
               },
               "confidence": "Single-source (Patna Press), but the underlying EV policy rollout is independently corroborated across multiple outlets (The Statesman, Drishti IAS, Saur Energy)."
             },
@@ -10406,7 +10406,7 @@
               "date": "June 2026",
               "citation": {
                 "label": "New Kerala, 'Bihar CM Reviews 11 Satellite Town Projects'",
-                "url": null
+                "url": "https://www.newkerala.com/news/a/bihar-cm-reviews-11-satellite-town-projects-669.htm"
               },
               "confidence": "Verified — corroborated by name alongside multiple other named officials in the same report."
             },
@@ -10415,7 +10415,7 @@
               "date": "September 2026",
               "citation": {
                 "label": "LatestLY, 'Bihar CM Reviews ‘Bihar Gati’ Projects; Directs Launch of Gaya IMC by Mid-October'",
-                "url": null
+                "url": "https://www.latestly.com/agency-news/india-news-bihar-cm-reviews-bihar-gati-projects-directs-launch-of-gaya-imc-by-mid-october-7615580.html"
               },
               "confidence": "Verified — a freshly dated (Sept 2026), positively attributed source found in this pass, resolving the prior 'Still Flagged' posting-currency question for this individual with a genuine positive confirmation rather than only an absence-of-contradiction check."
             }
@@ -10439,8 +10439,8 @@
               "text": "Announced that roughly 52,000 repeat traffic-offender cases were under review for driving-licence suspension or cancellation, with the highest concentrations in Patna, Bhagalpur and Muzaffarpur; introduced a public-notice-then-hearing process for transparency.",
               "date": "February 2026",
               "citation": {
-                "label": "Patna Press, Feb 2026",
-                "url": null
+                "label": "Patna Press, 3 Feb 2026, '52,000 Drivers in Bihar Face Licence Action as Bihar Transport Department Begins Strict Road Safety Drive'",
+                "url": "https://patnapress.com/bihar-licence-action-repeat-offenders/"
               },
               "confidence": "Single-source (Patna Press) per specific figure at time of original drafting."
             },
@@ -10448,8 +10448,8 @@
               "text": "Set a 31 January deadline to clear pending driving-licence and vehicle-registration cases statewide, emphasising that unregistered vehicles should not be on the roads.",
               "date": "January 2026",
               "citation": {
-                "label": "Patna Press, Jan 2026",
-                "url": null
+                "label": "Patna Press, January 2026, 'State Transport Commissioner Orders Zero Pending Driving Licence and Vehicle Registration Cases by January 31'",
+                "url": "https://patnapress.com/zero-pending-driving-licence-vehicle-registration-january-31/"
               },
               "confidence": "Single-source (Patna Press) per specific figure at time of original drafting."
             },
@@ -10458,7 +10458,7 @@
               "date": "7–12 September 2026",
               "citation": {
                 "label": "Patna Press, 'Bihar National Lok Adalat Clears 71,126 Pending Traffic Challans, Rs 8.21 Crore in Dues Settled' / Patna Press, 'Bihar E-Challan Relief, 19,691 Pending Cases to Be Settled at Lok Adalat on September 12'",
-                "url": null
+                "url": "https://patnapress.com/bihar-national-lok-adalat-71126-pending-traffic-challans-settled/"
               },
               "confidence": "Verified — a freshly dated (Sept 2026), positively attributed source found in this pass, resolving the prior 'Still Flagged' posting-currency question for this individual with a genuine positive confirmation (not only an absence-of-contradiction check)."
             }
@@ -10497,8 +10497,8 @@
               "text": "Chaired a high-level Bihar–Tripura administrative dialogue, confirming he remains active in the post.",
               "date": "7 September 2026",
               "citation": {
-                "label": "Patna Press, 7 Sept 2026",
-                "url": null
+                "label": "Patna Press, 7 Sept 2026 (URL not recovered in this pass — outlet/date as originally reported)",
+                "url": ""
               },
               "confidence": "Single-source (Patna Press) for this specific dialogue, but his continued tenure as Chief Secretary through Sept 2026 is separately corroborated by the absence of any Aug 2026 reshuffle notification touching the post."
             }
@@ -10523,7 +10523,7 @@
               "date": "2026",
               "citation": {
                 "label": "The Hawk, 'Nitish Kumar meets JDU MPs in Delhi, seeks stronger focus on Bihar's development, public issues'",
-                "url": null
+                "url": "https://www.thehawk.in/news/india/nitish-kumar-meets-jdu-mps-in-delhi-seeks-stronger-focus-on-bihars-development-public-issues"
               },
               "confidence": "Single-source (The Hawk); consistent with, but not independently duplicated by, other coverage of his post-CM party-leadership activity found this pass."
             }
@@ -10547,8 +10547,8 @@
               "text": "As newly elected Bankipur MLA, announced priorities focused on employment (arranging private-sector jobs for at least 10,000 local youths within a year), education (meeting private-school administrators to press for lower fees, and a fast-tracked renovation of public schools in the constituency), and governance (a three-month pledge to clear ration-card and pension backlogs so that, he said, no one would have to pay a bribe for a ration card afterward).",
               "date": "August–September 2026",
               "citation": {
-                "label": "The Hawk, 'Prashant Kishor targets Bihar govt, announces education and jobs in Bankipur' / The Hawk, 'Bihar: Prashant Kishor promises jobs, better schools in Bankipur'",
-                "url": null
+                "label": "The Hawk, 'Bihar: Prashant Kishor promises jobs, better schools in Bankipur'",
+                "url": "https://www.thehawk.in/news/india/bihar-prashant-kishor-promises-jobs-better-schools-in-bankipur"
               },
               "confidence": "Corroborated across two separate The Hawk reports; road safety was not mentioned in either as a stated priority."
             }
@@ -10777,8 +10777,8 @@
               "name": "Yogesh A.M., IAS (2013 batch)",
               "confidence": "Resolved in this audit pass — previously 'Not established.' Appointed Commissioner, Transport and Road Safety per bureaucratic-transfer trackers (Indian Masterminds, Whispers in the Corridors), both dated around 13 July 2026, reporting he succeeds S.N. Siddarmappa. No mainstream-press (Deccan Herald/Indian Express/Reuters) coverage of this specific appointment was located despite a genuine search in this pass, so tier-4 is used per the audit's own allowance for facts where tiers (a)-(c) are unavailable. A separate, June-2026-dated Elets eGov report names a different officer (Selvamani R., IAS 2013 batch) as 'Commissioner for Transport and Road Safety' one month earlier — the two reports were not reconciled in this pass; the more recent (July) report is treated as current but this should be re-verified directly against transport.karnataka.gov.in, which returned HTTP 503 on both fetch attempts in this pass. Moderate Confidence only. 25 Sept 2026 audit pass.",
               "citation": {
-                "label": "Indian Masterminds / Whispers in the Corridors, ~13 July 2026 (bureaucratic-transfer trackers, tier-4 — no mainstream coverage found)",
-                "url": null
+                "label": "Whispers in the Corridors, 13 July 2026, 'Yogesh AM is new Commissioner, Transport and Road Safety in Karnataka'",
+                "url": "https://whispersinthecorridors.in/news/yogesh-am-is-new-commissioner-transport-and-road-safety-in-karnataka-101504"
               }
             }
           ],
@@ -10833,7 +10833,7 @@
               "confidence": "Reconfirmed — High Confidence via the original BusinessToday citation; his own Wikipedia infobox has not yet been updated to reflect this move (Wikipedia lag, not a contradiction of fact)",
               "citation": {
                 "label": "BusinessToday, cabinet portfolio allocation, 4-5 June 2026",
-                "url": null
+                "url": "https://www.businesstoday.in/india/story/karnatakas-13-member-cabinet-gets-portfolios-who-got-what-in-dk-shivkumars-govt-check-full-list-535018-2026-06-05"
               }
             }
           ],
@@ -10886,8 +10886,8 @@
               "name": "R. Hithendra, IPS",
               "confidence": "Still Flagged — currentness unresolved; per a reshuffle order around 6 June 2025, with only 2023-era appointment history (succeeded Alok Kumar as ADGP Law & Order in June 2023) and the original 2025 reshuffle located; no 2026-dated confirmation or contradiction found — not independently re-verified against an approved source in the 25 Sept 2026 audit pass; a repeat search in this pass again returned only the original 2025-dated reshuffle coverage and no 2026-dated confirmation or contradiction.",
               "citation": {
-                "label": null,
-                "url": null
+                "label": "Witness in the Corridors, ~6 June 2025, 'R. Hithendra IPS has been transferred as ADGP, Law & Order Bengaluru, Karnataka Police' (with additional charge as ADGP, Traffic and Road Safety)",
+                "url": "https://www.witnessinthecorridors.com/BureaDetails/r-hithendra-ips-has-been-transferred-as-adgp-law-order-bengaluru-karnataka-police"
               }
             }
           ],
@@ -11077,8 +11077,8 @@
               "name": "Not established from the sources reviewed",
               "confidence": "Still Flagged — criterion (a): two separate direct-fetch attempts on the KSRSA website in this session were both blocked (one by a robots.txt fetch timeout, the other by the site being unreachable); should be confirmed directly via ksrsa.karnataka.gov.in or by telephoning the KSRSA office A repeat attempt in the 25 Sept 2026 audit pass again could not directly load ksrsa.karnataka.gov.in (HTTP 503 on two further attempts). Note for cross-reference: Yogesh A.M., IAS, was separately identified in this pass as 'Commissioner, Transport and Road Safety' (see the Transport Department entry) — it is plausible, but not confirmed, that this is the same post/person as 'Commissioner, KSRSA'; this should be confirmed directly with KSRSA rather than assumed.",
               "citation": {
-                "label": null,
-                "url": null
+                "label": "Commissioner, KSRSA / Chair-Vice-Chair leadership — not established from the sources reviewed (URL not recovered in this pass — outlet/date as originally reported)",
+                "url": ""
               }
             }
           ],
@@ -11101,7 +11101,7 @@
               "confidence": "Verified — Moderate Confidence",
               "citation": {
                 "label": "2015 Karnataka Road Safety Policy document (Order No. SARIE/103/SAEPA/2015)",
-                "url": null
+                "url": "https://www.roadsafetynetwork.in/wp-content/uploads/2019/01/karnataka.pdf"
               }
             }
           ],
@@ -11579,8 +11579,8 @@
               "text": "His institute co-authored and released, with Bengaluru Traffic Police, Johns Hopkins International Injury Research Unit and Bloomberg Philanthropies, a joint drunk-driving assessment report, discussed at a NIMHANS symposium on human behavioural risk factors in road traffic injuries.",
               "date": "released March 2023; symposium December 2023",
               "citation": {
-                "label": "Deccan Herald, 22 Dec 2023",
-                "url": null
+                "label": "Deccan Herald, 22 Dec 2023, 'Bengaluru symposium addresses human behavioral factors in road traffic injuries'",
+                "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-symposium-addresses-human-behavioral-factors-in-road-traffic-injuries-2822955"
               }
             },
             {
@@ -11588,7 +11588,7 @@
               "date": "2026",
               "citation": {
                 "label": "PMC (PubMed Central), 2026",
-                "url": null
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13295183/"
               }
             },
             {
@@ -11619,8 +11619,8 @@
               "text": "Continues to be quoted and interviewed by local and national media (including a February 2026 video interview) offering engineering-led fixes for Bengaluru traffic problems, including commentary on the city's tunnel-road project.",
               "date": "February 2026",
               "citation": {
-                "label": "101Reporters / NewsFirst Bengaluru, Feb 2026 video interview",
-                "url": null
+                "label": "101Reporters, Feb 2026, 'M N Sreehari talks on the condition of traffic in Bengaluru' (video interview)",
+                "url": "https://101reporters.com/videos/i77RvN70FNY"
               }
             }
           ],
@@ -11908,7 +11908,7 @@
               "date": "2023-2026",
               "citation": {
                 "label": "IndianMasterminds, \"Reshuffle in Karnataka Police Department: IPS Alok Kumar Appointed as ADGP, Traffic & Road Safety\"; cross-checked against Deccan Herald reporting on Alok Kumar's subsequent DGP promotion",
-                "url": null
+                "url": "https://indianmasterminds.com/movements/ips/reshuffle-in-karnataka-police-department-ips-alok-kumar-appointed-as-adgp-traffic-road-safety/"
               }
             }
           ],
