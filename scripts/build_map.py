@@ -20,6 +20,7 @@ PILOT_NAME_TO_ID = {
     "Bihar": "bihar",
     "Karnataka": "karnataka",
     "Jharkhand": "jharkhand",
+    "Rajasthan": "rajasthan",
 }
 
 with open(SRC) as f:

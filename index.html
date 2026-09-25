@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="CrashFree India state outreach dashboard: governance structure, key contacts, and sources for road-safety institutions across 12 pilot states/UTs.">
+<meta name="description" content="CrashFree India state outreach dashboard: governance structure, key contacts, and sources for road-safety institutions across 13 pilot states/UTs.">
 <style>html{box-sizing:border-box;}body{margin:0;}[hidden]{display:none!important;}</style>
 <title>CFI State Outreach Dashboard</title>
 <style>
@@ -480,12 +480,12 @@
 <body>
 <header class="app-header">
   <div class="brand"><span class="logo-dot"></span> CrashFree India — State Outreach Dashboard</div>
-  <span class="pilot-badge">12-STATE PILOT · NOT NATIONAL COVERAGE</span>
+  <span class="pilot-badge">13-STATE PILOT · NOT NATIONAL COVERAGE</span>
   <div class="header-spacer"></div>
   <button class="info-btn" id="sourcing-info-btn" type="button">ℹ Sourcing &amp; flags</button>
   <div class="header-search" id="header-search-wrap">
     <span>🔎</span>
-    <input id="global-search" type="text" placeholder="Search all 12 states — states, departments, posts (e.g. &quot;Transport Commissioner&quot;), people…" autocomplete="off">
+    <input id="global-search" type="text" placeholder="Search all 13 states — states, departments, posts (e.g. &quot;Transport Commissioner&quot;), people…" autocomplete="off">
     <div class="search-results" id="search-results"></div>
   </div>
 </header>
@@ -493,9 +493,9 @@
 <div class="app-body">
   <div class="panel nav-col">
     <h2>Select a pilot state / UT</h2>
-    <div class="pilot-note">This dashboard covers <strong>12 pilot states/UTs only</strong>. It is not a national map — states outside this pilot are intentionally absent.</div>
+    <div class="pilot-note">This dashboard covers <strong>13 pilot states/UTs only</strong>. It is not a national map — states outside this pilot are intentionally absent.</div>
 
-    <input class="state-search" id="state-search-input" type="text" placeholder="Search the 12 pilot states…">
+    <input class="state-search" id="state-search-input" type="text" placeholder="Search the 13 pilot states…">
     <div class="state-list" id="state-list"></div>
 
     <div class="map-wrap" id="map-wrap"></div>
@@ -507,7 +507,7 @@
   <div class="panel main-col" id="main-col">
     <div class="empty-state">
       <div class="big">🗺️</div>
-      <div>Select one of the 12 pilot states to view its governance structure and key people.</div>
+      <div>Select one of the 13 pilot states to view its governance structure and key people.</div>
     </div>
   </div>
 </div>
@@ -708,7 +708,7 @@
     if(opts.openPersonIdx!==undefined) requestAnimationFrame(()=> openPersonDetail(stateId, opts.openPersonIdx));
   }
 
-  // ============ Stage 7: global search across all 12 states ============
+  // ============ Stage 7: global search across all 13 states ============
   const SEARCH_INDEX = [];
   states.forEach(st=>{
     SEARCH_INDEX.push({type:'state', label: st.state_name, sub: `${st.governance_bodies.length} bodies · ${st.key_individuals.length} people`, state_id: st.state_id});
@@ -744,7 +744,7 @@
     const resultsEl = document.getElementById('search-results');
     if(matches===null){ resultsEl.classList.remove('open'); resultsEl.innerHTML=''; return; }
     if(!matches.length){
-      resultsEl.innerHTML = `<div class="sr-empty">No matches across the 12 pilot states for that search.</div>`;
+      resultsEl.innerHTML = `<div class="sr-empty">No matches across the 13 pilot states for that search.</div>`;
       resultsEl.classList.add('open');
       return;
     }
@@ -789,7 +789,7 @@
 
   function renderMain(){
     if(!activeState){
-      mainCol.innerHTML = `<div class="empty-state"><div class="big">🗺️</div><div>Select one of the 12 pilot states to view its governance structure and key people.</div></div>`;
+      mainCol.innerHTML = `<div class="empty-state"><div class="big">🗺️</div><div>Select one of the 13 pilot states to view its governance structure and key people.</div></div>`;
       return;
     }
     const st = DATA.states[activeState];
@@ -960,6 +960,7 @@
         <p>${esc(p.road_safety_relevance) || '<span class="subtle-note">Not established from the sources reviewed.</span>'}</p>
       </div>
       ${p.influence ? `<div class="detail-section"><h4>Influence</h4><p>${esc(p.influence)}</p></div>` : ''}
+      ${p.priorities_and_interests ? `<div class="detail-section"><h4>Priorities &amp; interests</h4><p>${esc(p.priorities_and_interests)}</p></div>` : ''}
       ${p.value_to_crashfree ? `<div class="detail-section"><h4>Value to CrashFree India</h4><p>${esc(p.value_to_crashfree)}</p></div>` : ''}
       ${p.suggested_approach ? `<div class="detail-section"><h4>Suggested approach</h4><p>${esc(p.suggested_approach)}</p></div>` : ''}
       ${p.priority ? `<div class="detail-section"><h4>Priority</h4><p>${esc(p.priority)}</p></div>` : ''}
@@ -1438,7 +1439,7 @@
       if(data && data.status==='requested'){ statusText = `Requested ${fmtWhen(data.requestedAt)||''} — in progress.`; disabled='disabled'; }
       else if(data && data.status==='done'){ statusText = `Last full check: ${fmtWhen(data.lastCheckedAt)||''}.`; }
       row.innerHTML = `
-        <button type="button" id="uc-check-all-btn" ${disabled}>🔄 Check all 12 states</button>
+        <button type="button" id="uc-check-all-btn" ${disabled}>🔄 Check all 13 states</button>
         <span class="gcr-status">${esc(statusText)}</span>
       `;
       const btn = document.getElementById('uc-check-all-btn');
@@ -1493,15 +1494,15 @@
   function buildLeadingTurn(question){
     const relevant = detectRelevantStates(question);
     const allNames = states.map(s=>s.state_name).join(', ');
-    let text = `You are answering questions inside CrashFree India's internal 12-state pilot road-safety governance dashboard. `
-      + `This dataset covers EXACTLY these 12 pilot states/UTs and nothing else: ${allNames}. `
-      + `Answer using ONLY the dashboard data given below in this message. Do not use general/world knowledge, even if you know the real-world answer — if the data below doesn't cover what's asked (including any state outside these 12, or any fact/field not present below), say plainly that the dashboard doesn't cover it, rather than guessing. `
+    let text = `You are answering questions inside CrashFree India's internal 13-state pilot road-safety governance dashboard. `
+      + `This dataset covers EXACTLY these 13 pilot states/UTs and nothing else: ${allNames}. `
+      + `Answer using ONLY the dashboard data given below in this message. Do not use general/world knowledge, even if you know the real-world answer — if the data below doesn't cover what's asked (including any state outside these 13, or any fact/field not present below), say plainly that the dashboard doesn't cover it, rather than guessing. `
       + `When you do answer, name the specific body/post/person it comes from so the user can find it in the dashboard, and mention if the fact is flagged as unverified/stale in the data. Be concise — a few sentences, or a short comparison list only when the question asks to compare states.\n\n`;
     if(relevant.length){
       text += `DASHBOARD DATA (${relevant.length} state${relevant.length>1?'s':''} matched to this question):\n\n`;
       text += relevant.map(sid=>buildStateContext(DATA.states[sid])).join('\n\n');
     } else {
-      text += `No specific state was matched to this question. Only these 12 states are covered: ${allNames}. If the question isn't about the dashboard's own states/structure, say the dashboard doesn't cover it.`;
+      text += `No specific state was matched to this question. Only these 13 states are covered: ${allNames}. If the question isn't about the dashboard's own states/structure, say the dashboard doesn't cover it.`;
     }
     return { text, relevant };
   }

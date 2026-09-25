@@ -1,8 +1,9 @@
 # CFI State Outreach Dashboard
 
 An internal outreach tool for **CrashFree India (CFI)** covering road-safety governance
-and key contacts across a **12-state pilot** (Tamil Nadu, Delhi, Madhya Pradesh, Assam,
-Haryana, Telangana, Maharashtra, Gujarat, Uttar Pradesh, Bihar, Karnataka, Jharkhand).
+and key contacts across a **13-state pilot** (Tamil Nadu, Delhi, Madhya Pradesh, Assam,
+Haryana, Telangana, Maharashtra, Gujarat, Uttar Pradesh, Bihar, Karnataka, Jharkhand,
+Rajasthan).
 It is a single static page — no build step, no server — that reads its data from two
 JSON files sitting next to it.
 
@@ -21,7 +22,7 @@ It also works as-is on **GitHub Pages** (Settings → Pages → deploy from the 
 ## What's in it
 
 - **State selector** — a real-boundary map (simplified for display) plus a searchable
-  list, limited to the 12 pilot states/UTs.
+  list, limited to the 13 pilot states/UTs.
 - **Governance Structure** tab, two views built on the same data:
   - *By Problem Area* — policy, enforcement, engineering, emergency response, data &
     monitoring, education, funding.
@@ -62,7 +63,7 @@ everywhere.
 ## Data pipeline
 
 ```
-data/source/all-states-consolidated.json   (12-state research dataset, as supplied)
+data/source/all-states-consolidated.json   (13-state research dataset, as supplied)
         │
         ├── scripts/prep.py  ──────────────►  data.json
         │     classifies each governance body into problem areas, derives
