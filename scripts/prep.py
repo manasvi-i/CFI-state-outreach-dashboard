@@ -283,6 +283,23 @@ for sid, st in raw["states"].items():
             })
         # find flags whose linked_body_ids include this body
         own_flags = [i for i, fl in enumerate(flags_out) if gb["id"] in fl["linked_body_ids"]]
+        # The source data ties a citation to each *key position*, not to each prose field
+        # (mandate/hierarchy/decision_making_power/etc.) — there is no sentence-level
+        # citation for those. Rather than show "no citation on file" for every governance
+        # body's mandate and reporting-line text, derive an honest body-level source list
+        # from the same citations already verified for that body's key positions (the
+        # department pages, notifications, and press coverage the research actually used).
+        # index.html labels this explicitly as "sources used to verify this body's key
+        # positions," not a claim that a specific sentence traces to a specific link.
+        seen_urls = set()
+        derived_citations = []
+        for kp in gb.get("key_positions", []):
+            c = kp.get("citation")
+            if c and (c.get("url") or c.get("label")):
+                key = c.get("url") or c.get("label")
+                if key not in seen_urls:
+                    seen_urls.add(key)
+                    derived_citations.append(c)
         gbs_out.append({
             **gb,
             "key_positions": kp_out,
@@ -291,6 +308,7 @@ for sid, st in raw["states"].items():
             "hierarchy_chain": parse_hierarchy_chain(gb.get("hierarchy", "")),
             "flag_indices": own_flags,
             "has_post_level_detail": len(kp_out) > 0,
+            "derived_citations": derived_citations,
         })
 
     people_out = []
@@ -308,6 +326,7 @@ for sid, st in raw["states"].items():
         "district_level_actors": st.get("district_level_actors", []),
         "quick_reference_matrix": st.get("quick_reference_matrix", []),
         "funding_architecture": st.get("funding_architecture", []),
+        "focus_areas": st.get("focus_areas", []),
         "key_individuals": people_out,
         "research_gaps": st.get("research_gaps", []),
         "flags": flags_out,

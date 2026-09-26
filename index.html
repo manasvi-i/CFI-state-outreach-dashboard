@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="CrashFree India state outreach dashboard: governance structure, key contacts, and sources for road-safety institutions across 13 pilot states/UTs.">
+<meta name="description" content="Crashfree India state outreach dashboard: governance structure, key contacts, and sources for road-safety institutions across 13 pilot states/UTs.">
 <style>html{box-sizing:border-box;}body{margin:0;}[hidden]{display:none!important;}</style>
 <title>CFI State Outreach Dashboard</title>
 <style>
@@ -261,6 +261,33 @@
   .body-chip .chip-snippet{color:var(--cfi-text-muted);font-size:11.5px;display:block;}
   .no-body-note{font-size:12px;color:var(--cfi-text-muted);font-style:italic;}
 
+  /* ---- Focus Areas tab ---- */
+  .focus-intro{font-size:12.5px;color:var(--cfi-text-muted);background:var(--cfi-bg);border:1px dashed var(--cfi-border);border-radius:8px;padding:9px 11px;margin-bottom:16px;}
+  .focus-grid{display:flex;flex-direction:column;gap:16px;}
+  .focus-card{border:1px solid var(--cfi-border);border-radius:12px;background:var(--cfi-surface);overflow:hidden;}
+  .focus-card-head{padding:13px 16px;background:var(--cfi-bg);border-bottom:1px solid var(--cfi-border);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;cursor:pointer;}
+  .focus-card-head h3{margin:0;font-size:14.5px;display:flex;align-items:center;gap:8px;}
+  .focus-toggle-icon{font-size:11px;color:var(--cfi-text-muted);transition:transform .15s ease;}
+  .focus-card.collapsed .focus-toggle-icon{transform:rotate(-90deg);}
+  .focus-card-body{padding:14px 16px;}
+  .focus-card.collapsed .focus-card-body{display:none;}
+  .focus-stats-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px;}
+  .focus-stat-chip{background:var(--cfi-bg);border:1px solid var(--cfi-border);border-radius:8px;padding:6px 10px;font-size:11.5px;min-width:140px;}
+  .focus-stat-chip .fsc-label{color:var(--cfi-text-muted);display:block;font-size:10.5px;margin-bottom:2px;}
+  .focus-stat-chip .fsc-value{font-weight:700;color:var(--cfi-text);}
+  .focus-engagement{font-size:12px;background:var(--cfi-bg);border-left:3px solid var(--cfi-primary);border-radius:0 6px 6px 0;padding:8px 10px;margin-bottom:14px;}
+  .focus-engagement strong{color:var(--cfi-primary);}
+  :root[data-theme="dark"] .focus-engagement strong{color:var(--cfi-accent);}
+  .focus-section{margin-bottom:14px;}
+  .focus-section h4{margin:0 0 6px;font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--cfi-text-muted);}
+  .focus-section p{margin:0;font-size:13px;line-height:1.55;}
+  .focus-gaps{font-size:11.5px;color:var(--cfi-text-muted);}
+  .focus-gaps ul{margin:4px 0 0;padding-left:18px;}
+  .focus-citations-toggle{font-size:11.5px;color:var(--cfi-primary);background:none;border:none;cursor:pointer;padding:0;font-weight:600;}
+  :root[data-theme="dark"] .focus-citations-toggle{color:var(--cfi-accent);}
+  .focus-citations-list{margin-top:8px;display:none;flex-direction:column;gap:6px;}
+  .focus-citations-list.open{display:flex;}
+
   /* ---- Badges ---- */
   .badge{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.02em;padding:2px 7px;border-radius:999px;white-space:nowrap;text-transform:uppercase;}
   .badge-verified{background:#e4f6ea;color:#1b7a3d;}
@@ -479,7 +506,7 @@
 </head>
 <body>
 <header class="app-header">
-  <div class="brand"><span class="logo-dot"></span> CrashFree India — State Outreach Dashboard</div>
+  <div class="brand"><span class="logo-dot"></span> Crashfree India — State Outreach Dashboard</div>
   <span class="pilot-badge">13-STATE PILOT · NOT NATIONAL COVERAGE</span>
   <div class="header-spacer"></div>
   <button class="info-btn" id="sourcing-info-btn" type="button">ℹ Sourcing &amp; flags</button>
@@ -637,7 +664,7 @@
         ${FLAG_LEGEND.map(f=>`<div class="legend-row"><span class="badge ${f.cls}">${esc(f.badge)}</span><span>${esc(f.text)}</span></div>`).join('')}
       </div>
       <h3>Problem-area &amp; governance-map groupings</h3>
-      <p>The "By Problem Area" cards and the "Governance Map" flowchart are CrashFree India's own navigational categorisation of each body's mandate — not a claim sourced verbatim from a single document. Every fact reachable by clicking through is still individually sourced.</p>
+      <p>The "By Problem Area" cards and the "Governance Map" flowchart are Crashfree India's own navigational categorisation of each body's mandate — not a claim sourced verbatim from a single document. Every fact reachable by clicking through is still individually sourced.</p>
       <h3>Key-people categories</h3>
       <p><span class="cat-badge cat-A">A</span> Recurring road-safety champion (an active, repeated track record) · <span class="cat-badge cat-B">B</span> Occasional road-safety engagement · <span class="cat-badge cat-C">C</span> Strategically important contact regardless of road-safety track record (e.g. a minister whose portfolio matters even without a documented road-safety history).</p>
       <div class="modal-close-row"><button id="info-modal-close-btn">Close</button></div>
@@ -802,6 +829,7 @@
       <div class="tabs">
         <button class="tab-btn ${activeTab==='governance'?'active':''}" data-tab="governance">Governance Structure</button>
         <button class="tab-btn ${activeTab==='people'?'active':''}" data-tab="people">Key People to Reach</button>
+        <button class="tab-btn ${activeTab==='focus'?'active':''}" data-tab="focus">Focus Areas</button>
       </div>
       <div class="tab-panel active" id="tab-content"></div>
     `;
@@ -812,6 +840,8 @@
     const tabContent = document.getElementById('tab-content');
     if(activeTab==='governance'){
       renderGovernanceTab(tabContent, st);
+    } else if(activeTab==='focus'){
+      renderFocusAreasTab(tabContent, st);
     } else {
       renderPeopleTab(tabContent, st);
     }
@@ -911,6 +941,80 @@
     </div>`;
   }
 
+  const FOCUS_AREA_ICONS = {
+    'crash-compensation': '💰',
+    'gig-rider-safety': '🛵',
+    'project-rakshak': '🛠️',
+    'satark': '📷',
+  };
+
+  function focusStatChipHtml(stat){
+    return `<div class="focus-stat-chip">
+      <span class="fsc-label">${esc(stat.label||'')}</span>
+      <span class="fsc-value">${esc(stat.value||'')}</span>
+    </div>`;
+  }
+
+  function focusCardHtml(fa, idx){
+    const stats = (fa.key_stats||[]).map(focusStatChipHtml).join('');
+    const allCitations = [];
+    (fa.key_stats||[]).forEach(s=>{ if(s.citation) allCitations.push(s.citation); });
+    (fa.citations||[]).forEach(c=>{ if(c) allCitations.push(c); });
+    const seen = new Set();
+    const dedupedCitations = allCitations.filter(c=>{
+      const key = (c.url||'') + '|' + (c.label||'');
+      if(seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+    const gapsHtml = (fa.research_gaps||[]).length
+      ? `<div class="focus-gaps"><strong>Research gaps:</strong><ul>${fa.research_gaps.map(g=>`<li>${esc(g)}</li>`).join('')}</ul></div>`
+      : '';
+    return `
+    <div class="focus-card" data-idx="${idx}">
+      <div class="focus-card-head">
+        <h3>${FOCUS_AREA_ICONS[fa.id]||'📍'} ${esc(fa.name)}</h3>
+        <span class="focus-toggle-icon">▾</span>
+      </div>
+      <div class="focus-card-body">
+        ${stats ? `<div class="focus-stats-row">${stats}</div>` : ''}
+        ${fa.cfi_engagement ? `<div class="focus-engagement"><strong>Crashfree India's own engagement:</strong> ${esc(fa.cfi_engagement)}</div>` : ''}
+        <div class="focus-section"><h4>Relevance</h4><p>${esc(fa.relevance) || '<span class="subtle-note">Not established.</span>'}</p></div>
+        <div class="focus-section"><h4>Progress</h4><p>${esc(fa.progress) || '<span class="subtle-note">Not established.</span>'}</p></div>
+        <div class="focus-section"><h4>Policy willpower</h4><p>${esc(fa.policy_willpower) || '<span class="subtle-note">Not established.</span>'}</p></div>
+        ${gapsHtml}
+        ${dedupedCitations.length ? `
+        <button class="focus-citations-toggle" data-idx="${idx}">Show ${dedupedCitations.length} source${dedupedCitations.length===1?'':'s'} ▾</button>
+        <div class="focus-citations-list" id="focus-cites-${idx}">
+          ${dedupedCitations.map(c=>`<div>${citeHtml(c)}</div>`).join('')}
+        </div>` : `<div class="subtle-note">No additional sources on file beyond the stats cited above.</div>`}
+      </div>
+    </div>`;
+  }
+
+  function renderFocusAreasTab(container, st){
+    const areas = st.focus_areas;
+    if(!areas || !areas.length){
+      container.innerHTML = `<div class="placeholder-box">No focus-area research is on file yet for ${esc(st.state_name)}.</div>`;
+      return;
+    }
+    container.innerHTML = `
+      <div class="focus-intro">Crashfree India runs four national programs — Crash Compensation (the Hit-and-Run Scheme), Gig Rider Safety, Project Rakshak, and SATARK. Each card below assesses that program's <strong>relevance</strong>, <strong>progress</strong>, and <strong>policy willpower</strong> specifically in ${esc(st.state_name)}, distinct from the Governance Structure and Key People tabs. This is refreshed as part of the dashboard's periodic update cycle, since these assessments depend on evolving news and policy, not fixed institutional facts.</div>
+      <div class="focus-grid">${areas.map((fa,i)=>focusCardHtml(fa,i)).join('')}</div>
+    `;
+    container.querySelectorAll('.focus-card-head').forEach(head=>{
+      head.addEventListener('click', ()=> head.closest('.focus-card').classList.toggle('collapsed'));
+    });
+    container.querySelectorAll('.focus-citations-toggle').forEach(btn=>{
+      btn.addEventListener('click', (e)=>{
+        e.stopPropagation();
+        const list = document.getElementById('focus-cites-'+btn.dataset.idx);
+        const open = list.classList.toggle('open');
+        btn.textContent = (open ? 'Hide ' : 'Show ') + list.children.length + (list.children.length===1?' source ':' sources ') + (open?'▴':'▾');
+      });
+    });
+  }
+
   function openPersonDetail(stateId, idx){
     const st = DATA.states[stateId];
     const p = st.key_individuals[idx];
@@ -953,7 +1057,7 @@
         <p>${esc(p.role) || '<span class="subtle-note">Not established from the sources reviewed.</span>'}</p>
         ${roleSources}
       </div>
-      <div class="analysis-note">The sections below (Background through Caveats) are CrashFree India's own outreach analysis synthesised from the sourced track record — not individually-cited claims themselves. Every dated fact they draw on is cited in the Track Record section further down.</div>
+      <div class="analysis-note">The sections below (Background through Caveats) are Crashfree India's own outreach analysis synthesised from the sourced track record — not individually-cited claims themselves. Every dated fact they draw on is cited in the Track Record section further down.</div>
       ${p.background ? `<div class="detail-section"><h4>Background</h4><p>${esc(p.background)}</p></div>` : ''}
       <div class="detail-section">
         <h4>Road-safety relevance</h4>
@@ -961,7 +1065,7 @@
       </div>
       ${p.influence ? `<div class="detail-section"><h4>Influence</h4><p>${esc(p.influence)}</p></div>` : ''}
       ${p.priorities_and_interests ? `<div class="detail-section"><h4>Priorities &amp; interests</h4><p>${esc(p.priorities_and_interests)}</p></div>` : ''}
-      ${p.value_to_crashfree ? `<div class="detail-section"><h4>Value to CrashFree India</h4><p>${esc(p.value_to_crashfree)}</p></div>` : ''}
+      ${p.value_to_crashfree ? `<div class="detail-section"><h4>Value to Crashfree India</h4><p>${esc(p.value_to_crashfree)}</p></div>` : ''}
       ${p.suggested_approach ? `<div class="detail-section"><h4>Suggested approach</h4><p>${esc(p.suggested_approach)}</p></div>` : ''}
       ${p.priority ? `<div class="detail-section"><h4>Priority</h4><p>${esc(p.priority)}</p></div>` : ''}
       <div class="detail-section">
@@ -1071,7 +1175,7 @@
         </div>
       </div>
       <div class="subtle-note" style="display:block;margin-top:6px;">
-        Layout is CrashFree India's own rendering of reporting/coordination relationships inferred from each body's mandate and hierarchy text, not a claim sourced verbatim from one document — click any box for the sourced detail behind it.
+        Layout is Crashfree India's own rendering of reporting/coordination relationships inferred from each body's mandate and hierarchy text, not a claim sourced verbatim from one document — click any box for the sourced detail behind it.
       </div>
     `;
 
@@ -1245,7 +1349,7 @@
     }).join('');
     container.innerHTML = `
       <div class="subtle-note" style="margin-bottom:12px;display:block;">
-        Problem-area groupings below are CrashFree India's own categorisation of each body's mandate (for navigation), not a claim sourced verbatim from any single document. Click a body to see its sourced detail.
+        Problem-area groupings below are Crashfree India's own categorisation of each body's mandate (for navigation), not a claim sourced verbatim from any single document. Click a body to see its sourced detail.
       </div>
       <div class="problem-grid">${cards}</div>`;
     container.querySelectorAll('.body-chip').forEach(btn=>{
@@ -1290,11 +1394,17 @@
         </div>`).join('')
       : `<div class="subtle-note">No open flags linked to this body.</div>`;
 
-    // The original file gives one shared citation list per body (not one citation per
-    // field) — so every claim below carries that same list, honestly reused rather than
-    // pretending a specific link maps to a specific sentence the source doesn't break out.
-    const bodySources = citationsBlockHtml(gb.citations,
-      'No dedicated citation list on file for this body — see the individually-cited positions below.');
+    // The source data cites each *key position* individually but not each prose field
+    // (mandate/hierarchy/decision-making power/etc.) at the sentence level. So the block
+    // below reuses the citations already verified for this body's key positions — the
+    // department pages, notifications, and press coverage the research actually used —
+    // rather than pretending a specific link maps to a specific sentence the source
+    // doesn't break out, or hiding sourcing entirely.
+    const bodySources = (gb.derived_citations && gb.derived_citations.length)
+      ? `<div class="claim-sources">${gb.derived_citations.map(c=>`<div class="claim-source-item">${citeHtml(c)}</div>`).join('')}
+          <div class="subtle-note" style="margin-top:4px;">Sources used to verify this body's key positions — the original research does not tag mandate/hierarchy text sentence-by-sentence.</div>
+         </div>`
+      : `<div class="claim-sources"><span class="subtle-note">No citation on file for this body at all — even its key positions (if any) carry no source in the original research.</span></div>`;
 
     detailBodyEl.innerHTML = `
       <div class="detail-section chip-row">${paChips}</div>
@@ -1319,6 +1429,24 @@
         <h4>Role in road-safety data</h4>
         <p>${esc(gb.data_role)}</p>
         ${bodySources}
+      </div>` : ''}
+      ${!isNotApplicableText(gb.hierarchy) ? `
+      <div class="detail-section">
+        <h4>Hierarchy / reporting structure</h4>
+        <p class="subtle-note" style="margin-bottom:6px;">This is the text the Governance Map's box layout and connecting lines are drawn from.</p>
+        <p>${esc(gb.hierarchy)}</p>
+        ${bodySources}
+      </div>` : ''}
+      ${!isNotApplicableText(gb.performance_issues) ? `
+      <div class="detail-section">
+        <h4>Known performance issues</h4>
+        <p>${esc(gb.performance_issues)}</p>
+        ${bodySources}
+      </div>` : ''}
+      ${!isNotApplicableText(gb.meeting_frequency) ? `
+      <div class="detail-section">
+        <h4>Meeting frequency</h4>
+        <p>${esc(gb.meeting_frequency)}</p>
       </div>` : ''}
       <div class="detail-section">
         <h4>Key positions relevant to road safety</h4>
@@ -1354,7 +1482,7 @@
   // A viewer's click cannot itself run a live web-connected Claude request from inside
   // a published artifact page (no capability exposes server-side web search, and raw
   // fetch to any external host is blocked by the artifact sandbox) — so "Check for
-  // updates" writes a request into the shared db instead. CrashFree India reviews
+  // updates" writes a request into the shared db instead. Crashfree India reviews
   // pending requests via Claude (with real web search) and writes the findings back
   // into the same document; every open copy of this dashboard updates live via
   // onSnapshot, with no republish needed. Nothing here is ever overwritten silently —
@@ -1409,7 +1537,7 @@
       if(!data){
         statusHtml = `<span class="uc-badge uc-none">Never checked</span> <span class="uc-status">No update check has been requested yet for ${esc(st.state_name)}.</span>`;
       } else if(data.status === 'requested'){
-        statusHtml = `<span class="uc-badge uc-requested">Requested</span> <span class="uc-status">Requested ${esc(fmtWhen(data.requestedAt)||'')} — CrashFree India reviews this via Claude with live web search; results will appear here automatically, without changing anything else in the dashboard.</span>`;
+        statusHtml = `<span class="uc-badge uc-requested">Requested</span> <span class="uc-status">Requested ${esc(fmtWhen(data.requestedAt)||'')} — Crashfree India reviews this via Claude with live web search; results will appear here automatically, without changing anything else in the dashboard.</span>`;
         if(data.lastCheckedAt) diffHtml = `<div class="subtle-note" style="display:block;margin-top:6px;">Showing the previous check from ${esc(fmtWhen(data.lastCheckedAt))} below until the new one completes.</div>` + diffPanelHtml(data);
       } else {
         statusHtml = `<span class="uc-badge uc-done">Checked</span> <span class="uc-status">Last checked ${esc(fmtWhen(data.lastCheckedAt)||'')}${data.summary ? ' — '+esc(data.summary) : ''}</span>`;
@@ -1494,7 +1622,7 @@
   function buildLeadingTurn(question){
     const relevant = detectRelevantStates(question);
     const allNames = states.map(s=>s.state_name).join(', ');
-    let text = `You are answering questions inside CrashFree India's internal 13-state pilot road-safety governance dashboard. `
+    let text = `You are answering questions inside Crashfree India's internal 13-state pilot road-safety governance dashboard. `
       + `This dataset covers EXACTLY these 13 pilot states/UTs and nothing else: ${allNames}. `
       + `Answer using ONLY the dashboard data given below in this message. Do not use general/world knowledge, even if you know the real-world answer — if the data below doesn't cover what's asked (including any state outside these 13, or any fact/field not present below), say plainly that the dashboard doesn't cover it, rather than guessing. `
       + `When you do answer, name the specific body/post/person it comes from so the user can find it in the dashboard, and mention if the fact is flagged as unverified/stale in the data. Be concise — a few sentences, or a short comparison list only when the question asks to compare states.\n\n`;

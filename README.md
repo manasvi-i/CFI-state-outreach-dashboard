@@ -1,6 +1,6 @@
 # CFI State Outreach Dashboard
 
-An internal outreach tool for **CrashFree India (CFI)** covering road-safety governance
+An internal outreach tool for **Crashfree India (CFI)** covering road-safety governance
 and key contacts across a **13-state pilot** (Tamil Nadu, Delhi, Madhya Pradesh, Assam,
 Haryana, Telangana, Maharashtra, Gujarat, Uttar Pradesh, Bihar, Karnataka, Jharkhand,
 Rajasthan).
@@ -33,12 +33,34 @@ It also works as-is on **GitHub Pages** (Settings → Pages → deploy from the 
     bodies, and open flags.
 - **Key People to Reach** tab — cards/table per individual with role, category,
   relevance, sourced track record, and flags.
+- **Focus Areas** tab — per state, assesses the relevance, on-the-ground progress, and
+  government policy willpower behind Crashfree India's own four national programs
+  (Crash Compensation/Hit-and-Run Scheme, Gig Rider Safety, Project Rakshak, SATARK),
+  distinct from the institutional facts in the other two tabs. This is the part of the
+  dataset expected to change fastest (news and policy move; institutions don't), so it's
+  the main thing the weekly self-update Routine (see below) refreshes.
 - **Sourcing throughout** — every claim shown carries its citation (or an explicit
   "no citation on file for this line" note — nothing is invented). A "Sourcing & flags"
-  button in the header explains what each confidence/flag badge means.
+  button in the header explains what each confidence/flag badge means. In the Governance
+  Structure tab, a body's Mandate/Hierarchy/Decision-making/Performance-issues sections
+  show the citations verified for that body's key positions (the source data cites posts,
+  not every prose sentence, so this is disclosed explicitly rather than shown uncited).
 - **Cross-state search** — the header search matches states, departments, individual
-  posts (e.g. "Transport Commissioner"), and people across all 12 states at once.
+  posts (e.g. "Transport Commissioner"), and people across all 13 states at once.
 - **In-dashboard chatbot** and **"Check for updates"** — see the caveat below.
+
+## Self-update Routine
+
+A weekly scheduled Routine (Mondays) re-checks the dashboard's facts against fresh
+web search: first any state a viewer has explicitly flagged via "Check for updates"
+(highest priority), then two states on a fixed rotation (so all 13 get revisited every
+6-7 weeks) — focusing on whether any key office-holder has changed and whether the
+Focus Areas tab's policy-willpower/progress assessments are still current. Per Aastha's
+own "staged for review" choice, the Routine only ever writes its findings into the
+dashboard's live "Check for updates" panel (as diffs a viewer can see) — it never edits
+`data/source/all-states-consolidated.json`, runs `prep.py`, or republishes the Artifact
+on its own. Merging a finding into the actual committed dataset is a separate, explicit
+step a maintainer takes after reviewing it.
 
 ## Important: two features only work inside a Claude Artifact
 
