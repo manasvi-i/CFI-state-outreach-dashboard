@@ -1,0 +1,21 @@
+id,status,new_name,new_designation,successor_name,successor_designation,successor_email,successor_phone,sources,evidence,review_reason
+32,D,,,,,,,,Searched name+WHO India+UNRSF 2026; no dated source naming him.,
+34,A,,,,,,,https://vvgnli.gov.in/en/node?page=69,"VVGNLI institute pages list Ruma Ghosh (Senior Fellow) and Dhanya M.B. (Fellow) as faculty; undated profile pages, no move found.",
+35,D,,,,,,,,Searched name+UNICEF India health specialist; no source names him.,
+37,D,,,,,,,https://m.indiacustomercare.com/ministry-road-transport-and-highways-contact-no,Only undated MoRTH directory lists him as DS (Road Safety); no dated 2026 source.,
+38,D,,,,,,,,Searched name+OSD Gadkari 2026; no source names Kunal Joshi.,
+39,D,,,,,,,https://itsindiaforum.com/wp-content/uploads/2026/08/Esteemed-Govt-Participants.pdf,Aug 2026 ITS forum list names Shri Mahmood Ahmed MoRTH without designation; Additional Secretary title only from undated directory.,
+40,A,,,,,,,https://morth.gov.in/sites/default/files/circulars_document/Letter to All Stakeholders 24.12.2025 regarding NRSM 2026..pdf,24 Dec 2025 MoRTH letter on NRSM 2026 signed by Under Secretary Mrityunjay Kumar (Road Safety); no transfer found since.,
+41,D,,,,,,,,Searched name+former Delhi Police Commissioner+Ideathon 2025; no source on judge role; identity unconfirmed.,
+44,D,,,,,,,,Searched Shekhar Dhole CIRT AIS-052/119; no relevant results.,
+47,A,,,,,,,https://issuu.com/cgmos/docs/vaibhav_dange-_profile | https://www.business-standard.com/article/pti-stories/vaibhav-dange-appointed-ps-to-nitin-gadkari-114080800709_1.html,"Bio pages show Vaibhav Dange as founder of Build India Foundation, former PS to Gadkari; consistent with 'ex-PS, now Build India' (undated).",
+279,D,,,,,,,,Searched name+MoHFW; no source names her.,
+281,D,,,,,,,,Searched name+WHO India emergency NPO; no source names him.,
+283,A,,,,,,,https://savelifefoundation.org/about-us/,"SaveLIFE team page lists Gautam Singh as Associate Director, Policy & Research (undated; designation wording slightly differs).",
+292,A,,,,,,,https://morth.gov.in/sites/default/files/circulars_document/Letter to All Stakeholders 24.12.2025 regarding NRSM 2026..pdf,"Same person as id 40 (spelling Mirtyunjay); signed 24 Dec 2025 as Under Secretary, Road Safety.",
+295,D,,,,,,,https://morth.gov.in/en/who-is-who?page=3,Searched Pushpendra C NIC MoRTH; no matching person found.,
+48,D,,,,,,,,Searched Jatinder Kumar ATO Punjab transport; no source names him.,
+304,REVIEW,,,,,,,https://www.5dariyanews.com/news/429663-Laljit-Singh-Bhullar-Kick-Starts-Road-Safety-Month-Emphasizing-Need-For-Collective-Efforts-In-Reduc,Only Jan 2024 road safety month meeting names a Harpreet Singh of 'Avoid Accident'; committee membership unconfirmed.,"Harpreet Singh listed as member of Punjab State Traffic Advisory Committee (formed Feb 2024); no member list found, identity of Harpreet Singh uncertain."
+317,REVIEW,,,Deepshikha Sharma,"Deputy Commissioner, Firozpur",,,https://babushahi.com/full-news.php?id=221977,2 Jun 2026 Babushahi names Deepshikha Sharma as DEO-cum-Deputy Commissioner Ferozepur; Narang not found in any 2026 source.,Manjit Singh Narang listed as DC Firozpur; 2026 source names Deepshikha Sharma as DC; Narang's fate unknown.
+312,REVIEW,,,,,,,https://thesecretariat.in/bureautrack/arshdeep-singh-thind-01pb022900,"Bureautrack lists Thind as Administrative Secretary, Agriculture (undated); a Mar 2026 SDM letter reportedly names Sagar Setia as Moga DC (no solid URL).","Arshdeep Singh Thind DC Moga; later source shows Agriculture secretary post (unrelated) but undated, and current Moga DC unconfirmed."
+307,REVIEW,,,Aditya Dachalwal,"Deputy Commissioner, Rupnagar",,,https://royalpatiala.in/?p=144079,11 Apr 2026 report names Aditya Dachalwal IAS as DC Rupnagar; Pradeep Kumar Aggarwal not in any 2026 source.,Pradeep Kumar Aggarwal listed as DC Rupnagar; April 2026 source names Aditya Dachalwal; Aggarwal's fate unknown.
