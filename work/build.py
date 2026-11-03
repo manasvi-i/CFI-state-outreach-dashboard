@@ -8,7 +8,7 @@ OUT = '/home/user/CFI-state-outreach-dashboard/'
 rows = list(csv.DictReader(open(W + 'rows_ctx.csv')))
 res = {}
 BRIEF_OK = {'5', '220'}  # successor Uttam Singh supplied by user's verified list
-WEAK_B = {'151', '349', '350', '355', '395', '226'}
+WEAK_B = {'151', '349', '350', '355', '395', '226', '323', '421'}
 for f in sorted(glob.glob(W + 'out/*.csv')):
     for r in csv.DictReader(open(f)):
         res[r['id']] = r | {'batch': f.split('/')[-1]}
