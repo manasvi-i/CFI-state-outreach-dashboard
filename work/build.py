@@ -7,6 +7,7 @@ W = '/home/user/CFI-state-outreach-dashboard/work/'
 OUT = '/home/user/CFI-state-outreach-dashboard/'
 rows = list(csv.DictReader(open(W + 'rows_ctx.csv')))
 res = {}
+WEAK_B = {'151', '349', '350', '355'}
 for f in sorted(glob.glob(W + 'out/*.csv')):
     for r in csv.DictReader(open(f)):
         res[r['id']] = r | {'batch': f.split('/')[-1]}
@@ -18,6 +19,8 @@ by_sheet = collections.defaultdict(list)
 for r in rows:
     x = res.get(r['id'])
     st = x['status'].strip().upper() if x else 'D'
+    if x and r['id'] in WEAK_B and st == 'B':
+        st = 'REVIEW'; x = dict(x); x['review_reason'] = 'Agent proposed removal but evidence is undated/weak (' + x['evidence'][:200] + '); kept pending your call'
     note = x['evidence'] if x else 'No result returned by verification batch'
     if not x: x = {k: '' for k in ['new_name','new_designation','successor_name','successor_designation','successor_email','successor_phone','sources','review_reason']}
     sh = r['sheet']
