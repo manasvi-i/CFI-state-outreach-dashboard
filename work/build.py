@@ -12,6 +12,12 @@ for f in sorted(glob.glob(W + 'out/*.csv')):
     for r in csv.DictReader(open(f)):
         res[r['id']] = r | {'batch': f.split('/')[-1]}
 
+for f in sorted(glob.glob(W + 'out2/*.csv')):
+    for r in csv.DictReader(open(f)):
+        if r['id'] in res and res[r['id']]['status'].strip().upper() != 'D' and r['status'].strip().upper() == 'D':
+            continue  # never let a rerun D downgrade an earlier concrete finding
+        res[r['id']] = r | {'batch': 'rerun/' + f.split('/')[-1]}
+
 wb = openpyxl.load_workbook(W + 'input.xlsx')
 sheets = {ws.title: ws for ws in wb}
 log = []; review = []; counts = collections.defaultdict(collections.Counter)
