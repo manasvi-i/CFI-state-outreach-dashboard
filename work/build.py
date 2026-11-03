@@ -7,6 +7,7 @@ W = '/home/user/CFI-state-outreach-dashboard/work/'
 OUT = '/home/user/CFI-state-outreach-dashboard/'
 rows = list(csv.DictReader(open(W + 'rows_ctx.csv')))
 res = {}
+BRIEF_OK = {'5', '220'}  # successor Uttam Singh supplied by user's verified list
 WEAK_B = {'151', '349', '350', '355', '395', '226'}
 for f in sorted(glob.glob(W + 'out/*.csv')):
     for r in csv.DictReader(open(f)):
@@ -47,6 +48,9 @@ for r in rows:
         by_sheet[sh].append((r, new_name, new_des, email, phone, 'orig'))
     counts[sh][action] += 1
     succ = x['successor_name'].strip()
+    lead = ''
+    if r['id'] not in BRIEF_OK and (st in ('A', 'D') or 'http' not in x['sources']):
+        lead = succ; succ = ''   # unconfirmed lead: logged, never written to the workbook
     if succ:
         by_sheet[sh].append((r, succ, x['successor_designation'], x['successor_email'], x['successor_phone'], 'succ'))
         counts[sh]['successor-added'] += 1
@@ -55,7 +59,7 @@ for r in rows:
                 'new_name': new_name if keep else '', 'new_designation': new_des if keep else '',
                 'successor_name': succ, 'successor_designation': x['successor_designation'] if succ else '',
                 'successor_email': x['successor_email'] if succ else '', 'successor_phone': x['successor_phone'] if succ else '',
-                'sources': x['sources'], 'evidence': note})
+                'unadopted_successor_lead': (lead + ' | ' + x['successor_designation']) if lead else '', 'sources': x['sources'], 'evidence': note})
     if st in ('BORDERLINE', 'REVIEW'):
         review.append({'id': r['id'], 'person': r['name'], 'old_post': r['designation'], 'new_post': new_des,
                        'why_ambiguous': x['review_reason'] or note, 'status': 'borderline-kept' if st == 'BORDERLINE' else 'review-kept', 'sources': x['sources']})
