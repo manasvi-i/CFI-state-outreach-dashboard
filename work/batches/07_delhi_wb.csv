@@ -1,0 +1,47 @@
+id,sheet,row,name,designation,email,phone,state,district,org
+2,engaged active individuals,3,Dr. Sushma Sagar,"Head, Trauma Surgery and Critical Care, AIIMS JPN Apex Trauma Centre",,,Delhi,New Delhi,"AIIMS Jai Prakash Narayan Apex Trauma Centre, New Delhi"
+13,engaged active individuals,14,Anil Chhikara,"Former Deputy Commissioner (Transport) / Former Deputy Transport Commissioner, Delhi; MoRTH-trained expert on E-DAR functioning",,,Delhi,Central Delhi,"Transport Department, Government of NCT of Delhi"
+14,engaged active individuals,15,Monika Bhardwaj,"Former Additional Commissioner of Police, Traffic",,,Delhi,Central Delhi,Delhi Police
+15,engaged active individuals,16,Niharika Rai,"Transport Commissioner, Delhi",,,Delhi,New Delhi Delhi,"Transport Department, Government of NCT of Delhi"
+121,target individuals,27,Dharmendra Kumar,ADM,ndadm@nic.in,"23071144, 23389685",Delhi,New Delhi,"District Magistrate office, New Delhi"
+122,target individuals,28,Dr. Mukesh Kumar,Joint Commissioner,,,Delhi,Central Delhi,Delhi administration
+124,target individuals,30,Justice J.R. Midha (Retd.),"Former Judge, Delhi High Court",jjrmidha@gmail.com,,Delhi,,Delhi High Court (retired)
+125,target individuals,31,Kumar Rahul,"Official, New Delhi District Legal Services Authority (handles MACT cases, per referral)",,,Delhi,New Delhi,"District Legal Services Authority, New Delhi"
+127,target individuals,33,Ms. Bharti Garg,Secretary (Litigation),,,Delhi,,Delhi State Legal Services Authority (DSLSA)
+128,target individuals,34,Ms. Niharika Rai,"Commissioner, Transport",,,Delhi,,Delhi Transport Department
+129,target individuals,35,"Ms. Sandhya Swamy, IPS",DCP Traffic - Northern Range,dcptcr@gmail.com,011-27854080,Delhi,North West Delhi,Delhi Police
+130,target individuals,36,"Ms. Soumya Saurabh, I.A.S.",District Magistrate/Deputy Commissioner,,,Delhi,Delhi NW,"District Magistrate/Collector office, Delhi NW"
+131,target individuals,37,Rakesh Dahiya,SDM (Chanakyapuri),chanakyasdm@nic.in,23386844.0,Delhi,New Delhi,"District Magistrate office, New Delhi"
+132,target individuals,38,Sanjay Jha,SDM (New Delhi),sdmend.delhi@nic.in,23386410.0,Delhi,New Delhi,"District Magistrate office, New Delhi"
+133,target individuals,39,Sarita Sabharwal,SDM HQ,sdmhqnd.delhi@nic.in,23072788.0,Delhi,New Delhi,"District Magistrate office, New Delhi"
+134,target individuals,40,Sh. Jitendra Yadav,"Special Commissioner, Transport",,,Delhi,,Delhi Transport Department
+135,target individuals,41,"Sh. Vishwendra, IAS",Special Commissioner,,,Delhi,Central Delhi,Delhi administration
+136,target individuals,42,Shri Joseph Baxla,Deputy Oversight (SDM HQ),sdmhqnw@gmail.com,011-25953375,Delhi,North West Delhi,"District Road Safety Committee (DRSC), North West Delhi"
+137,target individuals,43,"Shri Lakshay Singhal, IAS",District Magistrate / Deputy Commissioner,dcsouth@nic.in,011-29535025,Delhi,Delhi South,"District Magistrate/Collector office, Delhi South"
+138,target individuals,44,Shri Rahul Saini,ADM South (Additional Support),southadm@nic.in,011-29536774,Delhi,South Delhi,"District Road Safety Committee (DRSC), South Delhi"
+139,target individuals,45,Sunil Dutt,SDM (Cantt),canttsdm@nic.in,"23382990, 23389685",Delhi,New Delhi,"District Magistrate office, New Delhi"
+459,target individuals,365,Dr. Rashmi Kamal,District Magistrate,dmpurb@gmail.com,03228 263098,West Bengal,Purba Medinipur,"District Magistrate office, Purba Medinipur"
+460,target individuals,366,Dr. Uma Sankar S,District Magistrate,dm-bank@nic.in,03242 250304,West Bengal,Bankura,"District Magistrate office, Bankura"
+461,target individuals,367,Dr. Vishwanath,District Magistrate,dmkalimpong2017@gmail.com,03552 255264,West Bengal,Kalimpong,"District Magistrate office, Kalimpong"
+462,target individuals,368,Dr.(Smt.) Deepap Priya P,District Magistrate,dm-bgt-wb@nic.in,03522 255201,West Bengal,Dakshin Dinajpur,"District Magistrate office, Dakshin Dinajpur"
+463,target individuals,369,"Ms. Subashini E., IAS",ADM General (Member),admg.psbdn-wb@gov.in,,West Bengal,Paschim Bardhaman (Durgapur),"District Road Safety Committee (DRSC), Paschim Bardhaman (Durgapur)"
+464,target individuals,370,"Shri Anindya Sengupta, WBCS (Exec)",State Transport Commissioner,,,West Bengal,,West Bengal Transport Department
+465,target individuals,371,Shri Arvind Kumar Mina,District Magistrate,dm-rgj-wb@nic.in,03523 246025,West Bengal,Uttar Dinajpur,"District Magistrate office, Uttar Dinajpur"
+466,target individuals,372,Shri Jagdish Prasad Meena,District Magistrate,"dm-hoog@nic.in, deohooghly@gmail.com",033 26802044,West Bengal,Hooghly,"District Magistrate office, Hooghly"
+467,target individuals,373,Shri Kaushick Saha,District Magistrate,dmcoochbehar@gmail.com,03582-227101,West Bengal,Cooch Behar,"District Magistrate office, Cooch Behar"
+468,target individuals,374,Shri Kaushik Bhattacharya,District Magistrate,"dm-malda@nic.in, dm-mldh@nic.in",03512 252381,West Bengal,Maldah,"District Magistrate office, Maldah"
+469,target individuals,375,"Shri Kaushik Sinha, WBCS",ADM Development (Member),admdevpaschimbdn@gmail.com,,West Bengal,Paschim Bardhaman (Durgapur),"District Road Safety Committee (DRSC), Paschim Bardhaman (Durgapur)"
+470,target individuals,376,Shri Nikhil Nirmal,District Magistrate,dmapd20@gmail.com,03564 255062,West Bengal,Alipurduar,"District Magistrate office, Alipurduar"
+471,target individuals,377,Shri P. Mohangandhi,District Magistrate,dmpmid@gmail.com,03222 275571,West Bengal,Paschim Medinipur,"District Magistrate office, Paschim Medinipur"
+472,target individuals,378,Shri Ponnambalam S,District Magistrate / District Collector,,,West Bengal,Durgapur (Paschim Bardhaman),"District Magistrate/Collector office, Durgapur (Paschim Bardhaman)"
+473,target individuals,379,"Shri Ponnambalam S., IAS","Chairman, District Magistrate",dmpaschimbardhaman@gmail.com,0341-2254545,West Bengal,Paschim Bardhaman (Durgapur),"District Road Safety Committee (DRSC), Paschim Bardhaman (Durgapur)"
+475,target individuals,381,Smt Joyoshi Das Gupta,District Magistrate,"dm.darjeeling2015@gmail.com, dm-darj@nic.in",0354 2254233,West Bengal,Darjeeling,"District Magistrate office, Darjeeling"
+476,target individuals,382,Smt Shilpa Gourisaria,District Magistrate,"dm-jlp@nic.in, dmjalpaiguri2011@gmail.com",03561 230127,West Bengal,Jalpaiguri,"District Magistrate office, Jalpaiguri"
+477,target individuals,383,Smt. Antara Acharya,District Magistrate,dm-bar-wb@nic.in,033 25523662,West Bengal,North 24 Parganas,"District Magistrate office, North 24 Parganas"
+478,target individuals,384,Smt. Moumita Godara Basu,District Magistrate,dm-bir@nic.in,03462 255222,West Bengal,Birbhum,"District Magistrate office, Birbhum"
+479,target individuals,385,Smt. Rani A Ayesha,District Magistrate,jhargramdm@gmail.com,03221 257915,West Bengal,Jhargram,"District Magistrate office, Jhargram"
+480,target individuals,386,Sri Alokesh Prasad Roy,District Magistrate,"dm-pur-wb@nic.in, dmpuruliawb@gmail.com",03252 222302,West Bengal,Purulia,"District Magistrate office, Purulia"
+481,target individuals,387,Sri Anurag Srivastava,District Magistrate,dm-burd@nic.in,0342 2662428,West Bengal,Purba Bardhaman,"District Magistrate office, Purba Bardhaman"
+482,target individuals,388,Sri Shashank Sethi,District Magistrate,dmpaschimbardhaman@gmail.com,0341 2254545,West Bengal,Paschim Bardhaman,"District Magistrate office, Paschim Bardhaman"
+483,target individuals,389,Sri Sumit Gupta,District Magistrate,dm-ndi@nic.in,03472 251001,West Bengal,Nadia,"District Magistrate office, Nadia"
+484,target individuals,390,Sri Y. Ratnakara Rao,District Magistrate,"dm-ali@nic.in, dmsouth24@gmail.com",033 24791469,West Bengal,South 24 Parganas,"District Magistrate office, South 24 Parganas"

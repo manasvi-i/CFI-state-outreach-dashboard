@@ -1,0 +1,647 @@
+id,sheet,row,name,designation,email,phone,state,district,org
+1,engaged active individuals,2,Dr. AVA Bharat Kumar,"Member, District Road Safety Committee (DRSC), Guntur; Assistant Professor, Vignan University (Project Rakshak Cohort-1 mentor)",,,Andhra Pradesh,Guntur,"District Road Safety Committee, Guntur (Govt. of Andhra Pradesh) / Vignan University"
+2,engaged active individuals,3,Dr. Sushma Sagar,"Head, Trauma Surgery and Critical Care, AIIMS JPN Apex Trauma Centre",,,Delhi,New Delhi,"AIIMS Jai Prakash Narayan Apex Trauma Centre, New Delhi"
+3,engaged active individuals,4,Chaitanya Mandlik,"Additional Commissioner of Police, Rajkot City",,,Gujarat,Rajkot,"Rajkot City Police, Gujarat Police"
+4,engaged active individuals,5,Dr. Harpalsinh Jadeja,"Deputy Commissioner of Police, Rajkot City",,,Gujarat,Rajkot,"Rajkot City Police, Gujarat Police"
+5,engaged active individuals,6,Ajay Kumar,"Deputy Principal Secretary-II to Haryana CM; Managing Director of Gurugram Metro Rail Limited
+
+ex- Deputy Commissioner / District Magistrate, Gurugram; Chairman, District Road Safety Committee (DRSC) Gurugram",,,Haryana,Gurugram,Gurugram District Administration
+6,engaged active individuals,7,Prateek Gahlot,"DCP Traffic, Gurugram (IPS) -- successor to Rajesh Mohan from Apr 2026",dcp.trafficggn@hry.nic.in,,Haryana,Gurugram,Gurugram Traffic Police
+7,engaged active individuals,8,Satyapal,"ACP (Traffic), Gurugram Police",,,Haryana,Gurugram,Gurugram Police
+8,engaged active individuals,9,Manoj Patil,"Additional Commissioner of Police (Addl. CP), Pune City Police",,,Maharashtra,Pune,Pune City Police (Maharashtra Police)
+9,engaged active individuals,10,Abhay Damle,"Former Joint Secretary (Transport), MoRTH (IRS, 1989 batch); now Crashfree India Board of Advisors member",damleabhay@hotmail.com,9423585900.0,National,,Crashfree India (ex-Ministry of Road Transport and Highways)
+10,engaged active individuals,11,Piyush Tewari,"Founder & CEO, SaveLIFE Foundation (SLF)",ceo@savelifefoundation.org,,National,,SaveLIFE Foundation (SLF)
+11,engaged active individuals,12,M. Vasu (Muniswamy Vasu),"Founder-Director, VHEEDU - Road Safety NGO; Member, District Road Safety Committee (DRSC), Govt. of Andhra Pradesh; Member, Hit & Run Compensation - Road Safety Committee, NTR District",vheeduroadsafety@gmail.com,9441958650.0,Andhra Pradesh,NTR District,"VHEEDU - Road Safety NGO, Vijayawada (also DRSC & NTR District Hit & Run Compensation Committee, Govt. of Andhra Pradesh)"
+12,engaged active individuals,13,Neelam Teji,"Assistant Commissioner / SDM, Itanagar",tejineelam@gmail.com,9436040312.0,Arunachal Pradesh,Papum Pare,"District Administration, Itanagar (Arunachal Pradesh)"
+13,engaged active individuals,14,Anil Chhikara,"Former Deputy Commissioner (Transport) / Former Deputy Transport Commissioner, Delhi; MoRTH-trained expert on E-DAR functioning",,,Delhi,Central Delhi,"Transport Department, Government of NCT of Delhi"
+14,engaged active individuals,15,Monika Bhardwaj,"Former Additional Commissioner of Police, Traffic",,,Delhi,Central Delhi,Delhi Police
+15,engaged active individuals,16,Niharika Rai,"Transport Commissioner, Delhi",,,Delhi,New Delhi Delhi,"Transport Department, Government of NCT of Delhi"
+16,engaged active individuals,17,Kamlesh Damor,AMC Traffic Department / Smart City Project contact (role/agency not formally confirmed),,,Gujarat,Ahmedabad,Ahmedabad Municipal Corporation
+17,engaged active individuals,18,Qazi Irfan,"Regional Transport Officer, Kashmir",rto-kashmir@jk.gov.in,,Jammu and Kashmir,Srinagar,"Transport Department, Government of Jammu & Kashmir"
+18,engaged active individuals,19,Karthik Reddy,"Joint Commissioner, Bengaluru Traffic Police ",,,Karnataka,Bengaluru Urban,Bengaluru Traffic Police (Karnataka Police)
+19,engaged active individuals,20,Sri. Prabhakara. G,"ACP for planning, Bengaluru Traffic Police ",,,,,
+20,engaged active individuals,21,Sandeep Asthana,"Director, CM Helpline, Government of Madhya Pradesh (also engaged via Indore Municipal Corporation / Additional Commissioner's office)",,,Madhya Pradesh,Indore,"CM Helpline, Government of Madhya Pradesh / Indore Municipal Corporation (Nagar Palika Nigam Indore)"
+21,engaged active individuals,22,Vivekananda Tiwari ,Senior Constable (police) and road-safety YouTube influencer,,,,,
+22,engaged active individuals,23,Pallavi Kothawade,"Deputy RTO, Mumbai-East (MH03)",,,Maharashtra,Mumbai,Maharashtra Transport Department
+23,engaged active individuals,24,Swapnil Bhosale,"Deputy RTO, Pune (MH12)",,,Maharashtra,Pune,Maharashtra Transport Department
+24,engaged active individuals,25,Aarti Thakur,"Disability Rights Officer, UN Resident Coordinator's Office",aarti.thakur@un.org,=+91-9911216410,National,,"United Nations Resident Coordinator's Office, India"
+25,engaged active individuals,26,Ajoy Sharma,"Additional Secretary, Ministry of Labor and Employment",jsajoy-mole@gov.in,,National,,Ministry of Labour and Employment
+26,engaged active individuals,27,Akhilesh Srivastava,"President, International Road Federation (IRF), India Chapter",president@itsindiaforum.com,=+91 9491993344,National,,"International Road Federation (IRF), India Chapter / NHAI-linked (unconfirmed)"
+27,engaged active individuals,28,Archana Mittal,"Program Director, E-Mobility & Infrastructure, NITI Aayog (reports to Member Rajeev Gauba)",,,National,,NITI Aayog
+28,engaged active individuals,29,B. N. Puri,"Director, Asian Institute of Transport Development (AITD); Former Principal Advisor, Planning Commission",,,National,,Asian Institute of Transport Development / Planning Commission (former)
+29,engaged active individuals,30,Balraj Bhanot,"Former Director, ARAI; Former Chairman, CMVR-TSC & BIS TED-28",,,National,,Automotive Research Association of India (ARAI) (former)
+30,engaged active individuals,31,Col. Sanjeev Sharma,"Road Safety Advocate, Centre of Excellence for Road Safety (CoERS), IIT Madras; key contact for the Sadak Suraksha Mitra programme",,,National,,"CoERS, IIT Madras"
+31,engaged active individuals,32,Dr. A. M. Rao,"Chief Scientist, CSIR-Central Road Research Institute (CRRI)",amrao.crri@csir.res.in,,National,,CSIR-Central Road Research Institute (CRRI)
+32,engaged active individuals,33,Dr. B. Mohammed Asheel,"National Professional Officer - Injury Prevention & Disability Inclusion; Project Lead, UN Road Safety Fund (UNRSF)",bappirambharathm@who.int,,National,,"World Health Organization (WHO), India"
+33,engaged active individuals,34,Dr. Nitin R. Gokarn,"Chairman, National Road Safety Board (NRSB)",chairmannrsb@zohomail.in,,National,,National Road Safety Board (NRSB) / MoRTH
+34,engaged active individuals,35,Dr. Ruma Ghosh and Ms. Dhanya M. B. (V.V. Giri National Labour Institute),"Researchers, V.V. Giri National Labour Institute",,,National,,V.V. Giri National Labour Institute
+35,engaged active individuals,36,Dr. Syed Hubbe Ali,"Health Specialist (RMNCHA), UNICEF India Country Office",syhali@unicef.org,=+91-7739358158,National,,UNICEF India
+36,engaged active individuals,37,Justice J.R. Midha,"Retired Judge, Delhi High Court (road-safety/FastDAR reform advocate)",,,National,,Delhi High Court (retired)
+37,engaged active individuals,38,Kesang Norbu Bhutia,Deputy Secretary (Transport),kn.bhutia@gov.in,011-23739080,National,,Ministry of Road Transport and Highways (MoRTH)
+38,engaged active individuals,39,Kunal Joshi,OSD (Officer on Special Duty) / Advisor to Union Minister Nitin Gadkari,,,National,,Ministry of Road Transport and Highways (MoRTH)
+39,engaged active individuals,40,Mahmood Ahmed,Additional Secretary (Transport) [also referred to as Joint Secretary in some sources],mahmood.ahmed@nic.in; as-transport-morth@gov.in,,National,,Ministry of Road Transport and Highways (MoRTH)
+40,engaged active individuals,41,Mrityunjay Kumar,"Under Secretary (Road Safety), MoRTH",mirtyunjay.kumar@nic.in,,National,,Ministry of Road Transport and Highways (MoRTH)
+41,engaged active individuals,42,Neeraj Kumar,Ideathon 2025 Judge (designation not stated in the Slack message itself; a person of this name is publicly known as a former IPS officer / Delhi Police Commissioner — unverified within these channels),,,National,,"Delhi Police [former, per public record — not confirmed in-channel]"
+42,engaged active individuals,43,Nitin Gadkari,Union Minister of Road Transport and Highways,nitin.gadkari@nic.in; email@nitingadkari.org (bounced permanently),,National,,Ministry of Road Transport and Highways (MoRTH)
+43,engaged active individuals,44,Rajeev Gauba,Member (reporting line for E-mobility & Infrastructure vertical),,,National,,NITI Aayog
+44,engaged active individuals,45,Shekhar Dhole,"In-Charge, Technical Secretariat, CIRT; Panel Convenor, AIS-052/119",,,National,,Central Institute of Road Transport (CIRT)
+45,engaged active individuals,46,Tarun Kapoor,PMO Advisor,,,National,,Prime Minister's Office (PMO)
+46,engaged active individuals,47,"V. Umashankar (Secretary, MoRTH)","Secretary, Road Transport and Highways",secy-road@nic.in,,National,,Ministry of Road Transport and Highways (MoRTH)
+47,engaged active individuals,48,Vaibhav Dange,"Ex-Private Secretary, MoRTH (now with Build India Foundation)",vaibhav.dange@gmail.com; vaibhav.dange@buildindia.org.in,,National,,Build India Foundation / Build India Infra Awards
+48,engaged active individuals,49,Jatinder Kumar,Assistant Transport Officer,,,Punjab,,"Transport Department, Government of Punjab"
+49,engaged active individuals,50,Nidhi Singh,Additional Transport Commissioner (Road Safety); heads the State Road Safety Cell / Rajasthan Road Safety Lead Agency,addl.rs.tdr@rajasthan.gov.in,,Rajasthan,Jaipur,"Transport and Road Safety Department, Government of Rajasthan"
+50,engaged active individuals,51,Veerendra,"Assistant Regional Transport Officer (ARTO), Rajasthan (inferred from email handle 'arto'; unverified against an official directory)",veerendra.arto@gmail.com,,Rajasthan,,Government of Rajasthan — Transport Department
+51,engaged active offices,2,"District Road Safety Committee (DRSC), Guntur (office)","District Road Safety Committee, chaired by the District Collector",,,Andhra Pradesh,Guntur,"District Administration, Guntur, Government of Andhra Pradesh"
+52,engaged active offices,3,"R&B Department (PWD) & Guntur Municipal Corporation, Guntur (Chuttugunta Circle)",Superintending Engineer (R&B) and Municipal Corporation officials,,,Andhra Pradesh,Guntur,"Roads & Buildings (R&B/PWD) Department & Guntur Municipal Corporation, Government of Andhra Pradesh"
+53,engaged active offices,4,PWD Delhi (South Delhi and North West Delhi divisions),"Executive Engineer offices, PWD Delhi",,,Delhi,Central Delhi,"Public Works Department, Government of NCT of Delhi"
+54,engaged active offices,5,Gurugram Metropolitan Development Authority (GMDA) (office),"GMDA — permissions, Control Room and signage/billboard coordination",,,Haryana,Gurugram,Gurugram Metropolitan Development Authority
+55,engaged active offices,6,Gurugram Traffic Police (office),"Traffic police force, Gurugram (led by DCP Traffic -- Rajesh Mohan until Apr 2026, then Prateek Gahlot)",,,Haryana,Gurugram,Gurugram Traffic Police
+56,engaged active offices,7,Municipal Corporation of Gurugram (MCG) (office),MCG — hoarding/installation permission and branding enforcement,,,Haryana,Gurugram,Municipal Corporation of Gurugram
+57,engaged active offices,8,Bengaluru Traffic Police (office),Bengaluru Traffic Police — Commissionerate / institutional partner for the SATARK challan-billboard programme,,,Karnataka,Bengaluru Urban,Bengaluru Traffic Police (Karnataka Police)
+58,engaged active offices,9,"PWD (NH Division & Roads Section), Kozhikode","Executive Engineer, NH Division & Roads Section, Kerala PWD, Kozhikode",,,Kerala,Kozhikode,"Public Works Department, Kerala (NH Division & Roads Section, Kozhikode)"
+59,engaged active offices,10,Pune Municipal Corporation (office),PMC (hoarding/installation permission),,,Maharashtra,Pune,Pune Municipal Corporation
+60,engaged active offices,11,Pune Traffic Police (office),Traffic Police (DCP Traffic branch; also covers the Pune Traffic Police Training Centre),dcptaffic.pune@nic.in,,Maharashtra,Pune,Pune Traffic Police
+61,engaged active offices,12,"DDG / HoD Transportation (VAHAN, m-Parivahan, Sarathi, e-Challan) (office)","Deputy Director General / Head of Department, Transportation vertical (VAHAN, m-Parivahan, Sarathi, e-Challan)",,,National,,National Informatics Centre (NIC)
+62,engaged active offices,13,Ministry of Road Transport and Highways (office),Ministry desk — Road Safety / MVL / Compensation Policy,,,National,,Ministry of Road Transport and Highways (MoRTH)
+63,engaged active offices,14,"Road Safety Cell, MoRTH (office)",Road Safety Cell,rscmorth@gmail.com,,National,,Ministry of Road Transport and Highways (MoRTH)
+64,engaged active offices,15,IIT Ropar (institute),Government institute,,,Punjab,Rupnagar,"Indian Institute of Technology, Ropar"
+65,engaged active offices,16,"Commissioner of Police, Jaipur (office)","Commissioner of Police, Jaipur (with Special & Additional Commissioners; also addressed: Addl CPs and DCPs HQ/North/East/West/South)",cp.jaipur@rajpolice.gov.in; dcp.hq.jaipur@rajpolice.gov.in,,Rajasthan,Jaipur,Jaipur Police Commissionerate
+66,engaged active offices,17,"DCP (Traffic), Jaipur (office)","Deputy Commissioner of Police (Traffic), Jaipur — office. Held by Sumeet Meharda, IPS through at least Feb 2026; CFI's Apr 2026 planning document instead names Yogesh Goyal as DCP (Traffic) — see separate person records for each named office-holder.",,,Rajasthan,Jaipur,"Jaipur Traffic Police, Jaipur Police Commissionerate"
+67,engaged active offices,18,"SHOs of SAHAJ pilot police stations, Jaipur (Jawahar Circle, Bhankrota, Harmada and 3 others)","Station House Officers and Investigating Officers, pilot thanas",,,Rajasthan,Jaipur,Jaipur Police Commissionerate
+68,engaged active offices,19,"State Road Safety Cell / Transport Department, Rajasthan (office)",State Road Safety Cell / Transport Department,transport@rajasthan.gov.in,,Rajasthan,,Government of Rajasthan — Transport Department
+69,engaged active offices,20,Greater Chennai Corporation and Traffic Police / Road Safety Wing (office),"GCC Road Safety Wing; Joint Commissioner and DCP Traffic South (institutional, Project Rakshak implementation)",,,Tamil Nadu,Chennai,Greater Chennai Corporation; Greater Chennai Traffic Police
+70,engaged active offices,21,"Tamil Nadu Highways Department / PWD Road Safety Wing, Chennai (office)","Divisional/Circle Highways offices; PWD Road Safety Wing; Construction & Maintenance, City Roads",hwaysec@tn.gov.in,,Tamil Nadu,Chennai,"Highways Department / PWD, Government of Tamil Nadu"
+71,engaged active offices,22,Noida Traffic Police (office),"Traffic Police, Noida",,,Uttar Pradesh,Gautam Buddha Nagar,Uttar Pradesh Police
+72,engaged active offices,23,"PWD, Varanasi","Executive Engineer / Lok Nirman Vibhag (PWD), Varanasi",,,Uttar Pradesh,Varanasi,"Public Works Department, Uttar Pradesh (Varanasi)"
+73,engaged active offices,24,IIT Kharagpur,Government institute (knowledge/institutional partner),,,West Bengal,Paschim Medinipur,Indian Institute of Technology Kharagpur
+74,engaged active offices,25,"Transport Department, Andhra Pradesh (office)",Transport Department,,,Andhra Pradesh,Visakhapatnam,Andhra Pradesh Transport Department
+75,engaged active offices,26,"District officials, Bihar (office)",,,,Bihar,,"District administration offices, Bihar (unspecified districts)"
+76,engaged active offices,27,DLSA North (Rohini Courts),"Secretary / Public Information Officer, District Legal Services Authority, North Delhi",north-dlsa@nic.in,,Delhi,North Delhi,"District Legal Services Authority, North Delhi"
+77,engaged active offices,28,"District Magistrate / DRSC, North West Delhi (office)","District Magistrate, North West Delhi (Chair DRSC)",,,Delhi,North West,"District Administration, North West Delhi"
+78,engaged active offices,29,"District Magistrate / DRSC, South West Delhi (office)","District Magistrate, South West Delhi (Chair DRSC)",,,Delhi,South West,"District Administration, South West Delhi"
+79,engaged active offices,30,"Office of the Principal Accountant General (Audit), Delhi (CAG of India)",Performance Audit team — Follow-up Performance Audit of DTIDC (officer names not recorded),,,Delhi,New Delhi,"Comptroller and Auditor General of India (CAG) — Office of the Principal Accountant General (Audit), Delhi"
+80,engaged active offices,31,West DLSA,"District Legal Services Authority, West Delhi (PIO office)",,,Delhi,West Delhi,"West District Legal Services Authority, Delhi"
+81,engaged active offices,32,Ahmedabad Municipal Corporation (office),AMC (hoarding/installation permission) and Law Department,,,Gujarat,Ahmedabad,Ahmedabad Municipal Corporation
+82,engaged active offices,33,Kerala Transport Department -- Trivandrum SATARK POC (office),Transport Department (Minister's-office-nominated POC for SATARK),,,Kerala,Thiruvananthapuram,Kerala Transport Department
+83,engaged active offices,34,"Transport Department, Kerala -- Kochi RTO (office)",Transport Department / RTO (vehicle DO-hub registration desk),,,Kerala,Ernakulam,Kerala Transport Department
+84,engaged active offices,35,"Transport Minister, Kerala (office)","Minister for Transport, Government of Kerala",min.transport@kerala.gov.in,,Kerala,Thiruvananthapuram,"Transport Department, Government of Kerala"
+85,engaged active offices,36,IIT Indore (institute),Placement Cell (contact is a student representative of the cell; proposal also sent to CE office & Placement Officer),ceoffice@iiti.ac.in; placementofficer@iiti.ac.in,,Madhya Pradesh,Indore,"Indian Institute of Technology, Indore"
+86,engaged active offices,37,Confederation of Indian Industry (CII) — National Conclave on Road Safety (office),Conclave Secretariat,mamuni.das@cii.in,,National,,Confederation of Indian Industry (CII)
+87,engaged active offices,38,IB Cyber Division (office),Cyber Division,,,National,,Intelligence Bureau (IB)
+88,engaged active offices,39,"NRSTC 2026 organisers — IIT Bombay and ITS India Forum (Dr. Shiv Kumar, DG)","Conclave organisers (IIT Bombay; ITS India Forum, Director General Dr. Shiv Kumar)",,,National,,IIT Bombay / ITS India Forum
+89,engaged active offices,40,"State Transport Departments / Lead Agencies for Road Safety (multi-state, pan-India) (office)","Transport Commissioners / Principal Secretaries, Transport / State Road Safety Lead Agencies (multi-state)",,,National,,"State Transport Departments / State Lead Agencies for Road Safety (multi-state, pan-India)"
+90,engaged active offices,41,Supreme Court Committee on Road Safety (SCCoRS) (office) - via NRSTC 2026,Committee secretariat / evaluation panel for National Road Safety Technology Conclave 2026,dg@itsindiaforum.com (conclave contact); archak@iitb.ac.in,"9599786300 (Dr Shiv Kumar, DG ITS India Forum); +91 9811418874",National,,Supreme Court Committee on Road Safety
+91,engaged active offices,42,Government of Rajasthan (Transport / Police – SAHAJ crash-claim pilot) (office),,,,Rajasthan,Jaipur,Government of Rajasthan
+92,engaged active offices,43,"District Road Safety Committee (DRSC) (office, district unspecified)",,,,Unknown,,District Road Safety Committee (DRSC)
+93,engaged active offices,44,"District Magistrate / Chairperson, District Road Safety Committee, Siddharthnagar (office)","District Magistrate (ex-officio Chairperson, District Road Safety Committee)",dmsid@nic.in,,Uttar Pradesh,Siddharthnagar,"District Administration / District Road Safety Committee, Siddharthnagar"
+94,engaged active offices,45,Uttar Pradesh Police Technical Services (DIG-led) (office),Deputy Inspector General heading UP Police Technical Services,,,Uttar Pradesh,,Uttar Pradesh Police
+95,engaged active offices,46,Varanasi Municipal Corporation (Nagar Nigam),Municipal officer (unspecified) / Nagar Nigam & Varanasi Development Authority offices,,,Uttar Pradesh,Varanasi,Varanasi Nagar Nigam / Varanasi Development Authority
+96,target individuals,2,L.S.M. Ramasree,Addl. Transport Commissioner,,,Andhra Pradesh,,Andhra Pradesh Transport Department
+97,target individuals,3,"Ms. Thameem Ansariya A, IAS","Chairman, Collector",collector_gntr@ap.gov.in,0863-2234550,Andhra Pradesh,Guntur,"District Road Safety Committee (DRSC), Guntur"
+98,target individuals,4,"Shri Manish Kumar Sinha, I.P.S.",State Transport Commissioner,,,Andhra Pradesh,,Andhra Pradesh Transport Department
+99,target individuals,5,"Smt. Shaik Shereen Begum, IPS",Member (DCP Traffic),dcp_traffic@vza.appolice.gov.in,0866-2490066,Andhra Pradesh,Krishna/NTR District,"District Road Safety Committee (DRSC), Krishna/NTR District"
+100,target individuals,6,"Sri Ashutosh Shrivastava, IAS",Joint Collector,jc_gntr@ap.gov.in,0863-2234550,Andhra Pradesh,Guntur,"District Road Safety Committee (DRSC), Guntur"
+101,target individuals,7,"Sri D.K. Balaji, IAS","Chairman, Krishna District Road Safety Committee (Collector)",collector_krsn@ap.gov.in,08672-252668,Andhra Pradesh,Krishna/NTR District,"District Road Safety Committee (DRSC), Krishna/NTR District"
+102,target individuals,8,Sri N. Sivarama Prasad,Jt. Transport Commissioner (Member Secretary),jtc_guntur@aptransport.org,92816-07008,Andhra Pradesh,Guntur,"District Road Safety Committee (DRSC), Guntur"
+103,target individuals,9,"Sri S. Satish Kumar, IPS",Vice-Chairman (SP Guntur),sp@gtr.appolice.gov.in,0863-2234000,Andhra Pradesh,Guntur,"District Road Safety Committee (DRSC), Guntur"
+104,target individuals,10,"Sri S.V. Raja Sekhara Babu, IPS",Commissioner of Police,cp@vza.appolice.gov.in,0866-2492222,Andhra Pradesh,Krishna/NTR District,Vijayawada Police
+105,target individuals,11,"Ms. Vishakha Yadav, IAS","Chairman, Deputy Commissioner",dc-ppare-arn@nic.in,0360-2284900,Arunachal Pradesh,Papum Pare (Itanagar),"District Road Safety Committee (DRSC), Papum Pare (Itanagar)"
+106,target individuals,12,Shri Saugat Biswas,Transport Commissioner,,,Arunachal Pradesh,,"District Magistrate/Collector office, Arunachal Pradesh"
+107,target individuals,13,"Shri Taru Gusar, IPS",Superintendent of Police (Police Oversight),sppare-arn@nic.in,0360-2284906,Arunachal Pradesh,Papum Pare (Itanagar),"District Road Safety Committee (DRSC), Papum Pare (Itanagar)"
+108,target individuals,14,"Shri Toko Babu, APCS",Deputy Commissioner,,,Arunachal Pradesh,Itanagar,"District Magistrate/Collector office, Itanagar"
+109,target individuals,15,Vishakha Yadav,District Magistrate (DM) — unconfirmed,,,Arunachal Pradesh,,"District administration, Arunachal Pradesh (specific district unconfirmed)"
+110,target individuals,16,Shri Gautam Das,OSD & DTO R&L (Member Secretary),dtoghykm@gmail.com,91-95311-07480,Assam,Guwahati (Kamrup Metro),"District Road Safety Committee (DRSC), Guwahati (Kamrup Metro)"
+111,target individuals,17,"Shri Harmeet Singh, IPS",Commissioner of Police (Police Oversight),cp-ghty@assampolice.gov.in,0361-2540278,Assam,Guwahati (Kamrup Metro),"District Road Safety Committee (DRSC), Guwahati (Kamrup Metro)"
+112,target individuals,18,"Shri Jayanta Sarathi Borah, APS",DCP Traffic (Traffic Oversight),dcp-trff@assampolice.gov.in,91-60269-00547,Assam,Guwahati (Kamrup Metro),"District Road Safety Committee (DRSC), Guwahati (Kamrup Metro)"
+113,target individuals,19,Shri Manvendra Pratap Singh,Transport Commissioner,,,Assam,,Assam Transport Department
+114,target individuals,20,"Shri Sumit Sattawan, IAS","Chairman, District Commissioner",dc-kamrupm@nic.in,91-99583-73505,Assam,Guwahati (Kamrup Metro),"District Road Safety Committee (DRSC), Guwahati (Kamrup Metro)"
+115,target individuals,21,"Shri Swapneel Paul, IAS",District Commissioner,,,Assam,Guwahati,"District Magistrate/Collector office, Guwahati"
+116,target individuals,22,Samrat Choudhary,"Chief Minister, Bihar",,,Bihar,Patna,Government of Bihar
+117,target individuals,23,"Sh. Charanjit Singh Virk, CPS",DSP/Traffic (East),,9779580966.0,Chandigarh,Chandigarh,Chandigarh Traffic Police
+118,target individuals,24,"Sh. Nishant Kumar Yadav, IAS",Deputy Commissioner,,,Chandigarh,Chandigarh,"District Magistrate/Collector office, Chandigarh"
+119,target individuals,25,"Sh. Sumer Partap Singh, IPS",SSP/Traffic & Security,,9779580904.0,Chandigarh,Chandigarh,Chandigarh Traffic Police
+120,target individuals,26,"Smt. Gurjeet Kaur, CPS",DSP/Traffic (Central),,9875910120.0,Chandigarh,Chandigarh,Chandigarh Traffic Police
+121,target individuals,27,Dharmendra Kumar,ADM,ndadm@nic.in,"23071144, 23389685",Delhi,New Delhi,"District Magistrate office, New Delhi"
+122,target individuals,28,Dr. Mukesh Kumar,Joint Commissioner,,,Delhi,Central Delhi,Delhi administration
+123,target individuals,29,Sunny Kumar Singh,D.M. New Delhi,dcnd@nic.in,"23386982, 23384621",,,
+124,target individuals,30,Justice J.R. Midha (Retd.),"Former Judge, Delhi High Court",jjrmidha@gmail.com,,Delhi,,Delhi High Court (retired)
+125,target individuals,31,Kumar Rahul,"Official, New Delhi District Legal Services Authority (handles MACT cases, per referral)",,,Delhi,New Delhi,"District Legal Services Authority, New Delhi"
+126,target individuals,32,Soumya Saurabh,"Chairman, District Magistrate",dcnw@nic.in,011-28096208,,,
+127,target individuals,33,Ms. Bharti Garg,Secretary (Litigation),,,Delhi,,Delhi State Legal Services Authority (DSLSA)
+128,target individuals,34,Ms. Niharika Rai,"Commissioner, Transport",,,Delhi,,Delhi Transport Department
+129,target individuals,35,"Ms. Sandhya Swamy, IPS",DCP Traffic - Northern Range,dcptcr@gmail.com,011-27854080,Delhi,North West Delhi,Delhi Police
+130,target individuals,36,"Ms. Soumya Saurabh, I.A.S.",District Magistrate/Deputy Commissioner,,,Delhi,Delhi NW,"District Magistrate/Collector office, Delhi NW"
+131,target individuals,37,Rakesh Dahiya,SDM (Chanakyapuri),chanakyasdm@nic.in,23386844.0,Delhi,New Delhi,"District Magistrate office, New Delhi"
+132,target individuals,38,Sanjay Jha,SDM (New Delhi),sdmend.delhi@nic.in,23386410.0,Delhi,New Delhi,"District Magistrate office, New Delhi"
+133,target individuals,39,Sarita Sabharwal,SDM HQ,sdmhqnd.delhi@nic.in,23072788.0,Delhi,New Delhi,"District Magistrate office, New Delhi"
+134,target individuals,40,Sh. Jitendra Yadav,"Special Commissioner, Transport",,,Delhi,,Delhi Transport Department
+135,target individuals,41,"Sh. Vishwendra, IAS",Special Commissioner,,,Delhi,Central Delhi,Delhi administration
+136,target individuals,42,Shri Joseph Baxla,Deputy Oversight (SDM HQ),sdmhqnw@gmail.com,011-25953375,Delhi,North West Delhi,"District Road Safety Committee (DRSC), North West Delhi"
+137,target individuals,43,"Shri Lakshay Singhal, IAS",District Magistrate / Deputy Commissioner,dcsouth@nic.in,011-29535025,Delhi,Delhi South,"District Magistrate/Collector office, Delhi South"
+138,target individuals,44,Shri Rahul Saini,ADM South (Additional Support),southadm@nic.in,011-29536774,Delhi,South Delhi,"District Road Safety Committee (DRSC), South Delhi"
+139,target individuals,45,Sunil Dutt,SDM (Cantt),canttsdm@nic.in,"23382990, 23389685",Delhi,New Delhi,"District Magistrate office, New Delhi"
+140,target individuals,46,Dr. M. D. Modia,District Collector,,(O)02637-244999,Gujarat,Navsari,"District Collector office, Navsari"
+141,target individuals,47,Tejas Dilipbhai Parmar,"District Collector, Surat",,(O)0285-2630100,,,
+142,target individuals,48,Dr. Rahul Babubhai Gupta,District Collector,,(O)0281-2473900,Gujarat,Rajkot,"District Collector office, Rajkot"
+143,target individuals,49,Bhavya Verma,"District Collector, Ahemedabad",,(O)079-27551681,,,
+144,target individuals,50,Ms. Remya Mohan Moothadath,District Collector,,(O)02832250020,Gujarat,Kachchh,"District Collector office, Kachchh"
+145,target individuals,51,B. A. Shah,"District Collector, Vadodara",,(O)0265-2433000,,,
+146,target individuals,52,Shri Ajay Prakash,District Collector,,(O)02876240001,Gujarat,Gir-Somnath-Veraval,"District Collector office, Gir-Somnath-Veraval"
+147,target individuals,53,Shri Anand Babulal Patel,District Collector,,(O)02766233301,Gujarat,Patan,"District Collector office, Patan"
+148,target individuals,54,Shri Anupam Anand,Transport Commissioner,,,Gujarat,,Gujarat Transport Department
+149,target individuals,55,"Shri Anupam Singh Gehlot, IPS",Police Commissioner (Member),cp-sur@gujarat.gov.in,0261-2244440,Gujarat,Surat,"District Road Safety Committee (DRSC), Surat"
+150,target individuals,56,Shri B. K. Kumar,District Collector,,(O)02631220201,Gujarat,Dangs-Ahwa,"District Collector office, Dangs-Ahwa"
+151,target individuals,57,Shri Dilip Kumar Rana,District Collector,,(O)02692-261575,Gujarat,Anand,"District Collector office, Anand"
+152,target individuals,58,Shri H K Patel,District Collector,,(O)02762222211,Gujarat,Mehsana,"District Collector office, Mehsana"
+153,target individuals,59,Shri Harshadkumar Ratilal Patel,District Collector,,(O)02782428822,Gujarat,Bhavnagar,"District Collector office, Bhavnagar"
+154,target individuals,60,Amit Prakash Yadav,"District Collector, Kheda",,(O)0268-2553334,,,
+155,target individuals,61,Shri J. R. Dodiya,District Collector,,(O)02833232804,Gujarat,Devbhumi Dwarka-Khambhaliya,"District Collector office, Devbhumi Dwarka-Khambhaliya"
+156,target individuals,62,Shri M. A. Pandya,District Collector,,(O)0286-2221800,Gujarat,Porabandar,"District Collector office, Porabandar"
+157,target individuals,63,Shri N. K. Damor,District Collector,,(O)02626224460,Gujarat,Tapi-Vyara,"District Collector office, Tapi-Vyara"
+158,target individuals,64,Shri Nagarajan M.,District Collector,,(O)02774-250200,Gujarat,Arvalli,"District Collector office, Arvalli"
+159,target individuals,65,Shri Oak Aayush Sanjeev,"District Collector, Valsad",,02632-253613 or 02632-244274,Gujarat,Amreli,"District Collector office, Amreli"
+160,target individuals,66,Shri P.B. Lathiya,Regional Transport Officer (Member Secretary),rto-trans-sur@gujarat.gov.in,0261-2464902,Gujarat,Surat,"District Road Safety Committee (DRSC), Surat"
+161,target individuals,67,Shri R. J. Makadia,District Collector,,(O)02822-240701,Gujarat,Morbi,"District Collector office, Morbi"
+162,target individuals,68,Shri R. S. Ninama,District Collector,,(O)02640222161,Gujarat,Narmada-Rajpipla,"District Collector office, Narmada-Rajpipla"
+163,target individuals,69,"Shri Raghavendra Vatsa, IPS",JCP Traffic (Traffic Oversight),jcp-traffic-sur@gujarat.gov.in,0261-2992651,Gujarat,Surat,"District Road Safety Committee (DRSC), Surat"
+164,target individuals,70,Navnath Kondiba Gavhane,"District Collector, Bharuch",,(O)02642-240600,,,
+165,target individuals,71,P. B. Pandya,"District Collector, Jamnagar",,(O)02882555869,,,
+166,target individuals,72,Shri S. K. Langa,District Collector,,(O)079-23220630,Gujarat,Gandhinagar,"District Collector office, Gandhinagar"
+167,target individuals,73,Shri Sagale Sandip J.,District Collector,,(O)02742-257171,Gujarat,Banaskantha,"District Collector office, Banaskantha"
+168,target individuals,74,Anil Dhamelia,Chhota Udepur,,(O)02669-233003,,,
+169,target individuals,75,Shri Udit Agrwal,District Collector,,(O)02672-242800,Gujarat,Panchmahal,"District Collector office, Panchmahal"
+170,target individuals,76,Shri V. A. Vaghela,District Collector,,(O)02674-250664,Gujarat,Mahisagar-Lunavada,"District Collector office, Mahisagar-Lunavada"
+171,target individuals,77,Shri Vijaykumar Lalubhai Kharadi,District Collector,,(O)02673-239001,Gujarat,Dahod,"District Collector office, Dahod"
+172,target individuals,78,ACP Susheela,ACP (manages hit and run cases of Gurugram),,9999981815.0,Haryana,Gurugram,Gurugram Police
+173,target individuals,79,ACP Vishal,"ACP, SO Office / Crime Records Office, Commissioner of Police office, Gurugram",,,Haryana,Gurugram,Gurugram Police
+174,target individuals,80,Abhilaksh Joshi,ACP West Gurugram,,9205901445.0,Haryana,Gurugram,Gurugram Police
+175,target individuals,81,Anil Vij,Transport Minister,,,Haryana,,Haryana Government
+176,target individuals,82,Anju Sharma,Executive District Magistrate,EDM.FARIDABAD@GMAIL.COM,9899835856.0,Haryana,Faridabad,"District Magistrate office, Faridabad"
+177,target individuals,83,Atul Kumar,Transport Commissioner,,,Haryana,,Haryana Transport Department
+178,target individuals,84,Avtar Singh,SHO PS Sector-9A,shosec9aggm.pol-hry@gov.in,9205892117.0,Haryana,Gurugram,Gurugram Police
+179,target individuals,85,Bijender,SHO PS Civil Lines,shocivillinesggn-hry@nic.in,9999981834.0,Haryana,Gurugram,Gurugram Police
+180,target individuals,86,Chander Bhan,SHO PS Sec-14,shosec14ggm.pol-hry@gov.in,9205892118.0,Haryana,Gurugram,Gurugram Police
+181,target individuals,87,Devender,SHO PS Shivaji Nagar,shoshivaggm.pol-hry@gov.in,9205892120.0,Haryana,Gurugram,Gurugram Police
+182,target individuals,88,"Dr. Rajesh Kumar Mohan, IPS",DCP TRAFFIC,dcpcrime-2ggm@hry.gov.in,9999981808.0,Haryana,Gurugram,Gurugram Traffic Police
+183,target individuals,89,Geeta,SHO Women PS West,showomenpsgn-hry@gov.in,9205892107.0,Haryana,Gurugram,Gurugram Police
+184,target individuals,90,Insp. Anil No. 562/H,NIGHT TI EAST ZONE,,9050042500.0,Haryana,Gurugram,Gurugram Traffic Police
+185,target individuals,91,Insp. Bijender No. H/23,TI EAST-3rd GGM,,9205857520.0,Haryana,Gurugram,Gurugram Traffic Police
+186,target individuals,92,Insp. Jagdev No. 297/GGM,SHO KMP EX. GGM,,9205743911.0,Haryana,Gurugram,Gurugram Traffic Police
+187,target individuals,93,Insp. Karan Singh No. 251/CPF,TI WEST-4TH GGM,,9205892146.0,Haryana,Gurugram,Gurugram Traffic Police
+188,target individuals,94,Insp. Krishan No. 34/GGM,TI WEST-6TH,,9910776474.0,Haryana,Gurugram,Gurugram Traffic Police
+189,target individuals,95,Insp. Lokesh No. 110/CPF,TI WEST-3RD GGM,,9205892143.0,Haryana,Gurugram,Gurugram Traffic Police
+190,target individuals,96,Insp. Mahabir Singh No. 160/HAP,TI HIGHWAY-1ST GGM,,9205892134.0,Haryana,Gurugram,Gurugram Traffic Police
+191,target individuals,97,Insp. Mahesh No. 1474,TI EAST-7TH GGM,,9717400184.0,Haryana,Gurugram,Gurugram Traffic Police
+192,target individuals,98,Insp. Manoj No. 279/GGM,SHO TPS-2ND GGM,,9205892139.0,Haryana,Gurugram,Gurugram Traffic Police
+193,target individuals,99,Insp. Neeraj No. 20,TI WEST-2ND GGM,,9205892141.0,Haryana,Gurugram,Gurugram Traffic Police
+194,target individuals,100,Insp. Parveen No. RR/143,TI EAST-6TH GGM,,9205892138.0,Haryana,Gurugram,Gurugram Traffic Police
+195,target individuals,101,Insp. Rajbir No. 368/RR,TI DWARKA EX.,,9289063409.0,Haryana,Gurugram,Gurugram Traffic Police
+196,target individuals,102,Insp. Ramkishan No. 413/PWL,TI WEST-5TH GGM,,9205618469.0,Haryana,Gurugram,Gurugram Traffic Police
+197,target individuals,103,Insp. Sandeep,NIGHT TRAFFIC INSPECTOR,,9873043155.0,Haryana,Gurugram,Gurugram Traffic Police
+198,target individuals,104,Insp. Sudhir No. H/88,I/C ROAD SAFETY CELL,,9416390011.0,Haryana,Gurugram,Gurugram Traffic Police
+199,target individuals,105,Insp. Sunil,TI WEST-1ST GGM,,9205892135.0,Haryana,Gurugram,Gurugram Traffic Police
+200,target individuals,106,Insp. Sunil No. 2072,TI EAST 1 GGM,,9205892136.0,Haryana,Gurugram,Gurugram Traffic Police
+201,target individuals,107,Insp. Suresh No.199/CPF,SHO TPS-1ST GGM,,9205892144.0,Haryana,Gurugram,Gurugram Traffic Police
+202,target individuals,108,Karan Goel,DCP West,dcp.westggn@hry.nic.in,"2869300, 2224899",Haryana,Gurugram,Gurugram Police
+203,target individuals,109,Kuldeep,ACP New Colony,,9205987513.0,Haryana,Gurugram,Gurugram Police
+204,target individuals,110,Kuldeep Kumar,Additional District Magistrate,DMJIND1@GMAIL.COM,8222822707.0,Haryana,Jind,"District Magistrate office, Jind"
+205,target individuals,111,L/Insp. Indu Bala,TI EAST-2nd GGM,,9205892137.0,Haryana,Gurugram,Gurugram Traffic Police
+206,target individuals,112,L/Insp. Rajma No. 101/MWT,TI EAST-5TH GGM,,9205857026.0,Haryana,Gurugram,Gurugram Traffic Police
+207,target individuals,113,L/Insp. Savita,TI EAST-4TH GGM,,9205892142.0,Haryana,Gurugram,Gurugram Traffic Police
+208,target individuals,114,Lovelesh Grover,Executive District Magistrate,EDM.FATEHABAD@GMAIL.COM,9416248146.0,Haryana,Fatehabad,"District Magistrate office, Fatehabad"
+209,target individuals,115,Madan Lal,SHO PS City,shoggncity-hry@nic.in,9999981833.0,Haryana,Gurugram,Gurugram Police
+210,target individuals,116,Manjeet,ACP Udyog Vihar,acpudyogviharggn-hry@nic.in,9999981811.0,Haryana,Gurugram,Gurugram Police
+211,target individuals,117,"Ms. Sangeeta Kalia, IPS",Joint Commissioner of Police,,,Haryana,Gurugram,Gurugram Police
+212,target individuals,118,Naveen Dagar,Additional District Magistrate,DM1FARIDABAD@GMAIL.COM,8447386630.0,Haryana,Faridabad,"District Magistrate office, Faridabad"
+213,target individuals,119,Naveen Dutta,Additional District Magistrate,NAVEEN2425@GMAIL.COM,9034355978.0,Haryana,Yamuna Nagar,"District Magistrate office, Yamuna Nagar"
+214,target individuals,120,PSI Harish,I/C ICCC GMDA,,8168810793.0,Haryana,Gurugram,Gurugram Traffic Police
+215,target individuals,121,Rajesh,SHO PS Rajendra Park,shorajendrapark-hry@nic.in,9999981837.0,Haryana,Gurugram,Gurugram Police
+216,target individuals,122,Ravinder Singh,Executive District Magistrate,EDM.YAMUNANAGAR1@GMAIL.COM,9671146984.0,Haryana,Yamuna Nagar,"District Magistrate office, Yamuna Nagar"
+217,target individuals,123,Ruman Duhan,Executive District Magistrate,EDM.HISAR@GMAIL.COM,9996162798.0,Haryana,Hisar,"District Magistrate office, Hisar"
+218,target individuals,124,Sajjan,SHO PS Sec 17/18,shosec17-hry@nic.in,9999981838.0,Haryana,Gurugram,Gurugram Police
+219,target individuals,125,Satyawan,SHO PS Sec-5,shosec5oldggn-hry@nic.in,9999981835.0,Haryana,Gurugram,Gurugram Police
+220,target individuals,126,"Sh. Ajay Kumar, IAS",Deputy Commissioner,,,Haryana,Gurugram,"District Magistrate/Collector office, Gurugram"
+221,target individuals,127,"Sh. Jai Singh, HPS","ACP TRAFFIC WEST I (WEST 1,2,3,5)",,9205892106.0,Haryana,Gurugram,Gurugram Traffic Police
+222,target individuals,128,Sh. Lakshit Sareen (IAS),Additional Deputy Commissioner (ADC),,,Haryana,Sonipat,Sonipat administration
+223,target individuals,129,"Sh. Sanjay Singh, HPS",ACP TRAFFIC EAST,,9205892108.0,Haryana,Gurugram,Gurugram Traffic Police
+224,target individuals,130,"Sh. Satyapal Yadav, HPS",ACP TRAFFIC HQ AND HIGHWAY,acptrafficggn-hry@nic.in,9999981809.0,Haryana,Gurugram,Gurugram Traffic Police
+225,target individuals,131,"Sh. Surender Phogat, HPS","ACP TRAFFIC WEST 2 (WEST-4, 6, DWARKA, KMP)",,9205987510.0,Haryana,Gurugram,Gurugram Traffic Police
+226,target individuals,132,"Sh. Swapnil Ravindra Patil, IAS",Deputy Commissioner,,,Haryana,Jhajjar,Jhajjar administration
+227,target individuals,133,Sh. Vikas Kumar Arora,Commissioner of Police,,,Haryana,Gurugram,Gurugram Police
+228,target individuals,134,Shashikant Kaushik,Executive District Magistrate,EDM.JHAJJAR@GMAIL.COM,9466160420.0,Haryana,Jhajjar,"District Magistrate office, Jhajjar"
+229,target individuals,135,Shilpa Rani,Additional District Magistrate,FATEHABAD.DM2@GMAIL.COM,8901302584.0,Haryana,Fatehabad,"District Magistrate office, Fatehabad"
+230,target individuals,136,Shri Sonu Bhatt,Additional Deputy Commissioner,,,Haryana,Gurugram,Gurugram administration
+231,target individuals,137,Shri. Ayush Sinha,Deputy Commissioner,,,Haryana,Faridabad,"District Magistrate/Collector office, Faridabad"
+232,target individuals,138,"Shri. Rajesh Duggal, IPS",Joint Commissioner of Police,,,Haryana,Faridabad,Faridabad Police
+233,target individuals,139,Shri. Satender Kumar Gupta,Commissioner of Police (CP),,,Haryana,Faridabad,Faridabad Police
+234,target individuals,140,Shri. Sudhir Verma,Road Safety - Gurugram Traffic Police,,,Haryana,Gurugram,Gurugram Police
+235,target individuals,141,"Smt. Mamta Singh, IPS",Additional Director General of Police (ADGP),,,Haryana,Sonipat,Sonipat Police
+236,target individuals,142,Sukhbir Singh,ACP Old Gurugram,,9205892105.0,Haryana,Gurugram,Gurugram Police
+237,target individuals,143,Surinder Kaur,ACP CAW East & West,,9289811152.0,Haryana,Gurugram,Gurugram Police
+238,target individuals,144,Tejpal,SHO PS New Colony,shoncggm.pol-hry@gov.in,9205892119.0,Haryana,Gurugram,Gurugram Police
+239,target individuals,145,Vinod Kumar,SHO PS Udyog Vihar,shoudyogvihar-hry@nic.in,9999981831.0,Haryana,Gurugram,Gurugram Police
+240,target individuals,146,Vishnu Prasad,ACP City,acpggncity-hry@nic.in,9999981819.0,Haryana,Gurugram,Gurugram Police
+241,target individuals,147,Yogesh Kumar,Executive District Magistrate,EDM.REWARI@GMAIL.COM,9416891355.0,Haryana,Gurugram,"District Magistrate office, Gurugram"
+242,target individuals,148,A.M. Shobha,"Joint Commissioner for Transport, Bengaluru Urban",,,Karnataka,,"Government of Karnataka, Transport Department"
+243,target individuals,149,Deepa Cholan,"Secretary to Government, Transport Department",,,,,
+244,target individuals,150,Hemantha Kumara L,"Additional Commissioner for Transport and Secretary, KSTA",,,Karnataka,,Karnataka lead agency for road safety
+245,target individuals,151,N.G. Gayathridevi,Joint Commissioner for Transport (Bengaluru Rural Division),,,Karnataka,,"Government of Karnataka, Transport Department"
+246,target individuals,152,Seemant Kumar Singh,"Commissioner of Police, Bengaluru",,,Karnataka,Bengaluru Urban,Bengaluru City Police
+247,target individuals,153,"Shri. Jagadeesha G, IAS",Deputy Commissioner & District Magistrate,,,Karnataka,Bengaluru,"District Magistrate/Collector office, Bengaluru"
+248,target individuals,154,Tejasvi Surya,"Member of Parliament (Lok Sabha), Bengaluru South",,,Karnataka,Bengaluru Urban,"Lok Sabha, Government of India"
+249,target individuals,155,"Yogeesh A.M., I.A.S",Commissioner for Transport and Road Safety,,,Karnataka,,Karnataka lead agency for road safety
+250,target individuals,156,"Mr. Snehil Kumar Singh, IAS",District Commissioner,,,Kerala,Kozhikode,"District Magistrate/Collector office, Kozhikode"
+251,target individuals,157,Nazeer P A,RTO Kozhikode (Member Secretary),kl11.mvd@kerala.gov.in,8547639011.0,Kerala,Kozhikode,"District Road Safety Committee (DRSC), Kozhikode"
+252,target individuals,158,"Priyanka G, IAS",District Collector (DRSC Chairman),dcpkd.ker@nic.in,04912505309 / 04912505266,Kerala,Palakkad,"District Road Safety Committee (DRSC), Palakkad"
+253,target individuals,159,Shri Ajith Kumar,RTO Enforcement,rtoenftvm.mvd@kerala.gov.in,8547639001.0,Kerala,Thiruvananthapuram,"District Road Safety Committee (DRSC), Thiruvananthapuram"
+254,target individuals,160,"Shri Anu Kumari, IAS","Chairman, District Collector",dctvm.ker@nic.in,0471-2731177,Kerala,Thiruvananthapuram,"District Road Safety Committee (DRSC), Thiruvananthapuram"
+255,target individuals,161,Shri Shaji Madhavan,RTO Thiruvananthapuram (Member Secretary),kl01.rto@kerala.gov.in,0471-2469229,Kerala,Thiruvananthapuram,"District Road Safety Committee (DRSC), Thiruvananthapuram"
+256,target individuals,162,"Snehil Kumar Singh, IAS",District Collector (DRSC Chairman),dckzk.ker@nic.in,4952371400.0,Kerala,Kozhikode,"District Road Safety Committee (DRSC), Kozhikode"
+257,target individuals,163,G. Sparjan Kumar IPS,Transport Commissioner Kerala,,,,,
+258,target individuals,164,T.M. Jerson,Regional Transport Officer (Member Secretary),kl09.rto@kerala.gov.in,8547639009.0,Kerala,Palakkad,"District Road Safety Committee (DRSC), Palakkad"
+259,target individuals,165,Mr. Abhay Rajangaonkar,"Additional Commissioner, Indore Municipal Corporation",,,Madhya Pradesh,Indore,Indore administration
+260,target individuals,166,Rishav Gupta,"District Collector, Khandwa",,,Madhya Pradesh,Khandwa,"District Administration, Khandwa"
+261,target individuals,167,Sheetla Patle,"IAS, District Magistrate, Narsinghpur",,,Madhya Pradesh,Narsinghpur,"District Administration, Narsinghpur"
+262,target individuals,168,Shivam Verma,"District Collector, Indore (Shri)",,,Madhya Pradesh,Indore,"District Administration, Indore"
+263,target individuals,169,"Shri Anand Kaladgi, IPS",DCP Zone-4/Traffic,dcp.zone4.indore@mppolice.gov.in,0731-2491396,Madhya Pradesh,Indore,"District Road Safety Committee (DRSC), Indore"
+264,target individuals,170,Shri Pradeep Sharma,RTO Indore (Member Secretary),rto.ind@mp.gov.in,95898-94678,Madhya Pradesh,Indore,"District Road Safety Committee (DRSC), Indore"
+265,target individuals,171,Shri Raghvendra Singh,Collector & District Magistrate,,,Madhya Pradesh,Jabalpur,"District Magistrate/Collector office, Jabalpur"
+266,target individuals,172,Shri Rajesh Dandotiya,Addl. DCP Traffic,addldcp.traffic1.indore@mppolice.gov.in,70491-07620,Madhya Pradesh,Indore,"District Road Safety Committee (DRSC), Indore"
+267,target individuals,173,"Shri Santosh Kumar Singh, IPS",Commissioner of Police (Traffic Oversight),cpindore@mppolice.gov.in,0731-2490101,Madhya Pradesh,Indore,"District Road Safety Committee (DRSC), Indore"
+268,target individuals,174,Shri Shivam Verma,District Collector,,,Madhya Pradesh,Indore,"District Magistrate/Collector office, Indore"
+269,target individuals,175,"Shri Shivam Verma, IAS","Chairman, District Collector",dmindore@nic.in,0731-2449111,Madhya Pradesh,Indore,"District Road Safety Committee (DRSC), Indore"
+270,target individuals,176,Shri Vivek Sharma,State Transport Commissioner,,,Madhya Pradesh,,Madhya Pradesh Transport Department
+271,target individuals,177,Deven Bharti,"Commissioner of Police, Mumbai",,,Maharashtra,Mumbai,Mumbai Police
+272,target individuals,178,Mr. Vivek Bhimanwar,Transport Commissioner,,,Maharashtra,,Maharashtra Transport Department
+273,target individuals,179,Shri Anil Kumbhare,"Jt. Commissioner, Traffic (Traffic Oversight)",cp.mumbai.jtcp.traf@mahapolice.gov.in,022-24937755,Maharashtra,Mumbai Suburban,"District Road Safety Committee (DRSC), Mumbai Suburban"
+274,target individuals,180,Shri Manoj Gohad,Additional Collector,adlcolmsd@gmail.com,022-69403312,Maharashtra,Mumbai Suburban,"District Road Safety Committee (DRSC), Mumbai Suburban"
+275,target individuals,181,Shri. Saurabh Katiyar,District Collector and Magistrate,,,Maharashtra,Mumbai Suburban,"District Magistrate/Collector office, Mumbai Suburban"
+276,target individuals,182,Supriya Sule,"Member of Parliament (Lok Sabha), NCP(SP) leader",,,Maharashtra,,Parliament of India
+277,target individuals,183,Dharmendra Yadav,Member of Parliament (Lok Sabha),,,National,,Parliament of India
+278,target individuals,184,Dr Sudhir Krishna,"IAS (Retd.), Former Secretary, Ministry of Urban Development",,,National,,Government of India (retired) / Former Ministry of Urban Development
+279,target individuals,185,Dr. Gowri Nambiar Sengupta,(role at MoHFW),,,National,,Ministry of Health and Family Welfare (MoHFW)
+280,target individuals,186,Dr. Roderico H. Ofrin,WHO Representative to India,,,National,,World Health Organization — India Country Office
+281,target individuals,187,Dr. Saurabh Dalal,"National Professional Officer, Emergency, Risk & Crisis Management",,"=+918130350462 (office), +919946105498 (personal)",National,,"World Health Organization (WHO), India"
+282,target individuals,188,Gaurav Agrawal,"Amicus Curiae, Supreme Court of India (road-safety PILs)",,,National,,Supreme Court of India
+283,target individuals,189,Gautam Singh,Associate Director - Public Policy,gsing@savelifefoundation.org,9991436254.0,National,,SaveLIFE Foundation (SLF)
+284,target individuals,190,Harnath Singh Yadav,Member of Parliament (Rajya Sabha),,,National,,Parliament of India
+285,target individuals,191,Harsh Malhotra,"Minister of State, MoRTH",,,National,,Ministry of Road Transport and Highways (MoRTH)
+286,target individuals,192,Justice A.M. Sapre (Retd.),"Former Judge, Supreme Court of India",,,National,,Supreme Court of India
+287,target individuals,193,Justice J.B. Pardiwala & Justice K.V. Viswanathan (Bench),"Supreme Court Bench hearing S. Rajaseekaran v. Union of India (road-safety PIL, W.P.(C) No. 295 of 2012)",,,National,,Supreme Court of India
+288,target individuals,194,Katikithala Srinivas,"Secretary, Ministry of Housing and Urban Affairs",,,National,,Ministry of Housing and Urban Affairs (MoHUA)
+289,target individuals,195,Maheshwari J,"Judge, Supreme Court of India",,,National,,Supreme Court of India
+290,target individuals,196,Manohar Lal,"Union Minister, Ministry of Housing and Urban Affairs",,,National,,Ministry of Housing and Urban Affairs (MoHUA)
+291,target individuals,197,Mansukh Mandaviya,"Union Minister, Youth Affairs and Sports",,,National,,Ministry of Youth Affairs and Sports (MYAS)
+292,target individuals,198,Mirtyunjay Kumar,Under Secretary,mirtyunjay.kumar@nic.in,23717379.0,National,,Ministry of Road Transport and Highways (MoRTH)
+293,target individuals,199,Pallavi Jain Govil,"Secretary, Ministry of Youth Affairs and Sports",,,National,,Ministry of Youth Affairs and Sports (MYAS)
+294,target individuals,200,Punya Salila Srivastava,"Secretary, Ministry of Health and Family Welfare",,,National,,Ministry of Health and Family Welfare (MoHFW)
+295,target individuals,201,Pushpendra C,Manager,,,National,,"National Informatics Centre (NIC), MoRTH"
+296,target individuals,202,Sanjay Karol & Prashant Kumar Mishra JJ (Bench),Supreme Court Bench — judgment of 04.08.2026 in National Insurance Company Ltd v. Thungala Dhana Laxmi (C.A. 14369/2025) on uninsured vehicles and motor-insurance reform,,,National,,Supreme Court of India
+297,target individuals,203,Shashi Tharoor,Member of Parliament (Lok Sabha),,,National,,Parliament of India
+298,target individuals,204,Shrirang Appa Barne,Member of Parliament (Lok Sabha),,,National,,Parliament of India
+299,target individuals,205,Sudheer Gupta,Member of Parliament (Lok Sabha),,,National,,Parliament of India
+300,target individuals,206,Tokhan Sahu,"Minister of State, Ministry of Housing and Urban Affairs",,,National,,Ministry of Housing and Urban Affairs (MoHUA)
+301,target individuals,207,U.P. Singh (Retd. IAS),"Chairman, National Transportation Safety Board",,,National,,National Transportation Safety Board (NTSB)
+302,target individuals,208,Anandita Mitra,Deputy Commissioner,dc_nawanshahr@rediffmail.com,9463424848.0,Punjab,SBS Nagar,"Deputy Commissioner office, SBS Nagar"
+303,target individuals,209,Dr. Abhinav Trikha,Deputy Commissioner,electeh.gurdaspur@gmail.com,9463125029.0,Punjab,Gurdaspur,"Deputy Commissioner office, Gurdaspur"
+304,target individuals,210,Harpreet Singh,"Member, Punjab State Traffic Advisory Committee on Road Safety",contact@harpreethsingh.com,919779012345.0,Punjab,,Punjab State Traffic Advisory Committee on Road Safety
+305,target individuals,211,"Mr. R. Venkat Ratnam, IAS (retd.)","Lead Agency-cum-Member Secretary, Punjab State Road Safety Council",,,Punjab,,Punjab lead agency for road safety
+306,target individuals,212,Rahul Chaba,"Deputy Commissioner, Sangrur",dc.sgr@punjab.gov.in,9417203389.0,,,
+307,target individuals,213,Pradeep Kumar Aggrawal,Deputy Commissioner,dc.rpr@punjab.gov.in,9463837820.0,Punjab,Rupnagar,"Deputy Commissioner office, Rupnagar"
+308,target individuals,214,Ravi Bhagat,Deputy Commissioner,dcamritsar@gmail.com,9877861786.0,Punjab,Amritsar,"Deputy Commissioner office, Amritsar"
+309,target individuals,215,S. Gurlovleen Singh Sidhu,Deputy Commissioner,deputycommissioner.bnl@gmail.com,8427101650.0,Punjab,Barnala,"Deputy Commissioner office, Barnala"
+310,target individuals,216,"Sh. Aditya Dachalwal, IAS",Deputy Commissioner,,,Punjab,Ropar,"District Magistrate/Collector office, Ropar"
+311,target individuals,217,Navjot Kaur,Deputy Commissioner Mansa,dc.man@punjabmail.gov.in,9878007221.0,,,
+312,target individuals,218,Sh. Arshdeep Singh Thind,Deputy Commissioner,dc.mog@punjabmail.gov.in,9780008595.0,Punjab,Moga,"Deputy Commissioner office, Moga"
+313,target individuals,219,Sh. Arun Sekhri,Deputy Commissioner,sekhriarun@yahoo.com,9872221702.0,Punjab,Fatehgarh Sahib,"Deputy Commissioner office, Fatehgarh Sahib"
+314,target individuals,220,Sh. Balwinder Singh Dhaliwal,Deputy Commissioner,dc.ttn@punjabmail.gov.in,9855233010.0,Punjab,Tarn Taran,"Deputy Commissioner office, Tarn Taran"
+315,target individuals,221,Sh. Daljit Singh Mangat,Deputy Commissioner,dckapurthala@gmail.com,9417079777.0,Punjab,Kapurthala,"Deputy Commissioner office, Kapurthala"
+316,target individuals,222,Rajesh Dhiman,"Deputy Commissioner, Bathinda",dc.btd@punjab.gov.in,9417590001.0,,,
+317,target individuals,223,Sh. Manjit Singh Narang,Deputy Commissioner,mcell.dcfzr@gmail.com,9815100192.0,Punjab,Firozpur,"Deputy Commissioner office, Firozpur"
+318,target individuals,224,Poonamdeep Kaur,"Deputy Commissioner, Faridkot",deofaridkot@gmail.com,9463075767.0,,,
+319,target individuals,225,Sh. Paramjit Singh,Deputy Commissioner,dcmks@yahoo.com,9815131097.0,Punjab,Muktsar,"Deputy Commissioner office, Muktsar"
+320,target individuals,226,Himanshu Aggarwal,"Deputy Commissioner, Patiala",punpat@nic.in,9464445555.0,,,
+321,target individuals,227,Sh. Rajat Aggarwal,Deputy Commissioner,dc.ldh@punjabmail.gov.in,9501399999.0,Punjab,Ludhiana,"Deputy Commissioner office, Ludhiana"
+322,target individuals,228,Sh. S. Karuna Raju,Deputy Commissioner,dcfazilka@gmail.com,9779943700.0,Punjab,Fazilka,"Deputy Commissioner office, Fazilka"
+323,target individuals,229,Sh. Sibin C,Deputy Commissioner,sibin.ias@gmail.com,9463318138.0,Punjab,Pathankot,"Deputy Commissioner office, Pathankot"
+324,target individuals,230,Sh. Tejinderpal Singh Sidhu,Deputy Commissioner,dcsasnagar.punjab@gmail.com,9888987867.0,Punjab,SAS Nagar,"Deputy Commissioner office, SAS Nagar"
+325,target individuals,231,"Shri Avikesh Gupta, PCS",ADC (General),adc.rpr@punjab.gov.in,01881-221152,Punjab,Rupnagar,"District Road Safety Committee (DRSC), Rupnagar"
+326,target individuals,232,"Shri Gulneet Singh Khurana, IPS",SSP Rupnagar (Police Oversight),ssp.rpr.police@punjab.gov.in,01881-221273,Punjab,Rupnagar,"District Road Safety Committee (DRSC), Rupnagar"
+327,target individuals,233,"Shri Varjeet Walia, IAS","Chairman, Deputy Commissioner",dc.rpr@punjab.gov.in,01881-221150,Punjab,Rupnagar,"District Road Safety Committee (DRSC), Rupnagar"
+328,target individuals,234,"Smt. Anamjyot Kaur, PCS",RTO Rupnagar (Member Secretary),rtorupnagar@gmail.com,9814021021.0,Punjab,Rupnagar,"District Road Safety Committee (DRSC), Rupnagar"
+329,target individuals,235,"Smt. Parneet Shergill, IAS",State Transport Commissioner,,,Punjab,,Punjab Transport Department
+330,target individuals,236,Tanu Kashyap,Deputy Commissioner,hoshiarpurdc@gmail.com,9463837773.0,Punjab,Hoshiarpur,"Deputy Commissioner office, Hoshiarpur"
+331,target individuals,237,Varjeet Walia,"Deputy Commissioner, Jalandhar",dc.jal@punjabmail.gov.in,9417944155.0,,,
+332,target individuals,238,"Dr. Jitendra Kumar Soni, IAS",District Commissioner,,,Rajasthan,Jaipur,"District Magistrate/Collector office, Jaipur"
+333,target individuals,239,Nishchay Prasad,"Deputy Commissioner of Police (zone, Traffic)",,,Rajasthan,Jaipur,"Jaipur Traffic Police, Rajasthan Police"
+334,target individuals,240,Shri Babu Lal Kothari,District Collector & District Magistrate,,"9799104000, 9214025770",Rajasthan,Jalore,Jalore District Administration
+335,target individuals,241,Shri Dolat Ram,"SDM, Bhinmal",,"9649123222, 9530318205",Rajasthan,Jalore,Jalore District Administration
+336,target individuals,242,Shri Dolat Ram (Addl.),"SDM, Jaswantpura",,"9649123222, 9530318205",Rajasthan,Jalore,Jalore District Administration
+337,target individuals,243,Shri Hanuman Singh Rathore,"SDM, Raiwara",,9414534292.0,Rajasthan,Jalore,Jalore District Administration
+338,target individuals,244,Shri Hariram Meena,"CEO, Zila Parishad",,9414334790.0,Rajasthan,Jalore,Jalore District Administration
+339,target individuals,245,Shri Manmohan Vyas,"SDM, Ahore",,9414418364.0,Rajasthan,Jalore,Jalore District Administration
+340,target individuals,246,Shri Murari Lal Sharma,"SDM, Sanchore",,9461321000.0,Rajasthan,Jalore,Jalore District Administration
+341,target individuals,247,Shri Murari Lal Sharma (Addl.),"SDM, Chitalwana",,9461321000.0,Rajasthan,Jalore,Jalore District Administration
+342,target individuals,248,Shri Naresh Bunkar,Additional District Magistrate (ADM),,9460581403.0,Rajasthan,Jalore,Jalore District Administration
+343,target individuals,249,Shri Rajendra Singh,"SDM, Jalore",,8890091642.0,Rajasthan,Jalore,Jalore District Administration
+344,target individuals,250,Shri Rajendra Singh Danga,"SDM, Sayla",,9521165861.0,Rajasthan,Jalore,Jalore District Administration
+345,target individuals,251,Shri Sumer Singh Purohit,"SDM, Bagoda",,9414530250.0,Rajasthan,Jalore,Jalore District Administration
+346,target individuals,252,Shri. Ujjawal Sharma,"Dy. Superintendent of Police, Transport",,,Rajasthan,,Government of Rajasthan — Transport Department
+347,target individuals,253,Sumesh Singh,Manager,,,Rajasthan,,"National Informatics Centre (NIC), Jaipur"
+348,target individuals,254,"Yogesh Goyal (DCP Traffic, Jaipur — Apr 2026)","Deputy Commissioner of Police (Traffic), Jaipur (named DCP Traffic per CFI's Apr 2026 roundtable planning document)",,,Rajasthan,Jaipur,"Jaipur Traffic Police, Rajasthan Police"
+349,target individuals,255,"Ms. R. Gajalakshmi, IAS",Commissioner Road Safety (DRSC Coordinating Authority),tnsta@nic.in,044-28520682,Tamil Nadu,Chennai,"District Road Safety Committee (DRSC), Chennai"
+350,target individuals,256,"Shri R. Gajalakshmi, IAS",State Transport Commissioner,,,Tamil Nadu,,Tamil Nadu Transport Department
+351,target individuals,257,"Thiru A. Arun, IPS","Commissioner of Police, Chennai City (DRSC Chairman)",cop.chncity@tncctns.gov.in,044-23452320,Tamil Nadu,Chennai,"District Road Safety Committee (DRSC), Chennai"
+352,target individuals,258,"Thiru G. Karthikeyan, IPS",Addl. Commissioner Traffic (DRSC Member),actraffic.gcp@tn.gov.in,044-23452261,Tamil Nadu,Chennai,"District Road Safety Committee (DRSC), Chennai"
+353,target individuals,259,Thiru Kiran Gurrala,Transport and Road Safety Commissioner,,,Tamil Nadu,,Tamil Nadu lead agency for road safety
+354,target individuals,260,"Thiru V.V. Sai Praneeth, IPS",Police Oversight,cptsboffice@gmail.com,044-29540555,Tamil Nadu,Chengalpattu,"District Road Safety Committee (DRSC), Chengalpattu"
+355,target individuals,261,"Tmt Rashmi Siddharth Zagade, IAS",District Collector,collrchn@nic.in,044-25228025,Tamil Nadu,Chennai,"District Magistrate/Collector office, Chennai"
+356,target individuals,262,"Tmt. D. Sneha, IAS","Chairman, District Collector",collr-cpt@nic.in,044-27427412,Tamil Nadu,Chengalpattu,"District Road Safety Committee (DRSC), Chengalpattu"
+357,target individuals,263,Dr. Anuradha Boori,Superintendent of Police,,08542-243300,Telangana,Mahabubnagar,Mahabubnagar district administration/police
+358,target individuals,264,"Dr. M. V. Reddy, IAS",Collector,,040-29700824,Telangana,Medchal,Medchal district administration/police
+359,target individuals,265,Priyanka Ala,"Collector, Hyderabad",,040-23202833,,,
+360,target individuals,266,Ms. G. Sandhya Rani,Joint Collector,,08732-226557,Telangana,Adilabad,Adilabad district administration/police
+361,target individuals,267,Ms. Kotla Aruna Kumari,Joint Collector,,7995061161.0,Telangana,Vikarabad,Vikarabad district administration/police
+362,target individuals,268,Ms. R. Rama Rajeswari,Superintendent of Police,,08546-273000/01,Telangana,Jogulamba Gadwal,Jogulamba Gadwal district administration/police
+363,target individuals,269,"Smt. A. Sri Devasena, IAS",Collector,,8978887713.0,Telangana,Peddapalli,Peddapalli district administration/police
+364,target individuals,270,"Smt. D. Divya, IAS",Collector,,08732-227402,Telangana,Adilabad,Adilabad district administration/police
+365,target individuals,271,Smt. K. Nikhila,Joint Collector,,08455-276426,Telangana,Sangareddy,Sangareddy district administration/police
+366,target individuals,272,"Smt. M. Prashanti, IAS",Collector,,8331997099.0,Telangana,Nirmal,Nirmal district administration/police
+367,target individuals,273,Smt. M. Vanaja Devi,Joint Collector,,7995070701.0,Telangana,Peddapalli,Peddapalli district administration/police
+368,target individuals,274,"Smt. Swetha Mohanty, IAS, 2011",Collector,,9100986626.0,Telangana,Wanaparthy,Wanaparthy district administration/police
+369,target individuals,275,Smt. T. Annapurna,Superintendent of Police (FAC),,08416-255601/02,Telangana,Vikarabad,Vikarabad district administration/police
+370,target individuals,276,Sri A. Nagendra,Joint Collector,,08724-222205,Telangana,Jagtial,Jagtial district administration/police
+371,target individuals,277,Sri A. Ravinder Reddy,Joint Collector,,08462-232051,Telangana,Nizamabad,Nizamabad district administration/police
+372,target individuals,278,"Sri A. Sharath IAS, 2006",Collector,,08724-222204,Telangana,Jagtial,Jagtial district administration/police
+373,target individuals,279,Sri AV. Ranganath,Superintendent of Police,,08682-222306,Telangana,Nalgonda,Nalgonda district administration/police
+374,target individuals,280,Sri Akun Sabharwal IPS,D.I.G./I.G./Additional D.G. of Police,,08452-226352,Telangana,Medak,Medak district administration/police
+375,target individuals,281,Sri Ambar Kishor Jha,CP Ramagundam,,08744-243666,Telangana,Bhadradri Kothagudem,Bhadradri Kothagudem district administration/police
+376,target individuals,282,Sri Anantha Sharma,Superintendent of Police,,08724-222133,Telangana,Jagtial,Jagtial district administration/police
+377,target individuals,283,V.C. Sajjanar,Commissioner of Police Hyderabad,,040-23261666,,,
+378,target individuals,284,"Sri B. Naveen Kumar, IPS",Superintendent of Police,,08416-255601,Telangana,Rangareddy,Rangareddy district administration/police
+379,target individuals,285,Sri Badri Srinivas,Joint Collector,,0878-2240749,Telangana,Karimnagar,Karimnagar district administration/police
+380,target individuals,286,"Sri CH. Shivalingaiah, IAS",Collector,,7093207007.0,Telangana,Mahabubabad,Mahabubabad district administration/police
+381,target individuals,287,Sri Chandana Deepthi,Superintendent of Police,,08452-221666/67,Telangana,Medak,Medak district administration/police
+382,target individuals,288,Sri Chandrashekar Reddy,Superintendent of Police,,08455-276600,Telangana,Sangareddy,Sangareddy district administration/police
+383,target individuals,289,Rahul Sharma,"Collector, Jayashankar Bhupalpally	",,9701962226.0,,,
+384,target individuals,290,Sadhana Rashmi Perumal,"Commissioner of Police, Siddipet",,08457-226533,,,
+385,target individuals,291,Sandeep Kumar Jha,"Collector, Rajanna Sircilla",,7032867111.0,,,
+386,target individuals,292,Sri D. Sanjeeva Reddy,Joint Collector,,9493731234.0,Telangana,Suryapet,Suryapet district administration/police
+387,target individuals,293,"Sri Dr. Gaurav Uppal, IAS",Collector,,08682-232302,Telangana,Nalgonda,Nalgonda district administration/police
+388,target individuals,294,Badavath Santhosh,"Collector, Nagarkurnool",,9100101425.0,,,
+389,target individuals,295,Sri G. Nagesh,Joint Collector,,08452-223222,Telangana,Medak,Medak district administration/police
+390,target individuals,296,Sri K. Damodar Reddy,Joint Collector,,7095508888.0,Telangana,Mahabubabad,Mahabubabad district administration/police
+391,target individuals,297,"Sri K. Dharma Reddy, IAS",Collector,,08452-223111,Telangana,Medak,Medak district administration/police
+392,target individuals,298,Sri K. Ramesh Naidu (I/c),Superintendent of Police,,040-27854081,Telangana,Medchal,Medchal district administration/police
+393,target individuals,299,Tejas Nandlal Pawar,"Collector, Suryapet",,9493721234.0,,,
+394,target individuals,300,P. Sai Chaitanya,"Commissioner of Police, Nizamabad",,08462-232203,,,
+395,target individuals,301,Muzammil Khan,"Collector, Khammam",,08742-224641,,,
+396,target individuals,302,"Sri M. Raghunandan Rao, IAS",Collector,,040-23235642,Telangana,Rangareddy,Rangareddy district administration/police
+397,target individuals,303,Sri M. Ram Kishan,Joint Collector,,08732-226203,Telangana,Bhadradri Kothagudem,Bhadradri Kothagudem district administration/police
+398,target individuals,304,"Sri M.R.M. Rao, IAS",Collector & District Magistrate,,08462-221966,Telangana,Nizamabad,Nizamabad district administration/police
+399,target individuals,305,Sri M.S. Venu Gopal Rao,Deputy Commissioner of Police,,08736-252656,Telangana,Mancherial,Mancherial district administration/police
+400,target individuals,306,Sri N. Koti Reddy,Superintendent of Police,,08719-242666,Telangana,Mahabubabad,Mahabubabad district administration/police
+401,target individuals,307,Ashish Sangwan,"Collector, Kamareddy",,8468220252.0,,,
+402,target individuals,308,Sri Narayana Reddy,Joint Collector,,08682-244509,Telangana,Nalgonda,Nalgonda district administration/police
+403,target individuals,309,"Sri P. Venkatram Reddy, IAS",Collector,,7893206745.0,Telangana,Siddipet,Siddipet district administration/police
+404,target individuals,310,"Sri P. Viswaprasad, IPS",Superintendent of Police,,08462-232203,Telangana,Nizamabad,Nizamabad district administration/police
+405,target individuals,311,"Sri Patil Prashant Jeeven, IAS",Collector,,08733-279401,Telangana,Kumuram Bheem Asifabad,Kumuram Bheem Asifabad district administration/police
+406,target individuals,312,Sri Prakash Jadhav,Superintendent of Police,,08684-254100,Telangana,Suryapet,Suryapet district administration/police
+407,target individuals,313,Sri R. Bhaskaran,Superintendent of Police,,08713-222380,Telangana,Jayashankar Bhoopalpally,Jayashankar Bhoopalpally district administration/police
+408,target individuals,314,"Sri R. Bhaskaran, IPS",Superintendent of Police,,8713222380.0,Telangana,Jangaon,Jangaon district administration/police
+409,target individuals,315,"Sri R.V. Karnan, IAS",Collector,,9492120800.0,Telangana,Mancherial,Mancherial district administration/police
+410,target individuals,316,Jitesh V. Patil,"Collector, Bhadradri Kothagudem",,08732-226203,,,
+411,target individuals,317,Sri Ronald Rose IAS,Collector (FAC),,,Telangana,Jogulamba Gadwal,Jogulamba Gadwal district administration/police
+412,target individuals,318,Sri S. Harish,Joint Collector,,040-23237417,Telangana,Rangareddy,Rangareddy district administration/police
+413,target individuals,319,Sri S. Padmakar,Joint Collector,,8790570027.0,Telangana,Siddipet,Siddipet district administration/police
+414,target individuals,320,Sri S. Venkata Rao,Joint Collector,,08542-242459,Telangana,Mahabubnagar,Mahabubnagar district administration/police
+415,target individuals,321,Anuraag Jayanti,"Collector, Karimnagar",,0878-2265206,,,
+416,target individuals,322,Sri Shaik Yasmin Basha,Joint Collector,,7032868111.0,Telangana,Rajanna Sircilla,Rajanna Sircilla district administration/police
+417,target individuals,323,Sri Srinivasa Reddy,Joint Collector,,040-29700822,Telangana,Medchal,Medchal district administration/police
+418,target individuals,324,"Sri Sunpreet Singh, IPS","CP, Warangal",,08540-230333,Telangana,Nagarkurnool,Nagarkurnool district administration/police
+419,target individuals,325,Sri Surabhi Sattaiah,Joint Collector,,8468220253.0,Telangana,Kamareddy,Kamareddy district administration/police
+420,target individuals,326,Sri Surendar Karan,Joint Collector,,08540-230222,Telangana,Nagarkurnool,Nagarkurnool district administration/police
+421,target individuals,327,"Sri Syed Omer Jaleel, IAS",Collector,,9959090781.0,Telangana,Vikarabad,Vikarabad district administration/police
+422,target individuals,328,Sri T. Venkanna,Deputy Commissioner of Police,,9490617001.0,Telangana,Jangaon,Jangaon district administration/police
+423,target individuals,329,"Sri T. Vinay Krishna Reddy, IAS",Collector,,8978600744.0,Telangana,Jangaon,Jangaon district administration/police
+424,target individuals,330,Sri V. Ashok Kumar,Joint Collector,,9440815887.0,Telangana,Kumuram Bheem Asifabad,Kumuram Bheem Asifabad district administration/police
+425,target individuals,331,"Sri V. Venkateshwarlu, IAS",Collector,,08455-276555,Telangana,Sangareddy,Sangareddy district administration/police
+426,target individuals,332,Gaush Alam,"Commissioner of Police, Karimnagar",,0878-2262303,,,
+427,target individuals,333,Sri Vikram Jeet Duggal,Deputy Commissioner of Police,,9490616053.0,Telangana,Peddapalli,Peddapalli district administration/police
+428,target individuals,334,"Sri Vishnu S. Warrier, IPS",Khammam Police Commissioner,,08732-226246,Telangana,Adilabad,Adilabad district administration/police
+429,target individuals,335,Sri Viswajeet Kampati,Superintendent of Police,,08724-222133,Telangana,Rajanna Sircilla,Rajanna Sircilla district administration/police
+430,target individuals,336,Sri Y. Surendar,Joint Collector,,9492120095.0,Telangana,Mancherial,Mancherial district administration/police
+431,target individuals,337,Babloo Kumar,"IPS, Joint Commissioner of Police, Lucknow",,,Uttar Pradesh,Lucknow,Lucknow Police Commissionerate
+432,target individuals,338,Divya Mittal,"IAS, District Magistrate, Deoria",,,Uttar Pradesh,Deoria,"District Administration, Deoria"
+433,target individuals,339,Manish Kumar Bansal,"IAS, District Magistrate, Saharanpur",,,Uttar Pradesh,Saharanpur,"District Administration, Saharanpur"
+434,target individuals,340,Pulkit Garg,"IAS, District Magistrate, Chitrakoot",,,Uttar Pradesh,Chitrakoot,"District Administration, Chitrakoot"
+435,target individuals,341,Ravindra Kumar,"IAS, District Magistrate, Azamgarh",,,Uttar Pradesh,Azamgarh,"District Administration, Azamgarh"
+436,target individuals,342,"Shri Anil Kumar Yadav, IPS",DCP Traffic (Traffic Oversight),spt.va-up@gov.in,78398-53209,Uttar Pradesh,Varanasi,"District Road Safety Committee (DRSC), Varanasi"
+437,target individuals,343,Shri Manish Kumar Verma,District Magistrate,,,Uttar Pradesh,Prayagraj,"District Magistrate/Collector office, Prayagraj"
+438,target individuals,344,"Shri Mohit Agarwal, IPS",Police Commissioner (Police Oversight),cp-pol.va@up.gov.in,0542-2502644,Uttar Pradesh,Varanasi,"District Road Safety Committee (DRSC), Varanasi"
+439,target individuals,345,Shri Neeraj Kumar Pandey,Regional Transport Officer (Member Secretary),rtova-up@nic.in,0542-2623550,Uttar Pradesh,Varanasi,"District Road Safety Committee (DRSC), Varanasi"
+440,target individuals,346,"Shri Ravindra Kumar Mandar, IAS",District Magistrate,,,Uttar Pradesh,Ghaziabad,"District Magistrate/Collector office, Ghaziabad"
+441,target individuals,347,"Shri Satyendra Kumar, IAS",District Magistrate,dmvar@nic.in,0542-2508585,Uttar Pradesh,Varanasi,"District Magistrate/Collector office, Varanasi"
+442,target individuals,348,Shri. Anshuman Mishra,Addl Superintendent of Police,,,Uttar Pradesh,Varanasi,Varanasi Police
+443,target individuals,349,Shri. Mayank Jyoti,Addl. Transport Commissioner (Road Safety),,,Uttar Pradesh,,Uttar Pradesh Transport Department
+444,target individuals,350,Shri. Sanjay Singh,Addl. Transport Commissioner (Enforcement),,,Uttar Pradesh,,Uttar Pradesh Transport Department
+445,target individuals,351,"Shri. Vishak G, IAS",District Magistrate,,,Uttar Pradesh,Lucknow,"District Magistrate/Collector office, Lucknow"
+446,target individuals,352,"Smt Archana Agrawal, IAS",Additional Chief Secretary (Transport),,,Uttar Pradesh,,Uttar Pradesh Transport Department
+447,target individuals,353,Smt. Kinjal Singh,State Transport Commissioner,,,Uttar Pradesh,,Uttar Pradesh Transport Department
+448,target individuals,354,Smt. Medha Roopam,District Magistrate,,,Uttar Pradesh,Noida (Gautam Buddha Nagar),"District Magistrate/Collector office, Noida (Gautam Buddha Nagar)"
+449,target individuals,355,Dr. Anita Chamola,RTO Road Safety & Enforcement,dehradunrtoenf@gmail.com,0135-2743432,Uttarakhand,Dehradun,"District Road Safety Committee (DRSC), Dehradun"
+450,target individuals,356,"Mr. Jitendra Mehra, IPS","Superintendent of Police (SP), Traffic",spcrime123@gmail.com,94111-15859,Uttarakhand,Haridwar,Haridwar Police
+451,target individuals,357,"Mr. Mayur Dixit, IAS",District Magistrate,dm-har-ua@nic.in,01334-239645,Uttarakhand,Roorkee/Haridwar,"District Magistrate/Collector office, Roorkee/Haridwar"
+452,target individuals,358,"Mr. Pramendra Singh Dobhal, IPS",Senior Superintendent of Police (SSP),ssp-har-ua@nic.in,01334-239777,Uttarakhand,Haridwar,Haridwar Police
+453,target individuals,359,"Shri Ajay Singh, IPS",Senior Superintendent of Police (SSP),prosspddn@gmail.com,99972-33033,Uttarakhand,Dehradun,Dehradun Police
+454,target individuals,360,Shri Brijesh Kumar Sant,Transport Commissioner,,,Uttarakhand,,Uttarakhand Transport Department
+455,target individuals,361,Shri Sandeep Saini,RTO Administration (Member Secretary),rtodeh-trans-uk@nic.in,0135-2743432,Uttarakhand,Dehradun,"District Road Safety Committee (DRSC), Dehradun"
+456,target individuals,362,"Shri Savin Bansal, IAS","Chairman, District Magistrate",dm-deh-ua@nic.in,0135-2622389,Uttarakhand,Dehradun,"District Road Safety Committee (DRSC), Dehradun"
+457,target individuals,363,Shri. Savin Bansal,District Magistrate,,,Uttarakhand,Dehradun,"District Magistrate/Collector office, Dehradun"
+458,target individuals,364,Abhishek Kumar Tiwary,"District Magistrate, Parganas South","dm-mur-wb@nic.in, dm.murshidabad@gmail.com",03482 251650,,,
+459,target individuals,365,Dr. Rashmi Kamal,District Magistrate,dmpurb@gmail.com,03228 263098,West Bengal,Purba Medinipur,"District Magistrate office, Purba Medinipur"
+460,target individuals,366,Dr. Uma Sankar S,District Magistrate,dm-bank@nic.in,03242 250304,West Bengal,Bankura,"District Magistrate office, Bankura"
+461,target individuals,367,Dr. Vishwanath,District Magistrate,dmkalimpong2017@gmail.com,03552 255264,West Bengal,Kalimpong,"District Magistrate office, Kalimpong"
+462,target individuals,368,Dr.(Smt.) Deepap Priya P,District Magistrate,dm-bgt-wb@nic.in,03522 255201,West Bengal,Dakshin Dinajpur,"District Magistrate office, Dakshin Dinajpur"
+463,target individuals,369,"Ms. Subashini E., IAS",ADM General (Member),admg.psbdn-wb@gov.in,,West Bengal,Paschim Bardhaman (Durgapur),"District Road Safety Committee (DRSC), Paschim Bardhaman (Durgapur)"
+464,target individuals,370,"Shri Anindya Sengupta, WBCS (Exec)",State Transport Commissioner,,,West Bengal,,West Bengal Transport Department
+465,target individuals,371,Shri Arvind Kumar Mina,District Magistrate,dm-rgj-wb@nic.in,03523 246025,West Bengal,Uttar Dinajpur,"District Magistrate office, Uttar Dinajpur"
+466,target individuals,372,Shri Jagdish Prasad Meena,District Magistrate,"dm-hoog@nic.in, deohooghly@gmail.com",033 26802044,West Bengal,Hooghly,"District Magistrate office, Hooghly"
+467,target individuals,373,Shri Kaushick Saha,District Magistrate,dmcoochbehar@gmail.com,03582-227101,West Bengal,Cooch Behar,"District Magistrate office, Cooch Behar"
+468,target individuals,374,Shri Kaushik Bhattacharya,District Magistrate,"dm-malda@nic.in, dm-mldh@nic.in",03512 252381,West Bengal,Maldah,"District Magistrate office, Maldah"
+469,target individuals,375,"Shri Kaushik Sinha, WBCS",ADM Development (Member),admdevpaschimbdn@gmail.com,,West Bengal,Paschim Bardhaman (Durgapur),"District Road Safety Committee (DRSC), Paschim Bardhaman (Durgapur)"
+470,target individuals,376,Shri Nikhil Nirmal,District Magistrate,dmapd20@gmail.com,03564 255062,West Bengal,Alipurduar,"District Magistrate office, Alipurduar"
+471,target individuals,377,Shri P. Mohangandhi,District Magistrate,dmpmid@gmail.com,03222 275571,West Bengal,Paschim Medinipur,"District Magistrate office, Paschim Medinipur"
+472,target individuals,378,Shri Ponnambalam S,District Magistrate / District Collector,,,West Bengal,Durgapur (Paschim Bardhaman),"District Magistrate/Collector office, Durgapur (Paschim Bardhaman)"
+473,target individuals,379,"Shri Ponnambalam S., IAS","Chairman, District Magistrate",dmpaschimbardhaman@gmail.com,0341-2254545,West Bengal,Paschim Bardhaman (Durgapur),"District Road Safety Committee (DRSC), Paschim Bardhaman (Durgapur)"
+474,target individuals,380,Silpa Gourisaria,"District Magistrate, Parganas North",dm-how-wb@nic.in,033 26412024,,,
+475,target individuals,381,Smt Joyoshi Das Gupta,District Magistrate,"dm.darjeeling2015@gmail.com, dm-darj@nic.in",0354 2254233,West Bengal,Darjeeling,"District Magistrate office, Darjeeling"
+476,target individuals,382,Smt Shilpa Gourisaria,District Magistrate,"dm-jlp@nic.in, dmjalpaiguri2011@gmail.com",03561 230127,West Bengal,Jalpaiguri,"District Magistrate office, Jalpaiguri"
+477,target individuals,383,Smt. Antara Acharya,District Magistrate,dm-bar-wb@nic.in,033 25523662,West Bengal,North 24 Parganas,"District Magistrate office, North 24 Parganas"
+478,target individuals,384,Smt. Moumita Godara Basu,District Magistrate,dm-bir@nic.in,03462 255222,West Bengal,Birbhum,"District Magistrate office, Birbhum"
+479,target individuals,385,Smt. Rani A Ayesha,District Magistrate,jhargramdm@gmail.com,03221 257915,West Bengal,Jhargram,"District Magistrate office, Jhargram"
+480,target individuals,386,Sri Alokesh Prasad Roy,District Magistrate,"dm-pur-wb@nic.in, dmpuruliawb@gmail.com",03252 222302,West Bengal,Purulia,"District Magistrate office, Purulia"
+481,target individuals,387,Sri Anurag Srivastava,District Magistrate,dm-burd@nic.in,0342 2662428,West Bengal,Purba Bardhaman,"District Magistrate office, Purba Bardhaman"
+482,target individuals,388,Sri Shashank Sethi,District Magistrate,dmpaschimbardhaman@gmail.com,0341 2254545,West Bengal,Paschim Bardhaman,"District Magistrate office, Paschim Bardhaman"
+483,target individuals,389,Sri Sumit Gupta,District Magistrate,dm-ndi@nic.in,03472 251001,West Bengal,Nadia,"District Magistrate office, Nadia"
+484,target individuals,390,Sri Y. Ratnakara Rao,District Magistrate,"dm-ali@nic.in, dmsouth24@gmail.com",033 24791469,West Bengal,South 24 Parganas,"District Magistrate office, South 24 Parganas"
+485,target individuals,391,Sibash Kabiraj,"Commissioner of Police, Gurugram",,,,,
+486,target individuals,392,Uttam Singh,Deputy Commissioner (DC) and District Collector of Gurugram,,,,,
+487,target offices,2,"Vijayawada Regional Transport Officer (RTO-1, office)",Member Secretary,rto1_vijayawada@aptransport.org,0866-29700547,Andhra Pradesh,Krishna/NTR District,"District Road Safety Committee (DRSC), Krishna/NTR District"
+488,target offices,3,"District Transport Officer, Papum Pare (office)",Member Secretary (DTO),dtoyupia@gmail.com,91-94360-48586,Arunachal Pradesh,Papum Pare (Itanagar),"District Road Safety Committee (DRSC), Papum Pare (Itanagar)"
+489,target offices,4,"District Magistrate, Araria (office)",District Magistrate,,06453-222001,Bihar,Araria,"District Magistrate office, Araria"
+490,target offices,5,"District Magistrate, Arwal (office)",District Magistrate,,06112-228994,Bihar,Arwal,"District Magistrate office, Arwal"
+491,target offices,6,"District Magistrate, Aurangabad (office)",District Magistrate,,06186-223167,Bihar,Aurangabad,"District Magistrate office, Aurangabad"
+492,target offices,7,"District Magistrate, Banka (office)",District Magistrate,,06424-222304,Bihar,Banka,"District Magistrate office, Banka"
+493,target offices,8,"District Magistrate, Begusarai (office)",District Magistrate,,06243-222285,Bihar,Begusarai,"District Magistrate office, Begusarai"
+494,target offices,9,"District Magistrate, Bettiah (office)",District Magistrate,,06254-242534,Bihar,Bettiah,"District Magistrate office, Bettiah"
+495,target offices,10,"District Magistrate, Bhabhua (office)",District Magistrate,,06189-223241,Bihar,Bhabhua,"District Magistrate office, Bhabhua"
+496,target offices,11,"District Magistrate, Bhagalpur (office)",District Magistrate,,0641-2402200,Bihar,Bhagalpur,"District Magistrate office, Bhagalpur"
+497,target offices,12,"District Magistrate, Bhojpur (office)",District Magistrate,,06182-221312,Bihar,Bhojpur,"District Magistrate office, Bhojpur"
+498,target offices,13,"District Magistrate, Buxar (office)",District Magistrate,,06183-222336,Bihar,Buxar,"District Magistrate office, Buxar"
+499,target offices,14,"District Magistrate, Darbhanga (office)",District Magistrate,,06272-245335,Bihar,Darbhanga,"District Magistrate office, Darbhanga"
+500,target offices,15,"District Magistrate, Gaya (office)",District Magistrate,,0631-2423001,Bihar,Gaya,"District Magistrate office, Gaya"
+501,target offices,16,"District Magistrate, Gopalganj (office)",District Magistrate,,06156-226001,Bihar,Gopalganj,"District Magistrate office, Gopalganj"
+502,target offices,17,"District Magistrate, Jamui (office)",District Magistrate,,06345-222002,Bihar,Jamui,"District Magistrate office, Jamui"
+503,target offices,18,"District Magistrate, Jehanabad (office)",District Magistrate,,06114-223072,Bihar,Jehanabad,"District Magistrate office, Jehanabad"
+504,target offices,19,"District Magistrate, Katihar (office)",District Magistrate,,06452-230581,Bihar,Katihar,"District Magistrate office, Katihar"
+505,target offices,20,"District Magistrate, Khagaria (office)",District Magistrate,,06244-222135,Bihar,Khagaria,"District Magistrate office, Khagaria"
+506,target offices,21,"District Magistrate, Kishanganj (office)",District Magistrate,,06456-222530,Bihar,Kishanganj,"District Magistrate office, Kishanganj"
+507,target offices,22,"District Magistrate, Lakhisarai (office)",District Magistrate,,06346-232124,Bihar,Lakhisarai,"District Magistrate office, Lakhisarai"
+508,target offices,23,"District Magistrate, Madhepura (office)",District Magistrate,,06476-222741,Bihar,Madhepura,"District Magistrate office, Madhepura"
+509,target offices,24,"District Magistrate, Madhubani (office)",District Magistrate,,06276-222217,Bihar,Madhubani,"District Magistrate office, Madhubani"
+510,target offices,25,"District Magistrate, Motihari (office)",District Magistrate,,06252-242700,Bihar,Motihari,"District Magistrate office, Motihari"
+511,target offices,26,"District Magistrate, Munger (office)",District Magistrate,,06344-2221001,Bihar,Munger,"District Magistrate office, Munger"
+512,target offices,27,"District Magistrate, Muzaffarpur (office)",District Magistrate,,0621-2212101,Bihar,Muzaffarpur,"District Magistrate office, Muzaffarpur"
+513,target offices,28,"District Magistrate, Nalanda (office)",District Magistrate,,06112-235203,Bihar,Nalanda,"District Magistrate office, Nalanda"
+514,target offices,29,"District Magistrate, Nawada (office)",District Magistrate,,06324-212253,Bihar,Nawada,"District Magistrate office, Nawada"
+515,target offices,30,"District Magistrate, Patna (office)",District Magistrate,,0612-2219545,Bihar,Patna,"District Magistrate office, Patna"
+516,target offices,31,"District Magistrate, Purnea (office)",District Magistrate,,06454-240001,Bihar,Purnea,"District Magistrate office, Purnea"
+517,target offices,32,"District Magistrate, Rohtas (office)",District Magistrate,,06184-222226,Bihar,Rohtas,"District Magistrate office, Rohtas"
+518,target offices,33,"District Magistrate, Saharsa (office)",District Magistrate,,06478-224102,Bihar,Saharsa,"District Magistrate office, Saharsa"
+519,target offices,34,"District Magistrate, Samastipur (office)",District Magistrate,,06274-222300,Bihar,Samastipur,"District Magistrate office, Samastipur"
+520,target offices,35,"District Magistrate, Saran (office)",District Magistrate,,06152-240001,Bihar,Saran,"District Magistrate office, Saran"
+521,target offices,36,"District Magistrate, Sheikhpura (office)",District Magistrate,,06346-223041,Bihar,Sheikhpura,"District Magistrate office, Sheikhpura"
+522,target offices,37,"District Magistrate, Sheohar (office)",District Magistrate,,06222-257360,Bihar,Sheohar,"District Magistrate office, Sheohar"
+523,target offices,38,"District Magistrate, Sitamarhi (office)",District Magistrate,,06226-250439,Bihar,Sitamarhi,"District Magistrate office, Sitamarhi"
+524,target offices,39,"District Magistrate, Siwan (office)",District Magistrate,,06154-242099,Bihar,Siwan,"District Magistrate office, Siwan"
+525,target offices,40,"District Magistrate, Supaul (office)",District Magistrate,,06473-223112,Bihar,Supaul,"District Magistrate office, Supaul"
+526,target offices,41,"District Magistrate, Vaishali (office)",District Magistrate,,06224-272201,Bihar,Vaishali,"District Magistrate office, Vaishali"
+527,target offices,42,DRSC Chandigarh (office),"District Road Safety Committee, Chandigarh UT",,,Chandigarh,Chandigarh,Chandigarh Administration / State Transport Authority
+528,target offices,43,Delhi 100 high-risk intersections programme (implementing agency not identified) (office),Programme to make 100 high-risk Delhi intersections safer for pedestrians,,,Delhi,New Delhi Delhi,Delhi government / traffic authorities (agency not named in source)
+529,target offices,44,Delhi Transport Infrastructure Development Corporation (DTIDC) (office),"GNCTD PSU owning/maintaining Delhi's ISBTs (Kashmere Gate, Anand Vihar, Sarai Kale Khan) and Bus Queue Shelters",,,Delhi,New Delhi Delhi,"Delhi Transport Infrastructure Development Corporation (DTIDC), GNCTD"
+530,target offices,45,"MLO/DTO South Zone, Sheikh Sarai (office)",Member Secretary,mlo03-trans@delhi.gov.in,011-29259800,Delhi,South Delhi,"District Road Safety Committee (DRSC), South Delhi"
+531,target offices,46,MLO/RTO Rohini (office),Member Secretary,mlo11-trans@delhi.gov.in,011-27563535,Delhi,North West Delhi,"District Road Safety Committee (DRSC), North West Delhi"
+532,target offices,47,Office of South Delhi Saket DSLSA (PA to Secretary - Bijayinee),PA to Secretary,,9718736148.0,Delhi,South Delhi,"Delhi State Legal Services Authority (DSLSA), South Delhi/Saket"
+533,target offices,48,Surat Municipal Corporation,Municipal officer (unspecified),,,Gujarat,Surat,Surat Municipal Corporation
+534,target offices,49,"District Magistrate / Deputy Commissioner, Rewari (office)","DM/DC, Rewari",,,Haryana,Rewari,"District Administration, Rewari"
+535,target offices,50,"District Magistrate / Deputy Commissioner, Rohtak (office)","DM/DC, Rohtak",,,Haryana,Rohtak,"District Administration, Rohtak"
+536,target offices,51,"Deputy Commissioner, Bilaspur (office)",Deputy Commissioner,dc-bil-hp@nic.in,01978-224155,Himachal Pradesh,Bilaspur,"Deputy Commissioner office, Bilaspur"
+537,target offices,52,"Deputy Commissioner, Chamba (office)",Deputy Commissioner,dc-cha-hp@nic.in,01899-224847,Himachal Pradesh,Chamba,"Deputy Commissioner office, Chamba"
+538,target offices,53,"Deputy Commissioner, Hamirpur (office)",Deputy Commissioner,dc-ham-hp@nic.in,01972-224300,Himachal Pradesh,Hamirpur,"Deputy Commissioner office, Hamirpur"
+539,target offices,54,"Deputy Commissioner, Kangra at Dharamshala (office)",Deputy Commissioner,dc-kan-hp@nic.in,01892-222103,Himachal Pradesh,Kangra at Dharamshala,"Deputy Commissioner office, Kangra at Dharamshala"
+540,target offices,55,"Deputy Commissioner, Kinnaur at Rekong Peo (office)",Deputy Commissioner,dc-kin-hp@nic.in,01786-222252,Himachal Pradesh,Kinnaur at Rekong Peo,"Deputy Commissioner office, Kinnaur at Rekong Peo"
+541,target offices,56,"Deputy Commissioner, Kullu (office)",Deputy Commissioner,dc-kul-hp@nic.in,01902-222727,Himachal Pradesh,Kullu,"Deputy Commissioner office, Kullu"
+542,target offices,57,"Deputy Commissioner, Lahaul & Spiti at Keylong (office)",Deputy Commissioner,dc-lah-hp@nic.in,01900-222501,Himachal Pradesh,Lahaul & Spiti at Keylong,"Deputy Commissioner office, Lahaul & Spiti at Keylong"
+543,target offices,58,"Deputy Commissioner, Mandi (office)",Deputy Commissioner,dc-man-hp@nic.in,01905-225201,Himachal Pradesh,Mandi,"Deputy Commissioner office, Mandi"
+544,target offices,59,"Deputy Commissioner, Shimla (office)",Deputy Commissioner,dc-shi-hp@nic.in,0177-2655988,Himachal Pradesh,Shimla,"Deputy Commissioner office, Shimla"
+545,target offices,60,"Deputy Commissioner, Sirmaur at Nahan (office)",Deputy Commissioner,dc-sir-hp@nic.in,01702-225025,Himachal Pradesh,Sirmaur at Nahan,"Deputy Commissioner office, Sirmaur at Nahan"
+546,target offices,61,"Deputy Commissioner, Solan (office)",Deputy Commissioner,dc-sol-hp@nic.in,01792-220656,Himachal Pradesh,Solan,"Deputy Commissioner office, Solan"
+547,target offices,62,"Deputy Commissioner, Una (office)",Deputy Commissioner,dc-una-hp@nic.in,01975-224400,Himachal Pradesh,Una,"Deputy Commissioner office, Una"
+548,target offices,63,Jammu Police (office),Jammu Police (via KRSF civic-alliance programmes),,,Jammu and Kashmir,Jammu,Jammu & Kashmir Police
+549,target offices,64,"Jharkhand Governor & MLA (untracked leadership targets, office)","Governor / MLA, Jharkhand (unspecified individuals)",,,Jharkhand,Ranchi,Government of Jharkhand
+550,target offices,65,"Transport Minister / Chief Minister, Jharkhand (office)",Transport Minister / Chief Minister ('JH chief'),,,Jharkhand,Ranchi,Government of Jharkhand
+551,target offices,66,Mysuru City Police (office),Not stated,,,Karnataka,Mysuru,Mysuru City Police (Karnataka Police)
+552,target offices,67,"Enforcement RTO, Kozhikode (office)",Enforcement RTO,rtoenfkkd.mvd@kerala.gov.in,9188961978.0,Kerala,Kozhikode,"District Road Safety Committee (DRSC), Kozhikode"
+553,target offices,68,KSRTC (Kerala State Road Transport Corporation),,,,Kerala,,Kerala State Road Transport Corporation
+554,target offices,69,"Road Safety Commissioner, Kerala (office)",Road Safety Commissioner,,,Kerala,Thiruvananthapuram,Government of Kerala / Kerala Road Safety Authority (State Lead Agency)
+555,target offices,70,Insurance Regulatory and Development Authority of India (IRDAI) (office),Insurance sector regulator; named in Supreme Court directions,,,National,,Insurance Regulatory and Development Authority of India (IRDAI)
+556,target offices,71,Ministry of Home Affairs,Union Ministry,,,National,,Ministry of Home Affairs (MHA)
+557,target offices,72,National Highways Authority of India (NHAI) (office),Road-owning agency (national highways/expressways) — no individual official engaged,,,National,,National Highways Authority of India (NHAI)
+558,target offices,73,Supreme Court of India (Court Watch),"Apex Court hearing systemic road-safety PILs, suo motu matters and appeals; source of directions CFI tracks and cites in advocacy (institutionally linked to SCCoRS)",,,National,,Supreme Court of India
+559,target offices,74,Bhubaneswar Commissionerate Police (office),Not stated,,,Odisha,Khordha,Bhubaneswar-Cuttack Commissionerate Police (Odisha Police)
+560,target offices,75,Odisha state authorities (jury/keynote target),,,,Odisha,Khordha,Government of Odisha (unspecified department)
+561,target offices,76,"Transport Department, Government of Odisha (office)",,,,Odisha,Khordha,"Transport Department, Government of Odisha"
+562,target offices,77,"District Magistrate / Deputy Commissioner, Ajmer (office)","DM/DC, Ajmer",,,Rajasthan,Ajmer,"District Administration, Ajmer"
+563,target offices,78,Jaipur Development Authority (office),Commissioner / Traffic Control Board (permissions routed via Jaipur Police for signage and billboard sites),,,Rajasthan,Jaipur,"Jaipur Development Authority, Urban Development and Housing Dept, Govt of Rajasthan"
+564,target offices,79,Rajasthan State Legal Services Authority (RLSA) (office),RSLSA / RLSA,,,Rajasthan,Jaipur,Rajasthan State Legal Services Authority
+565,target offices,80,"Secretary, DLSA Jaipur (office)","Secretary, District Legal Services Authority",,,Rajasthan,Jaipur,"District Legal Services Authority, Jaipur"
+566,target offices,81,"Tehsildars / Claims Enquiry Officers, Jaipur district (Sanganer, Amer, Jaipur Central; later Bassi, Chaksu, Jamwa Ramgarh)",Tehsildar (Claims Enquiry Officer under the Hit-and-Run Scheme 2022),,,Rajasthan,Jaipur,"District Administration, Jaipur"
+567,target offices,82,RTO Chengalpattu (office),Member Secretary (RTO),rtotn19@nic.in,044-27464997,Tamil Nadu,Chengalpattu,"District Road Safety Committee (DRSC), Chengalpattu"
+568,target offices,83,"Transport/Home Department, Government of Tamil Nadu (office)",State government (Transport/Home Department),,,Tamil Nadu,Chennai,Government of Tamil Nadu
+569,target offices,84,"Commissioner of Police, Gautam Buddh Nagar (office)",Commissioner of Police,,,Uttar Pradesh,Gautam Buddh Nagar,Gautam Buddh Nagar Police Commissionerate (UP Police)
+570,target offices,85,"District Magistrate, Agra (office)",District Magistrate,dmagr@nic.in,9454417509.0,Uttar Pradesh,Agra,"District Magistrate office, Agra"
+571,target offices,86,"District Magistrate, Aligarh (office)",District Magistrate,dmali@nic.in,9454417513.0,Uttar Pradesh,Aligarh,"District Magistrate office, Aligarh"
+572,target offices,87,"District Magistrate, Allahabad (office)",District Magistrate,dmall@nic.in,9454417517.0,Uttar Pradesh,Allahabad,"District Magistrate office, Allahabad"
+573,target offices,88,"District Magistrate, Ambedkar Nagar (office)",District Magistrate,dmamb@nic.in,9454417539.0,Uttar Pradesh,Ambedkar Nagar,"District Magistrate office, Ambedkar Nagar"
+574,target offices,89,"District Magistrate, Amethi (office)",District Magistrate,dmamethi-up@nic.in,9454418891.0,Uttar Pradesh,Amethi,"District Magistrate office, Amethi"
+575,target offices,90,"District Magistrate, Amroha (office)",District Magistrate,dmjpn@nic.in,9454417571.0,Uttar Pradesh,Amroha,"District Magistrate office, Amroha"
+576,target offices,91,"District Magistrate, Auraiya (office)",District Magistrate,dmaur@nic.in,9454417550.0,Uttar Pradesh,Auraiya,"District Magistrate office, Auraiya"
+577,target offices,92,"District Magistrate, Azamgarh (office)",District Magistrate,dmaza@nic.in,9454417521.0,Uttar Pradesh,Azamgarh,"District Magistrate office, Azamgarh"
+578,target offices,93,"District Magistrate, Baghpat (office)",District Magistrate,dmbag@nic.in,9454417562.0,Uttar Pradesh,Baghpat,"District Magistrate office, Baghpat"
+579,target offices,94,"District Magistrate, Bahraich (office)",District Magistrate,dmbeh@nic.in,9454417535.0,Uttar Pradesh,Bahraich,"District Magistrate office, Bahraich"
+580,target offices,95,"District Magistrate, Baliya (office)",District Magistrate,dmbal@nic.in,9454417522.0,Uttar Pradesh,Baliya,"District Magistrate office, Baliya"
+581,target offices,96,"District Magistrate, Balrampur (office)",District Magistrate,dmblr@nic.in,9454417536.0,Uttar Pradesh,Balrampur,"District Magistrate office, Balrampur"
+582,target offices,97,"District Magistrate, Banda (office)",District Magistrate,dmban@nic.in,9454417531.0,Uttar Pradesh,Banda,"District Magistrate office, Banda"
+583,target offices,98,"District Magistrate, Barabanki (office)",District Magistrate,dmbab@nic.in,9454417540.0,Uttar Pradesh,Barabanki,"District Magistrate office, Barabanki"
+584,target offices,99,"District Magistrate, Bareilly (office)",District Magistrate,dmbar@nic.in,9454417524.0,Uttar Pradesh,Bareilly,"District Magistrate office, Bareilly"
+585,target offices,100,"District Magistrate, Basti (office)",District Magistrate,dmbas@nic.in,9454417528.0,Uttar Pradesh,Basti,"District Magistrate office, Basti"
+586,target offices,101,"District Magistrate, Bijnor (office)",District Magistrate,dmbij@nic.in,9454417570.0,Uttar Pradesh,Bijnor,"District Magistrate office, Bijnor"
+587,target offices,102,"District Magistrate, Budaun (office)",District Magistrate,dmbud@nic.in,9454417525.0,Uttar Pradesh,Budaun,"District Magistrate office, Budaun"
+588,target offices,103,"District Magistrate, Bulandshahr (office)",District Magistrate,dmbul@nic.in,9454417563.0,Uttar Pradesh,Bulandshahr,"District Magistrate office, Bulandshahr"
+589,target offices,104,"District Magistrate, Chandauli (office)",District Magistrate,dmchn@nic.in,9454417576.0,Uttar Pradesh,Chandauli,"District Magistrate office, Chandauli"
+590,target offices,105,"District Magistrate, Chitrakoot (office)",District Magistrate,dmchi@nic.in,9454417532.0,Uttar Pradesh,Chitrakoot,"District Magistrate office, Chitrakoot"
+591,target offices,106,"District Magistrate, Deoria (office)",District Magistrate,dmdeo@nic.in,9454417543.0,Uttar Pradesh,Deoria,"District Magistrate office, Deoria"
+592,target offices,107,"District Magistrate, Eta (office)",District Magistrate,dmeth@nic.in,9454417514.0,Uttar Pradesh,Eta,"District Magistrate office, Eta"
+593,target offices,108,"District Magistrate, Etawah (office)",District Magistrate,dmetw@nic.in,9454417551.0,Uttar Pradesh,Etawah,"District Magistrate office, Etawah"
+594,target offices,109,"District Magistrate, Faizabad (office)",District Magistrate,dmfai@nic.in,9454417541.0,Uttar Pradesh,Faizabad,"District Magistrate office, Faizabad"
+595,target offices,110,"District Magistrate, Farrukhabad (office)",District Magistrate,dmfar@nic.in,9454417552.0,Uttar Pradesh,Farrukhabad,"District Magistrate office, Farrukhabad"
+596,target offices,111,"District Magistrate, Fatehpur (office)",District Magistrate,dmfat@nic.in,9454417518.0,Uttar Pradesh,Fatehpur,"District Magistrate office, Fatehpur"
+597,target offices,112,"District Magistrate, Firozabad (office)",District Magistrate,dmfir@nic.in,9454417510.0,Uttar Pradesh,Firozabad,"District Magistrate office, Firozabad"
+598,target offices,113,"District Magistrate, Gautam Budh Nagar(Noida) (office)",District Magistrate,dmgbn@nic.in,9971020646.0,Uttar Pradesh,Gautam Budh Nagar(Noida),"District Magistrate office, Gautam Budh Nagar(Noida)"
+599,target offices,114,"District Magistrate, Ghaziabad (office)",District Magistrate,dmgha@nic.in,9454417565.0,Uttar Pradesh,Ghaziabad,"District Magistrate office, Ghaziabad"
+600,target offices,115,"District Magistrate, Ghazipur (office)",District Magistrate,dmgaz@nic.in,9454417577.0,Uttar Pradesh,Ghazipur,"District Magistrate office, Ghazipur"
+601,target offices,116,"District Magistrate, Gonda (office)",District Magistrate,dmchi@nic.in,9454417532.0,Uttar Pradesh,Gonda,"District Magistrate office, Gonda"
+602,target offices,117,"District Magistrate, Gorakhpur (office)",District Magistrate,dmgor@nic.in,9454417544.0,Uttar Pradesh,Gorakhpur,"District Magistrate office, Gorakhpur"
+603,target offices,118,"District Magistrate, Hamirpur (office)",District Magistrate,dmham@nic.in,9454417533.0,Uttar Pradesh,Hamirpur,"District Magistrate office, Hamirpur"
+604,target offices,119,"District Magistrate, Hapur (office)",District Magistrate,dmhap@nic.in,9454449848.0,Uttar Pradesh,Hapur,"District Magistrate office, Hapur"
+605,target offices,120,"District Magistrate, Hardoi (office)",District Magistrate,dmhar@nic.in,9454417556.0,Uttar Pradesh,Hardoi,"District Magistrate office, Hardoi"
+606,target offices,121,"District Magistrate, Jalaun (office)",District Magistrate,dmjal@nic.in,9454417548.0,Uttar Pradesh,Jalaun,"District Magistrate office, Jalaun"
+607,target offices,122,"District Magistrate, Jaunpur (office)",District Magistrate,dmjau@nic.in,9454417578.0,Uttar Pradesh,Jaunpur,"District Magistrate office, Jaunpur"
+608,target offices,123,"District Magistrate, Jhansi (office)",District Magistrate,dmjha@nic.in,9454417549.0,Uttar Pradesh,Jhansi,"District Magistrate office, Jhansi"
+609,target offices,124,"District Magistrate, Kannauj (office)",District Magistrate,dmkan@nic.in,9454417553.0,Uttar Pradesh,Kannauj,"District Magistrate office, Kannauj"
+610,target offices,125,"District Magistrate, Kanpur Dehat (office)",District Magistrate,dmkde@nic.in,9454417557.0,Uttar Pradesh,Kanpur Dehat,"District Magistrate office, Kanpur Dehat"
+611,target offices,126,"District Magistrate, Kanpur Nagar (office)",District Magistrate,dmkan-up@nic.in,9454417516.0,Uttar Pradesh,Kanpur Nagar,"District Magistrate office, Kanpur Nagar"
+612,target offices,127,"District Magistrate, Kasganj (office)",District Magistrate,dmksg@nic.in,9454417515.0,Uttar Pradesh,Kasganj,"District Magistrate office, Kasganj"
+613,target offices,128,"District Magistrate, Kaushambi (office)",District Magistrate,dmkau@nic.in,9454417519.0,Uttar Pradesh,Kaushambi,"District Magistrate office, Kaushambi"
+614,target offices,129,"District Magistrate, Kushinagar (office)",District Magistrate,dmkus@nic.in,9454417545.0,Uttar Pradesh,Kushinagar,"District Magistrate office, Kushinagar"
+615,target offices,130,"District Magistrate, Lakhimpur Kheri (office)",District Magistrate,dmlkh@nic.in,9454417558.0,Uttar Pradesh,Lakhimpur Kheri,"District Magistrate office, Lakhimpur Kheri"
+616,target offices,131,"District Magistrate, Lalitpur (office)",District Magistrate,dmlal@nic.in,9454417534.0,Uttar Pradesh,Lalitpur,"District Magistrate office, Lalitpur"
+617,target offices,132,"District Magistrate, Lucknow (office)",District Magistrate,dmluc@nic.in,9454417584.0,Uttar Pradesh,Lucknow,"District Magistrate office, Lucknow"
+618,target offices,133,"District Magistrate, Maharajganj (office)",District Magistrate,dmmah@nic.in,9454417546.0,Uttar Pradesh,Maharajganj,"District Magistrate office, Maharajganj"
+619,target offices,134,"District Magistrate, Mahoba (office)",District Magistrate,dmmbi@nic.in,9454417583.0,Uttar Pradesh,Mahoba,"District Magistrate office, Mahoba"
+620,target offices,135,"District Magistrate, Mainpuri (office)",District Magistrate,dmmai@nic.in,9454417511.0,Uttar Pradesh,Mainpuri,"District Magistrate office, Mainpuri"
+621,target offices,136,"District Magistrate, Mathura (office)",District Magistrate,dmmat@nic.in,9454417512.0,Uttar Pradesh,Mathura,"District Magistrate office, Mathura"
+622,target offices,137,"District Magistrate, Mau (office)",District Magistrate,dmmau@nic.in,9454417523.0,Uttar Pradesh,Mau,"District Magistrate office, Mau"
+623,target offices,138,"District Magistrate, Meerut (office)",District Magistrate,dmmee@nic.in,9454417564.0,Uttar Pradesh,Meerut,"District Magistrate office, Meerut"
+624,target offices,139,"District Magistrate, Mirzapur (office)",District Magistrate,dmmir@nic.in,9454417530.0,Uttar Pradesh,Mirzapur,"District Magistrate office, Mirzapur"
+625,target offices,140,"District Magistrate, Moradabad (office)",District Magistrate,dmmbd@nic.in,9454417566.0,Uttar Pradesh,Moradabad,"District Magistrate office, Moradabad"
+626,target offices,141,"District Magistrate, Muzaffarnagar (office)",District Magistrate,dmmuz@nic.in,9454417567.0,Uttar Pradesh,Muzaffarnagar,"District Magistrate office, Muzaffarnagar"
+627,target offices,142,"District Magistrate, Pilibhit (office)",District Magistrate,dmpil@nic.in,9454417526.0,Uttar Pradesh,Pilibhit,"District Magistrate office, Pilibhit"
+628,target offices,143,"District Magistrate, Pratapgarh (office)",District Magistrate,dmpra@nic.in,9454417542.0,Uttar Pradesh,Pratapgarh,"District Magistrate office, Pratapgarh"
+629,target offices,144,"District Magistrate, Prayagraj (office)",District Magistrate,dmall@nic.in,9454417517.0,Uttar Pradesh,Prayagraj,"District Magistrate office, Prayagraj"
+630,target offices,145,"District Magistrate, Raebareli (office)",District Magistrate,dmrbl@nic.in,9454417559.0,Uttar Pradesh,Raebareli,"District Magistrate office, Raebareli"
+631,target offices,146,"District Magistrate, Rampur (office)",District Magistrate,dmram@nic.in,9454417527.0,Uttar Pradesh,Rampur,"District Magistrate office, Rampur"
+632,target offices,147,"District Magistrate, Saharanpur (office)",District Magistrate,dmsah@nic.in,9454417568.0,Uttar Pradesh,Saharanpur,"District Magistrate office, Saharanpur"
+633,target offices,148,"District Magistrate, Sambhal (office)",District Magistrate,dmsam@nic.in,9454417569.0,Uttar Pradesh,Sambhal,"District Magistrate office, Sambhal"
+634,target offices,149,"District Magistrate, Sant Kabir Nagar (office)",District Magistrate,dmskn@nic.in,9454417529.0,Uttar Pradesh,Sant Kabir Nagar,"District Magistrate office, Sant Kabir Nagar"
+635,target offices,150,"District Magistrate, Shahjahanpur (office)",District Magistrate,dmshj@nic.in,9454417560.0,Uttar Pradesh,Shahjahanpur,"District Magistrate office, Shahjahanpur"
+636,target offices,151,"District Magistrate, Shamli (office)",District Magistrate,dmsha-up@nic.in,9454417572.0,Uttar Pradesh,Shamli,"District Magistrate office, Shamli"
+637,target offices,152,"District Magistrate, Shrawasti (office)",District Magistrate,dmsra@nic.in,9454417537.0,Uttar Pradesh,Shrawasti,"District Magistrate office, Shrawasti"
+638,target offices,153,"District Magistrate, Siddharthnagar (office)",District Magistrate,dmsid@nic.in,9454417538.0,Uttar Pradesh,Siddharthnagar,"District Magistrate office, Siddharthnagar"
+639,target offices,154,"District Magistrate, Sitapur (office)",District Magistrate,dmsit@nic.in,9454417561.0,Uttar Pradesh,Sitapur,"District Magistrate office, Sitapur"
+640,target offices,155,"District Magistrate, Sonbhadra (office)",District Magistrate,dmsonbhadra-up@nic.in,9454417520.0,Uttar Pradesh,Sonbhadra,"District Magistrate office, Sonbhadra"
+641,target offices,156,"District Magistrate, Sultanpur (office)",District Magistrate,dmsul@nic.in,9454417547.0,Uttar Pradesh,Sultanpur,"District Magistrate office, Sultanpur"
+642,target offices,157,"District Magistrate, Unnao (office)",District Magistrate,dmunn@nic.in,9454417561.0,Uttar Pradesh,Unnao,"District Magistrate office, Unnao"
+643,target offices,158,"Regional Transport Officer, Haridwar (office)",Member Secretary,rtohar-trans-uk@nic.in,01334-239768,Uttarakhand,Haridwar,"District Road Safety Committee (DRSC), Haridwar"
+644,target offices,159,"Commissioner of Police, Asansol-Durgapur (office)",Police Oversight,cp.adpc@westbengalpolice.gov.in,0341-2250201,West Bengal,Paschim Bardhaman (Durgapur),"District Road Safety Committee (DRSC), Paschim Bardhaman (Durgapur)"

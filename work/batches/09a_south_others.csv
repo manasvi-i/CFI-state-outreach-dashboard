@@ -1,0 +1,51 @@
+id,sheet,row,name,designation,email,phone,state,district,org
+1,engaged active individuals,2,Dr. AVA Bharat Kumar,"Member, District Road Safety Committee (DRSC), Guntur; Assistant Professor, Vignan University (Project Rakshak Cohort-1 mentor)",,,Andhra Pradesh,Guntur,"District Road Safety Committee, Guntur (Govt. of Andhra Pradesh) / Vignan University"
+8,engaged active individuals,9,Manoj Patil,"Additional Commissioner of Police (Addl. CP), Pune City Police",,,Maharashtra,Pune,Pune City Police (Maharashtra Police)
+11,engaged active individuals,12,M. Vasu (Muniswamy Vasu),"Founder-Director, VHEEDU - Road Safety NGO; Member, District Road Safety Committee (DRSC), Govt. of Andhra Pradesh; Member, Hit & Run Compensation - Road Safety Committee, NTR District",vheeduroadsafety@gmail.com,9441958650.0,Andhra Pradesh,NTR District,"VHEEDU - Road Safety NGO, Vijayawada (also DRSC & NTR District Hit & Run Compensation Committee, Govt. of Andhra Pradesh)"
+12,engaged active individuals,13,Neelam Teji,"Assistant Commissioner / SDM, Itanagar",tejineelam@gmail.com,9436040312.0,Arunachal Pradesh,Papum Pare,"District Administration, Itanagar (Arunachal Pradesh)"
+17,engaged active individuals,18,Qazi Irfan,"Regional Transport Officer, Kashmir",rto-kashmir@jk.gov.in,,Jammu and Kashmir,Srinagar,"Transport Department, Government of Jammu & Kashmir"
+18,engaged active individuals,19,Karthik Reddy,"Joint Commissioner, Bengaluru Traffic Police ",,,Karnataka,Bengaluru Urban,Bengaluru Traffic Police (Karnataka Police)
+22,engaged active individuals,23,Pallavi Kothawade,"Deputy RTO, Mumbai-East (MH03)",,,Maharashtra,Mumbai,Maharashtra Transport Department
+23,engaged active individuals,24,Swapnil Bhosale,"Deputy RTO, Pune (MH12)",,,Maharashtra,Pune,Maharashtra Transport Department
+96,target individuals,2,L.S.M. Ramasree,Addl. Transport Commissioner,,,Andhra Pradesh,,Andhra Pradesh Transport Department
+97,target individuals,3,"Ms. Thameem Ansariya A, IAS","Chairman, Collector",collector_gntr@ap.gov.in,0863-2234550,Andhra Pradesh,Guntur,"District Road Safety Committee (DRSC), Guntur"
+98,target individuals,4,"Shri Manish Kumar Sinha, I.P.S.",State Transport Commissioner,,,Andhra Pradesh,,Andhra Pradesh Transport Department
+99,target individuals,5,"Smt. Shaik Shereen Begum, IPS",Member (DCP Traffic),dcp_traffic@vza.appolice.gov.in,0866-2490066,Andhra Pradesh,Krishna/NTR District,"District Road Safety Committee (DRSC), Krishna/NTR District"
+100,target individuals,6,"Sri Ashutosh Shrivastava, IAS",Joint Collector,jc_gntr@ap.gov.in,0863-2234550,Andhra Pradesh,Guntur,"District Road Safety Committee (DRSC), Guntur"
+101,target individuals,7,"Sri D.K. Balaji, IAS","Chairman, Krishna District Road Safety Committee (Collector)",collector_krsn@ap.gov.in,08672-252668,Andhra Pradesh,Krishna/NTR District,"District Road Safety Committee (DRSC), Krishna/NTR District"
+102,target individuals,8,Sri N. Sivarama Prasad,Jt. Transport Commissioner (Member Secretary),jtc_guntur@aptransport.org,92816-07008,Andhra Pradesh,Guntur,"District Road Safety Committee (DRSC), Guntur"
+103,target individuals,9,"Sri S. Satish Kumar, IPS",Vice-Chairman (SP Guntur),sp@gtr.appolice.gov.in,0863-2234000,Andhra Pradesh,Guntur,"District Road Safety Committee (DRSC), Guntur"
+104,target individuals,10,"Sri S.V. Raja Sekhara Babu, IPS",Commissioner of Police,cp@vza.appolice.gov.in,0866-2492222,Andhra Pradesh,Krishna/NTR District,Vijayawada Police
+105,target individuals,11,"Ms. Vishakha Yadav, IAS","Chairman, Deputy Commissioner",dc-ppare-arn@nic.in,0360-2284900,Arunachal Pradesh,Papum Pare (Itanagar),"District Road Safety Committee (DRSC), Papum Pare (Itanagar)"
+106,target individuals,12,Shri Saugat Biswas,Transport Commissioner,,,Arunachal Pradesh,,"District Magistrate/Collector office, Arunachal Pradesh"
+107,target individuals,13,"Shri Taru Gusar, IPS",Superintendent of Police (Police Oversight),sppare-arn@nic.in,0360-2284906,Arunachal Pradesh,Papum Pare (Itanagar),"District Road Safety Committee (DRSC), Papum Pare (Itanagar)"
+108,target individuals,14,"Shri Toko Babu, APCS",Deputy Commissioner,,,Arunachal Pradesh,Itanagar,"District Magistrate/Collector office, Itanagar"
+109,target individuals,15,Vishakha Yadav,District Magistrate (DM) — unconfirmed,,,Arunachal Pradesh,,"District administration, Arunachal Pradesh (specific district unconfirmed)"
+110,target individuals,16,Shri Gautam Das,OSD & DTO R&L (Member Secretary),dtoghykm@gmail.com,91-95311-07480,Assam,Guwahati (Kamrup Metro),"District Road Safety Committee (DRSC), Guwahati (Kamrup Metro)"
+111,target individuals,17,"Shri Harmeet Singh, IPS",Commissioner of Police (Police Oversight),cp-ghty@assampolice.gov.in,0361-2540278,Assam,Guwahati (Kamrup Metro),"District Road Safety Committee (DRSC), Guwahati (Kamrup Metro)"
+112,target individuals,18,"Shri Jayanta Sarathi Borah, APS",DCP Traffic (Traffic Oversight),dcp-trff@assampolice.gov.in,91-60269-00547,Assam,Guwahati (Kamrup Metro),"District Road Safety Committee (DRSC), Guwahati (Kamrup Metro)"
+113,target individuals,19,Shri Manvendra Pratap Singh,Transport Commissioner,,,Assam,,Assam Transport Department
+114,target individuals,20,"Shri Sumit Sattawan, IAS","Chairman, District Commissioner",dc-kamrupm@nic.in,91-99583-73505,Assam,Guwahati (Kamrup Metro),"District Road Safety Committee (DRSC), Guwahati (Kamrup Metro)"
+115,target individuals,21,"Shri Swapneel Paul, IAS",District Commissioner,,,Assam,Guwahati,"District Magistrate/Collector office, Guwahati"
+116,target individuals,22,Samrat Choudhary,"Chief Minister, Bihar",,,Bihar,Patna,Government of Bihar
+123,target individuals,29,Sunny Kumar Singh,D.M. New Delhi,dcnd@nic.in,"23386982, 23384621",,,
+126,target individuals,32,Soumya Saurabh,"Chairman, District Magistrate",dcnw@nic.in,011-28096208,,,
+141,target individuals,47,Tejas Dilipbhai Parmar,"District Collector, Surat",,(O)0285-2630100,,,
+143,target individuals,49,Bhavya Verma,"District Collector, Ahemedabad",,(O)079-27551681,,,
+145,target individuals,51,B. A. Shah,"District Collector, Vadodara",,(O)0265-2433000,,,
+154,target individuals,60,Amit Prakash Yadav,"District Collector, Kheda",,(O)0268-2553334,,,
+164,target individuals,70,Navnath Kondiba Gavhane,"District Collector, Bharuch",,(O)02642-240600,,,
+165,target individuals,71,P. B. Pandya,"District Collector, Jamnagar",,(O)02882555869,,,
+168,target individuals,74,Anil Dhamelia,Chhota Udepur,,(O)02669-233003,,,
+242,target individuals,148,A.M. Shobha,"Joint Commissioner for Transport, Bengaluru Urban",,,Karnataka,,"Government of Karnataka, Transport Department"
+243,target individuals,149,Deepa Cholan,"Secretary to Government, Transport Department",,,,,
+244,target individuals,150,Hemantha Kumara L,"Additional Commissioner for Transport and Secretary, KSTA",,,Karnataka,,Karnataka lead agency for road safety
+245,target individuals,151,N.G. Gayathridevi,Joint Commissioner for Transport (Bengaluru Rural Division),,,Karnataka,,"Government of Karnataka, Transport Department"
+246,target individuals,152,Seemant Kumar Singh,"Commissioner of Police, Bengaluru",,,Karnataka,Bengaluru Urban,Bengaluru City Police
+247,target individuals,153,"Shri. Jagadeesha G, IAS",Deputy Commissioner & District Magistrate,,,Karnataka,Bengaluru,"District Magistrate/Collector office, Bengaluru"
+248,target individuals,154,Tejasvi Surya,"Member of Parliament (Lok Sabha), Bengaluru South",,,Karnataka,Bengaluru Urban,"Lok Sabha, Government of India"
+249,target individuals,155,"Yogeesh A.M., I.A.S",Commissioner for Transport and Road Safety,,,Karnataka,,Karnataka lead agency for road safety
+250,target individuals,156,"Mr. Snehil Kumar Singh, IAS",District Commissioner,,,Kerala,Kozhikode,"District Magistrate/Collector office, Kozhikode"
+251,target individuals,157,Nazeer P A,RTO Kozhikode (Member Secretary),kl11.mvd@kerala.gov.in,8547639011.0,Kerala,Kozhikode,"District Road Safety Committee (DRSC), Kozhikode"
+252,target individuals,158,"Priyanka G, IAS",District Collector (DRSC Chairman),dcpkd.ker@nic.in,04912505309 / 04912505266,Kerala,Palakkad,"District Road Safety Committee (DRSC), Palakkad"
+253,target individuals,159,Shri Ajith Kumar,RTO Enforcement,rtoenftvm.mvd@kerala.gov.in,8547639001.0,Kerala,Thiruvananthapuram,"District Road Safety Committee (DRSC), Thiruvananthapuram"

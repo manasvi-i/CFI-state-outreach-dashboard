@@ -1,0 +1,81 @@
+id,sheet,row,name,designation,email,phone,state,district,org
+487,target offices,2,"Vijayawada Regional Transport Officer (RTO-1, office)",Member Secretary,rto1_vijayawada@aptransport.org,0866-29700547,Andhra Pradesh,Krishna/NTR District,"District Road Safety Committee (DRSC), Krishna/NTR District"
+488,target offices,3,"District Transport Officer, Papum Pare (office)",Member Secretary (DTO),dtoyupia@gmail.com,91-94360-48586,Arunachal Pradesh,Papum Pare (Itanagar),"District Road Safety Committee (DRSC), Papum Pare (Itanagar)"
+489,target offices,4,"District Magistrate, Araria (office)",District Magistrate,,06453-222001,Bihar,Araria,"District Magistrate office, Araria"
+490,target offices,5,"District Magistrate, Arwal (office)",District Magistrate,,06112-228994,Bihar,Arwal,"District Magistrate office, Arwal"
+491,target offices,6,"District Magistrate, Aurangabad (office)",District Magistrate,,06186-223167,Bihar,Aurangabad,"District Magistrate office, Aurangabad"
+492,target offices,7,"District Magistrate, Banka (office)",District Magistrate,,06424-222304,Bihar,Banka,"District Magistrate office, Banka"
+493,target offices,8,"District Magistrate, Begusarai (office)",District Magistrate,,06243-222285,Bihar,Begusarai,"District Magistrate office, Begusarai"
+494,target offices,9,"District Magistrate, Bettiah (office)",District Magistrate,,06254-242534,Bihar,Bettiah,"District Magistrate office, Bettiah"
+495,target offices,10,"District Magistrate, Bhabhua (office)",District Magistrate,,06189-223241,Bihar,Bhabhua,"District Magistrate office, Bhabhua"
+496,target offices,11,"District Magistrate, Bhagalpur (office)",District Magistrate,,0641-2402200,Bihar,Bhagalpur,"District Magistrate office, Bhagalpur"
+497,target offices,12,"District Magistrate, Bhojpur (office)",District Magistrate,,06182-221312,Bihar,Bhojpur,"District Magistrate office, Bhojpur"
+498,target offices,13,"District Magistrate, Buxar (office)",District Magistrate,,06183-222336,Bihar,Buxar,"District Magistrate office, Buxar"
+499,target offices,14,"District Magistrate, Darbhanga (office)",District Magistrate,,06272-245335,Bihar,Darbhanga,"District Magistrate office, Darbhanga"
+500,target offices,15,"District Magistrate, Gaya (office)",District Magistrate,,0631-2423001,Bihar,Gaya,"District Magistrate office, Gaya"
+501,target offices,16,"District Magistrate, Gopalganj (office)",District Magistrate,,06156-226001,Bihar,Gopalganj,"District Magistrate office, Gopalganj"
+502,target offices,17,"District Magistrate, Jamui (office)",District Magistrate,,06345-222002,Bihar,Jamui,"District Magistrate office, Jamui"
+503,target offices,18,"District Magistrate, Jehanabad (office)",District Magistrate,,06114-223072,Bihar,Jehanabad,"District Magistrate office, Jehanabad"
+504,target offices,19,"District Magistrate, Katihar (office)",District Magistrate,,06452-230581,Bihar,Katihar,"District Magistrate office, Katihar"
+505,target offices,20,"District Magistrate, Khagaria (office)",District Magistrate,,06244-222135,Bihar,Khagaria,"District Magistrate office, Khagaria"
+506,target offices,21,"District Magistrate, Kishanganj (office)",District Magistrate,,06456-222530,Bihar,Kishanganj,"District Magistrate office, Kishanganj"
+507,target offices,22,"District Magistrate, Lakhisarai (office)",District Magistrate,,06346-232124,Bihar,Lakhisarai,"District Magistrate office, Lakhisarai"
+508,target offices,23,"District Magistrate, Madhepura (office)",District Magistrate,,06476-222741,Bihar,Madhepura,"District Magistrate office, Madhepura"
+509,target offices,24,"District Magistrate, Madhubani (office)",District Magistrate,,06276-222217,Bihar,Madhubani,"District Magistrate office, Madhubani"
+510,target offices,25,"District Magistrate, Motihari (office)",District Magistrate,,06252-242700,Bihar,Motihari,"District Magistrate office, Motihari"
+511,target offices,26,"District Magistrate, Munger (office)",District Magistrate,,06344-2221001,Bihar,Munger,"District Magistrate office, Munger"
+512,target offices,27,"District Magistrate, Muzaffarpur (office)",District Magistrate,,0621-2212101,Bihar,Muzaffarpur,"District Magistrate office, Muzaffarpur"
+513,target offices,28,"District Magistrate, Nalanda (office)",District Magistrate,,06112-235203,Bihar,Nalanda,"District Magistrate office, Nalanda"
+514,target offices,29,"District Magistrate, Nawada (office)",District Magistrate,,06324-212253,Bihar,Nawada,"District Magistrate office, Nawada"
+515,target offices,30,"District Magistrate, Patna (office)",District Magistrate,,0612-2219545,Bihar,Patna,"District Magistrate office, Patna"
+516,target offices,31,"District Magistrate, Purnea (office)",District Magistrate,,06454-240001,Bihar,Purnea,"District Magistrate office, Purnea"
+517,target offices,32,"District Magistrate, Rohtas (office)",District Magistrate,,06184-222226,Bihar,Rohtas,"District Magistrate office, Rohtas"
+518,target offices,33,"District Magistrate, Saharsa (office)",District Magistrate,,06478-224102,Bihar,Saharsa,"District Magistrate office, Saharsa"
+519,target offices,34,"District Magistrate, Samastipur (office)",District Magistrate,,06274-222300,Bihar,Samastipur,"District Magistrate office, Samastipur"
+520,target offices,35,"District Magistrate, Saran (office)",District Magistrate,,06152-240001,Bihar,Saran,"District Magistrate office, Saran"
+521,target offices,36,"District Magistrate, Sheikhpura (office)",District Magistrate,,06346-223041,Bihar,Sheikhpura,"District Magistrate office, Sheikhpura"
+522,target offices,37,"District Magistrate, Sheohar (office)",District Magistrate,,06222-257360,Bihar,Sheohar,"District Magistrate office, Sheohar"
+523,target offices,38,"District Magistrate, Sitamarhi (office)",District Magistrate,,06226-250439,Bihar,Sitamarhi,"District Magistrate office, Sitamarhi"
+524,target offices,39,"District Magistrate, Siwan (office)",District Magistrate,,06154-242099,Bihar,Siwan,"District Magistrate office, Siwan"
+525,target offices,40,"District Magistrate, Supaul (office)",District Magistrate,,06473-223112,Bihar,Supaul,"District Magistrate office, Supaul"
+526,target offices,41,"District Magistrate, Vaishali (office)",District Magistrate,,06224-272201,Bihar,Vaishali,"District Magistrate office, Vaishali"
+527,target offices,42,DRSC Chandigarh (office),"District Road Safety Committee, Chandigarh UT",,,Chandigarh,Chandigarh,Chandigarh Administration / State Transport Authority
+528,target offices,43,Delhi 100 high-risk intersections programme (implementing agency not identified) (office),Programme to make 100 high-risk Delhi intersections safer for pedestrians,,,Delhi,New Delhi Delhi,Delhi government / traffic authorities (agency not named in source)
+529,target offices,44,Delhi Transport Infrastructure Development Corporation (DTIDC) (office),"GNCTD PSU owning/maintaining Delhi's ISBTs (Kashmere Gate, Anand Vihar, Sarai Kale Khan) and Bus Queue Shelters",,,Delhi,New Delhi Delhi,"Delhi Transport Infrastructure Development Corporation (DTIDC), GNCTD"
+530,target offices,45,"MLO/DTO South Zone, Sheikh Sarai (office)",Member Secretary,mlo03-trans@delhi.gov.in,011-29259800,Delhi,South Delhi,"District Road Safety Committee (DRSC), South Delhi"
+531,target offices,46,MLO/RTO Rohini (office),Member Secretary,mlo11-trans@delhi.gov.in,011-27563535,Delhi,North West Delhi,"District Road Safety Committee (DRSC), North West Delhi"
+532,target offices,47,Office of South Delhi Saket DSLSA (PA to Secretary - Bijayinee),PA to Secretary,,9718736148.0,Delhi,South Delhi,"Delhi State Legal Services Authority (DSLSA), South Delhi/Saket"
+533,target offices,48,Surat Municipal Corporation,Municipal officer (unspecified),,,Gujarat,Surat,Surat Municipal Corporation
+534,target offices,49,"District Magistrate / Deputy Commissioner, Rewari (office)","DM/DC, Rewari",,,Haryana,Rewari,"District Administration, Rewari"
+535,target offices,50,"District Magistrate / Deputy Commissioner, Rohtak (office)","DM/DC, Rohtak",,,Haryana,Rohtak,"District Administration, Rohtak"
+536,target offices,51,"Deputy Commissioner, Bilaspur (office)",Deputy Commissioner,dc-bil-hp@nic.in,01978-224155,Himachal Pradesh,Bilaspur,"Deputy Commissioner office, Bilaspur"
+537,target offices,52,"Deputy Commissioner, Chamba (office)",Deputy Commissioner,dc-cha-hp@nic.in,01899-224847,Himachal Pradesh,Chamba,"Deputy Commissioner office, Chamba"
+538,target offices,53,"Deputy Commissioner, Hamirpur (office)",Deputy Commissioner,dc-ham-hp@nic.in,01972-224300,Himachal Pradesh,Hamirpur,"Deputy Commissioner office, Hamirpur"
+539,target offices,54,"Deputy Commissioner, Kangra at Dharamshala (office)",Deputy Commissioner,dc-kan-hp@nic.in,01892-222103,Himachal Pradesh,Kangra at Dharamshala,"Deputy Commissioner office, Kangra at Dharamshala"
+540,target offices,55,"Deputy Commissioner, Kinnaur at Rekong Peo (office)",Deputy Commissioner,dc-kin-hp@nic.in,01786-222252,Himachal Pradesh,Kinnaur at Rekong Peo,"Deputy Commissioner office, Kinnaur at Rekong Peo"
+541,target offices,56,"Deputy Commissioner, Kullu (office)",Deputy Commissioner,dc-kul-hp@nic.in,01902-222727,Himachal Pradesh,Kullu,"Deputy Commissioner office, Kullu"
+542,target offices,57,"Deputy Commissioner, Lahaul & Spiti at Keylong (office)",Deputy Commissioner,dc-lah-hp@nic.in,01900-222501,Himachal Pradesh,Lahaul & Spiti at Keylong,"Deputy Commissioner office, Lahaul & Spiti at Keylong"
+543,target offices,58,"Deputy Commissioner, Mandi (office)",Deputy Commissioner,dc-man-hp@nic.in,01905-225201,Himachal Pradesh,Mandi,"Deputy Commissioner office, Mandi"
+544,target offices,59,"Deputy Commissioner, Shimla (office)",Deputy Commissioner,dc-shi-hp@nic.in,0177-2655988,Himachal Pradesh,Shimla,"Deputy Commissioner office, Shimla"
+545,target offices,60,"Deputy Commissioner, Sirmaur at Nahan (office)",Deputy Commissioner,dc-sir-hp@nic.in,01702-225025,Himachal Pradesh,Sirmaur at Nahan,"Deputy Commissioner office, Sirmaur at Nahan"
+546,target offices,61,"Deputy Commissioner, Solan (office)",Deputy Commissioner,dc-sol-hp@nic.in,01792-220656,Himachal Pradesh,Solan,"Deputy Commissioner office, Solan"
+547,target offices,62,"Deputy Commissioner, Una (office)",Deputy Commissioner,dc-una-hp@nic.in,01975-224400,Himachal Pradesh,Una,"Deputy Commissioner office, Una"
+548,target offices,63,Jammu Police (office),Jammu Police (via KRSF civic-alliance programmes),,,Jammu and Kashmir,Jammu,Jammu & Kashmir Police
+549,target offices,64,"Jharkhand Governor & MLA (untracked leadership targets, office)","Governor / MLA, Jharkhand (unspecified individuals)",,,Jharkhand,Ranchi,Government of Jharkhand
+550,target offices,65,"Transport Minister / Chief Minister, Jharkhand (office)",Transport Minister / Chief Minister ('JH chief'),,,Jharkhand,Ranchi,Government of Jharkhand
+551,target offices,66,Mysuru City Police (office),Not stated,,,Karnataka,Mysuru,Mysuru City Police (Karnataka Police)
+552,target offices,67,"Enforcement RTO, Kozhikode (office)",Enforcement RTO,rtoenfkkd.mvd@kerala.gov.in,9188961978.0,Kerala,Kozhikode,"District Road Safety Committee (DRSC), Kozhikode"
+553,target offices,68,KSRTC (Kerala State Road Transport Corporation),,,,Kerala,,Kerala State Road Transport Corporation
+554,target offices,69,"Road Safety Commissioner, Kerala (office)",Road Safety Commissioner,,,Kerala,Thiruvananthapuram,Government of Kerala / Kerala Road Safety Authority (State Lead Agency)
+555,target offices,70,Insurance Regulatory and Development Authority of India (IRDAI) (office),Insurance sector regulator; named in Supreme Court directions,,,National,,Insurance Regulatory and Development Authority of India (IRDAI)
+556,target offices,71,Ministry of Home Affairs,Union Ministry,,,National,,Ministry of Home Affairs (MHA)
+557,target offices,72,National Highways Authority of India (NHAI) (office),Road-owning agency (national highways/expressways) — no individual official engaged,,,National,,National Highways Authority of India (NHAI)
+558,target offices,73,Supreme Court of India (Court Watch),"Apex Court hearing systemic road-safety PILs, suo motu matters and appeals; source of directions CFI tracks and cites in advocacy (institutionally linked to SCCoRS)",,,National,,Supreme Court of India
+559,target offices,74,Bhubaneswar Commissionerate Police (office),Not stated,,,Odisha,Khordha,Bhubaneswar-Cuttack Commissionerate Police (Odisha Police)
+560,target offices,75,Odisha state authorities (jury/keynote target),,,,Odisha,Khordha,Government of Odisha (unspecified department)
+561,target offices,76,"Transport Department, Government of Odisha (office)",,,,Odisha,Khordha,"Transport Department, Government of Odisha"
+562,target offices,77,"District Magistrate / Deputy Commissioner, Ajmer (office)","DM/DC, Ajmer",,,Rajasthan,Ajmer,"District Administration, Ajmer"
+563,target offices,78,Jaipur Development Authority (office),Commissioner / Traffic Control Board (permissions routed via Jaipur Police for signage and billboard sites),,,Rajasthan,Jaipur,"Jaipur Development Authority, Urban Development and Housing Dept, Govt of Rajasthan"
+564,target offices,79,Rajasthan State Legal Services Authority (RLSA) (office),RSLSA / RLSA,,,Rajasthan,Jaipur,Rajasthan State Legal Services Authority
+565,target offices,80,"Secretary, DLSA Jaipur (office)","Secretary, District Legal Services Authority",,,Rajasthan,Jaipur,"District Legal Services Authority, Jaipur"
+566,target offices,81,"Tehsildars / Claims Enquiry Officers, Jaipur district (Sanganer, Amer, Jaipur Central; later Bassi, Chaksu, Jamwa Ramgarh)",Tehsildar (Claims Enquiry Officer under the Hit-and-Run Scheme 2022),,,Rajasthan,Jaipur,"District Administration, Jaipur"
